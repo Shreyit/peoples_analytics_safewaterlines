@@ -1,0 +1,44 @@
+col,block,question
+location,demographic,Your Workplace Location
+designation,demographic,Your Current Designation
+department,demographic,Your Current Department
+tenure,demographic,Your years of Service
+gender,demographic,Gender
+full_name,demographic,Your Full name - This is optional
+CRE1,CREDIBILITY,Communication from senior leadership is open and honest.
+CRE2,CREDIBILITY,Our leaders do what they say they will do.
+CRE3,CREDIBILITY,I have confidence in the direction of the organization.
+CRE4,CREDIBILITY,Senior leaders communicate important changes in a timely manner
+CRE5,CREDIBILITY,Leaders are willing to listen to employee feedback and act on it.
+RES1,RESPECT,"My manager genuinely supports my performance, development and well-being."
+RES2,RESPECT,"I receive the resources, support and recognition I need to do my job well."
+RES3,RESPECT,I feel comfortable sharing my views or concerns at work
+RES4,RESPECT,My efforts and contributions are appreciated and recognised
+RES5,RESPECT,"I am treated with dignity and respect, regardless of my role or position."
+FAI1,FAIRNESS,"Performance, recognition and rewards are fair and based on performance."
+FAI2,FAIRNESS,Employees have equal opportunities to grow and develop their careers.
+FAI3,FAIRNESS,People-related decisions are made consistently by the Leadership team without favoritism or bias.
+FAI4,FAIRNESS,I believe workload and responsibilities are distributed fairly within my team.
+FAI5,FAIRNESS,I understand how decisions affecting employees are made.
+PRI1,PRIDE,I am proud to tell others that I work for Safewater Lines Group
+PRI2,PRIDE,I understand how my work contributes to the success of the business.
+PRI3,PRIDE,I see myself continuing to work here over the next 3 – 5 years.
+PRI4,PRIDE,I feel that our organization is making a positive impact on our customers and business.
+PRI5,PRIDE,I feel motivated to contribute beyond my basic job responsibilities when the business needs it.
+CAM1,CAMARADERIE,People in my team genuinely support and help one another
+CAM2,CAMARADERIE,Teams across the organization work well together.
+CAM3,CAMARADERIE,I feel that I belong to this organization
+CAM4,CAMARADERIE,I can rely on colleagues from other teams when I need their support.
+CAM5,CAMARADERIE,People here celebrate each other's successes and achievements.
+OVR1,OVERALL EMPLOYEE EXPERIENCE,I would recommend this organization as a great place to work.
+OVR2,OVERALL EMPLOYEE EXPERIENCE,"I have opportunities to learn, grow and build my career here."
+OVR3,OVERALL EMPLOYEE EXPERIENCE,I have what I need to perform at my best and contribute to business success.
+OVR4,OVERALL EMPLOYEE EXPERIENCE,I am satisfied with the overall employee experience at Safewater Lines.
+OVR5,OVERALL EMPLOYEE EXPERIENCE,I believe Safewater Lines provides a workplace where I can do meaningful and fulfilling work.
+oe_leaders_trust,open-ended,What is one thing our senior leaders could do better to build greater trust among employees?
+oe_feel_valued,open-ended,"What is one thing we could do to make you feel more valued, supported or respected?"
+oe_fairness_concern,open-ended,Where do you see the biggest concern about fairness in the organization?
+oe_value_most,open-ended,What is the one thing about our organization that you value most and would never want us to lose?
+oe_teamwork,open-ended,What is one thing we could do to improve teamwork and collaboration?
+oe_one_change,open-ended,"If you could make one change to improve the employee experience, what would it be?"
+hr_priority,single-choice,What is one thing you would like HR to do better?
