@@ -1,5 +1,10 @@
 # Safewater Lines — People Analytics ("Your Voice" survey)
 
+## Project direction
+
+- [Assignment brief](docs/PROJECT_BRIEF.md): organisation objectives, deliverables, deadline, and confidentiality requirements.
+- [Working project brain](docs/PROJECT_BRAIN.md): our approach, research agenda, decisions, and next steps. Read this before extending the analysis.
+
 ```
 data/
   raw/          original workbook (read-only, never edit)
