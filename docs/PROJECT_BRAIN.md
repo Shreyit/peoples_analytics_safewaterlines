@@ -2,6 +2,14 @@
 
 Last updated: 28 October 2026.
 
+## Current status
+
+Step 1 (analytical foundation, method research and selection rules) is now implemented after the EDA summary in `notebooks/00_data_understanding_eda.ipynb`. Keep all analytical work in that notebook and maintain its methodology reference as the final Markdown cell. Build the executive PowerPoint after the evidence, findings and proposed roadmap are complete.
+
+The notebook now records the organisational question map, base-data checks, metric definitions, relevant HR concepts, research sources (including practitioner discussion), and used/planned/conditional methods. The existing EDA was streamlined and unsupported interpretations were corrected. Names remain excluded from processed data. The custom `TRUST_INDEX` column is now named `CULTURE_MEAN`; it is a descriptive 25-item summary, not an official or validated Trust Index.
+
+Fuzzy analysis was explicitly considered. An executed check demonstrates that an equal-weight, response-frequency evaluation scored 1–5 exactly reproduces the ordinary mean for these complete data. This specific construction adds no information. A substantive calibrated fuzzy model remains conditional on a decision need, justified memberships/weights and sensitivity checks; no such model has been completed.
+
 Read this file and [PROJECT_BRIEF.md](PROJECT_BRIEF.md) before extending the analysis. This is our shared record of purpose, principles, decisions, questions, and next steps. Update it as evidence changes; distinguish organisation requirements from our proposals.
 
 ## What we are trying to achieve
@@ -23,6 +31,7 @@ A compelling story must follow the evidence. Do not decide the story first and s
 - Avoid combining methods or interpretations that contradict one another. Explain any different assumptions or questions before using different approaches together.
 - Learn and explain relevant people analytics and HR terms, principles, and philosophies where they help us reason or make decisions.
 - Keep the organisational objective central; technical complexity is not a deliverable by itself.
+- Keep the analysis in one notebook, remove redundant or unsupported material, and maintain a methodology table at the end. Produce the PowerPoint after completing the analysis and findings.
 
 ## What currently exists
 
@@ -36,11 +45,11 @@ These are starting materials. Existing calculations, interpretations, and cleani
 
 ## Work sequence
 
-### 1. Establish the brief and approach — current step
+### 1. Establish the brief and approach — completed preparation
 
 Record the assignment, decision principles, known limitations, and research questions. Do not add new statistical methods during this step.
 
-### 2. Research and select methods — next step
+### 2. Research and select methods — foundation completed, extend as needed
 
 Research practical people analytics workflows, employee survey measurement, qualitative analysis, and translating findings into interventions.
 
@@ -59,7 +68,7 @@ For each candidate method, record:
 | Alternatives | Is there a simpler, clearer way to answer the question? |
 | Decision | Adopt, defer, or reject, with reasons and source links |
 
-No advanced method is selected yet. Factor analysis, regression, automated sentiment analysis, and other methods mentioned in the notebook are candidates, not commitments.
+The notebook records current method decisions. Distributions, explicit denominators, descriptive working means, exploratory rank associations, group comparisons with a joint BY adjustment, and response-style sensitivity are used. Factor analysis, regression and calibrated fuzzy models remain conditional. Codebook-based comment analysis is planned and must not be labelled completed or confused with reflexive thematic analysis.
 
 ### 3. Audit the base data and measures
 
@@ -137,7 +146,11 @@ These questions do not prevent descriptive analysis. Record unavailable context 
 | 28 October 2026 | Document first, then research methods, then review analysis from the base | Explicit user instruction |
 | 28 October 2026 | Treat existing notebook findings as provisional | Calculations and claims need review before informing recommendations |
 | 28 October 2026 | No additional analytical method selected | Selection must follow the question, evidence, assumptions, and available data |
+| 28 October 2026 | Implement Step 1 in the existing notebook and keep the methodology table last | Explicit user instruction to work in one notebook |
+| 28 October 2026 | Rename the custom summary to CULTURE_MEAN; correct causal/bias and eNPS claims | Prevent unvalidated measurement and interpretation claims |
+| 28 October 2026 | Use a joint BY adjustment for the 11 listed exploratory full/sensitivity comparisons; withhold sparse HR-table p-values | Overlapping tests and sparse expected counts need explicit handling |
+| 28 October 2026 | Do not report an equivalent frequency-weighted mean as an extra fuzzy finding | Executed equivalence check shows no additional information; other fuzzy models remain conditional |
 
 ## Immediate next step
 
-Research credible approaches to employee survey and people analytics work, including practical experiences from forums and practitioner platforms. Produce a sourced comparison of candidate methods and a short, relevant HR glossary before selecting the analytical workflow.
+Use the reviewed EDA to build a denominator-aware strength/gap profile, examine relevant variations, and begin contextual codebook-based analysis of the six comment questions. Integrate comments with rating patterns and selected HR priorities before choosing interventions. Revisit advanced or fuzzy methods only where they answer an unresolved question better than the baseline. The PowerPoint follows the completed findings and roadmap.
