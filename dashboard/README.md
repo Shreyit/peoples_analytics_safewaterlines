@@ -15,7 +15,7 @@ Use **Overview** and **Focus findings** to change pages. Both pages fit the brow
 | Page | Content | Interaction |
 | --- | --- | --- |
 | 01 · Overview | Response records, favourable answers, culture mean, comment contributors; all six survey blocks; group comparisons; question distributions | Filter by department and tenure; select a dimension to inspect its five questions; compare tenure or department groups; reset filters |
-| 02 · Focus findings | Within-team support versus cross-team work, the paired comparison, fairness items, recognition, related employee requests and a proposed 90-day pilot pathway | Study-wide findings remain fixed at 327 response records; hover over charts for counts and exact item wording |
+| 02 · Focus findings | Headline intention to stay with its anonymous counterpart; Priority 1 (fair decisions, growth and recognition: six questions); Priority 2 (leaders listen and act: the HR forced-choice question); the targeted cross-team handover fix; the proposed 90-day pilot with owners | Study-wide findings remain fixed at 327 response records; hover over charts for counts and exact item wording |
 
 The **About the measures** button explains scoring, scope and interpretation. Keyboard users can navigate the page tabs with arrow keys.
 
@@ -25,6 +25,7 @@ The **About the measures** button explains scoring, scope and interpretation. Ke
 - The full study has **327 response records** and **9,810 valid rating answers**. Its **84.9% favourable answer share** is a share of item answers, not the percentage of employees who are engaged.
 - **Culture mean, 4.35/5**, averages 25 items across the five culture blocks. It is a descriptive working measure; overall experience is shown separately as the sixth block.
 - Workforce eligibility is unavailable, so the dashboard does not invent a survey participation rate.
+- The priority order comes from notebook **Step 7**: current score, relative-weights link to recommend / satisfaction / intention to stay (Fairness = 31% of the explained variation, R² 0.65), the HR forced choice, and the open "one change" comments. These are associations, not causes. Anonymous respondents (n = 100) are less favourable: 78.0% intend to stay versus 87.5% overall.
 - The cross-team finding uses the same response records: **45** rated own-team support favourably and cross-team collaboration at 1–3. The reverse pattern occurs in **16** records. This is a descriptive comparison.
 - **137** records have at least one fairness response at 1–3; **97** have at least two. These counts include Sometimes and should not be described as the prevalence of unfair treatment.
 - Employee-request topics overlap. They count unique response records mentioning requests, not dissatisfaction or incident frequency. Comment coding has had a documented assistant re-review; independent human validation remains outstanding.

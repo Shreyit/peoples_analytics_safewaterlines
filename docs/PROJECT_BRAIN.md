@@ -1,8 +1,12 @@
 # Safewater Lines — working project brain
 
-Last updated: 29 October 2026.
+Last updated: 30 October 2026.
 
 ## Current status
+
+**Revision, 30 October 2026.** A review of the deck found that the selected order (cross-team first) was not the order the evidence supports. Notebook **Step 7** tests the order using four sources of evidence: current score, relative-weights link to recommend/satisfaction/intention to stay, the HR forced choice and the open "one change" comments. Grading rules were fixed in advance. Fair, explainable people decisions and growth, and leaders listening and visibly acting, are strong on all four. Cross-team collaboration ranks 9th of 30, is raised by only 16 people unprompted and drops out of the top tier among anonymous respondents. The user approved the revised order: **P1 fair decisions, growth and recognition; P2 leaders listen and act; cross-team handovers as a targeted fix starting in Customer Service**. Roadmap/KPI IDs were remapped (old P1→T, P2→P1, S1→P1-R, S3→P2). The deck now has 16 main + 4 reference slides (priority matrix, evidence check, named vs anonymous, group hotspots, pay/benefits acknowledgement, three verbatim de-identified quotes). The dashboard focus page, both reports and the README follow the same order. Named respondents (69%) are more favourable than anonymous ones (stay 91.6% vs 78.0%), so anonymous figures are reported alongside and the next survey should drop the name field.
+
+The paragraphs below record the earlier state and are kept as the project trail.
 
 The user approved creating the executive presentation on 29 October 2026, specifying a white background, restrained colours and a professional industry style. The editable deck is now generated in `presentation/output/`: **13 main slides plus four reference slides**, with speaker notes, source references, a PDF companion and previews. Its story preserves pride and mutual support, examines cross-team execution and fairness, and proposes a bounded 90-day pilot with roles, measures and decision gates. See [the presentation guide](../presentation/README.md) and [speaker guide](../presentation/SPEAKER_GUIDE.md). Suggested rehearsal duration is not an assignment requirement. Organisational owners, resources and outcome targets remain proposed. The separate `dashboard/` contains the requested offline two-page dashboard.
 
@@ -195,7 +199,11 @@ These questions do not prevent descriptive analysis. Record unavailable context 
 | 29 October 2026 | Regenerate all counts, narratives and network files from reviewed assignments | Prevent stale first-pass numbers in presentation material |
 | 29 October 2026 | Complete a 0–90-day proposed pilot roadmap, KPI dictionary and governance gates | User requested concrete actions, accountable owners, timing, baselines and success measures |
 | 29 October 2026 | Generate one comprehensive data-to-action Markdown guide from current notebook results | User requested a traceable explanation from the data base through higher-level findings and chosen methods/tools |
+| 30 October 2026 | Add Step 7: relative-weights check on 19 actionable items, a four-source evidence check, named-vs-anonymous comparison and group hotspots | Deck review found the selected order untested; a non-causal, transparent check was needed before presenting |
+| 30 October 2026 | Revise the order: P1 fair decisions, growth and recognition; P2 leaders listen and act; cross-team as a targeted fix | Only these two themes were strong on all four sources; user approved the revision |
+| 30 October 2026 | Report anonymous figures beside overall ones; recommend dropping the name field | Named respondents score higher (stay 91.6% vs 78.0%); consistent with, not proof of, guarded answers |
+| 30 October 2026 | Include three short verbatim, de-identified quotes in the deck | Qualitative evidence needed a human voice; quotes contain no names, places or roles |
 
 ## Immediate next step
 
-Use `reports/ANALYSIS_FROM_DATA_TO_ACTION.md` and the concise synthesis to settle the presentation storyline, visual structure and required outputs. The proposed roadmap/KPI/gate drafts are ready to use. Retain the two primary priorities and three supporting themes, with strengths to preserve. Actual owner/resource approval and numerical experience-outcome targets require organisational input. Independent human review, clarification of retained ambiguous cases and confidential verification of specific accounts remain honestly outstanding. The next production task is the PowerPoint and rehearsal; it has not been produced.
+The deck, dashboard, reports and README follow the revised order. Rehearse the main story (16 slides, about 15 minutes), with whoever presents slides 6–7 ready to explain "associations, not causes". Actual owner/resource approval and numerical experience-outcome targets require organisational input. Independent human review, clarification of retained ambiguous cases and confidential verification of specific accounts remain outstanding.

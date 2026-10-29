@@ -2,6 +2,8 @@
 from __future__ import annotations
 
 import json
+import math
+import sys
 import unicodedata
 from pathlib import Path
 
@@ -9,12 +11,17 @@ import pymupdf
 from PIL import Image, ImageDraw
 
 HERE = Path(__file__).resolve().parent
-source = HERE / "output/Safewater_Lines_People_Experience_PowerPoint.pdf"
-content = json.loads((HERE / "slide_content.json").read_text())
+# Optional deck prefix, e.g. "pitch" for the 20-minute pitch; default is the executive deck.
+PREFIX = sys.argv[1] if len(sys.argv) > 1 else ""
+DECK = {"": "Safewater_Lines_People_Experience", "pitch": "Safewater_Lines_Pitch_20min"}[PREFIX]
+source = HERE / f"output/{DECK}_PowerPoint.pdf"
+content = json.loads((HERE / (f"{PREFIX}_slide_content.json" if PREFIX else "slide_content.json")).read_text())
 pdf = pymupdf.open(source)
-assert len(pdf) == len(content) == 17
-dest = HERE / "preview/native"
-dest.mkdir(exist_ok=True)
+assert len(pdf) == len(content)
+dest = HERE / ("preview/native" if not PREFIX else f"preview/{PREFIX}/native")
+dest.mkdir(parents=True, exist_ok=True)
+for old in dest.glob("slide-*.png"):
+    old.unlink()
 
 
 def normalise(value):
@@ -38,7 +45,7 @@ for i, page in enumerate(pdf):
     image.thumbnail((480, 270))
     thumbs.append(image)
 
-sheet = Image.new("RGB", (1440, 1800), "#E8ECEF")
+sheet = Image.new("RGB", (1440, 300 * math.ceil(len(thumbs) / 3)), "#E8ECEF")
 draw = ImageDraw.Draw(sheet)
 for i, image in enumerate(thumbs):
     x, y = i % 3 * 480, i // 3 * 300
@@ -48,7 +55,7 @@ sheet.save(dest / "contact-sheet.png")
 result = {"renderer": "Microsoft PowerPoint for macOS PDF export", "pages": len(pdf),
           "all_expected_text_present": not missing, "text_outside_canvas": overflow,
           "missing_text": missing, "native_previews": "preview/native/"}
-(HERE / "native_qa_results.json").write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n")
+(HERE / ((f"{PREFIX}_" if PREFIX else "") + "native_qa_results.json")).write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n")
 assert not missing, f"PowerPoint PDF is missing {len(missing)} text elements; see native_qa_results.json"
 assert not overflow, overflow
-print("PASS: 17 PowerPoint-rendered pages; all expected text present; no text outside the slide canvas.")
+print(f"PASS: {len(pdf)} PowerPoint-rendered pages; all expected text present; no text outside the slide canvas.")

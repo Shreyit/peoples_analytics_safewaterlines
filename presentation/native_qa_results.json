@@ -1,6 +1,6 @@
 {
   "renderer": "Microsoft PowerPoint for macOS PDF export",
-  "pages": 17,
+  "pages": 20,
   "all_expected_text_present": true,
   "text_outside_canvas": [],
   "missing_text": [],

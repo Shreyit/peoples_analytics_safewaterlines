@@ -1,0 +1,7472 @@
+[
+  {
+    "slide": 1,
+    "section": "Pitch",
+    "title": "What our people are telling us",
+    "source": "Your Voice survey (responses to 21 October); analysis 30 October 2026.",
+    "notes": "[0:00 – 0:30] Good morning. We analysed the Your Voice survey: 327 people, 30 questions and almost 1,900 written comments. In the next 20 minutes we will tell you what employees value, what they want fixed first, and a simple 90-day plan to start.",
+    "objects": [
+      {
+        "kind": "line",
+        "x": 48,
+        "y": 500,
+        "x2": 912,
+        "y2": 500,
+        "color": "DEE4E8",
+        "width": 0.6
+      },
+      {
+        "kind": "text",
+        "text": "01",
+        "lines": [
+          "01"
+        ],
+        "x": 816,
+        "y": 510,
+        "w": 96,
+        "h": 12,
+        "size": 9.4,
+        "color": "647582",
+        "bold": false,
+        "align": "right",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "SAFEWATER LINES",
+        "lines": [
+          "SAFEWATER LINES"
+        ],
+        "x": 48,
+        "y": 40,
+        "w": 700,
+        "h": 20,
+        "size": 14.2,
+        "color": "365F7B",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "YOUR VOICE SURVEY  /  RESULTS AND A 90-DAY PLAN",
+        "lines": [
+          "YOUR VOICE SURVEY / RESULTS AND A 90-DAY PLAN"
+        ],
+        "x": 48,
+        "y": 82,
+        "w": 800,
+        "h": 20,
+        "size": 11.8,
+        "color": "647582",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 48,
+        "y": 135,
+        "w": 52,
+        "h": 4,
+        "fill": "365F7B",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "What our people\nare telling us",
+        "lines": [
+          "What our people",
+          "are telling us"
+        ],
+        "x": 48,
+        "y": 163,
+        "w": 850,
+        "h": 116,
+        "size": 44,
+        "color": "243441",
+        "bold": true,
+        "align": "left",
+        "leading": 1.1
+      },
+      {
+        "kind": "text",
+        "text": "What employees value, what they want fixed first,\nand how we can start in 90 days.",
+        "lines": [
+          "What employees value, what they want fixed first,",
+          "and how we can start in 90 days."
+        ],
+        "x": 48,
+        "y": 290,
+        "w": 850,
+        "h": 58,
+        "size": 19,
+        "color": "647582",
+        "bold": false,
+        "align": "left",
+        "leading": 1.3
+      },
+      {
+        "kind": "text",
+        "text": "327 people  ·  30 questions  ·  1,892 written comments",
+        "lines": [
+          "327 people · 30 questions · 1,892 written comments"
+        ],
+        "x": 48,
+        "y": 395,
+        "w": 850,
+        "h": 25,
+        "size": 17.7,
+        "color": "243441",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "30 OCTOBER 2026  /  TISS",
+        "lines": [
+          "30 OCTOBER 2026 / TISS"
+        ],
+        "x": 48,
+        "y": 454,
+        "w": 850,
+        "h": 18,
+        "size": 11.8,
+        "color": "365F7B",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      }
+    ]
+  },
+  {
+    "slide": 2,
+    "section": "The short version",
+    "title": "Three things to remember",
+    "source": "item_evidence_profile.csv; hr_priority_counts.csv; priority_triangulation.csv.",
+    "notes": "[0:30 – 1:30] Here is the whole story in one slide. One: people are proud of this company and they help each other. That is a real strength. Two: they want people decisions, like promotions, pay rises and recognition, to be fair and clear. These are the lowest scores in the survey. Three: they want leaders to listen and then act. It was the number one thing people asked HR to do better. Our plan is one 90-day pilot, starting in Customer Service.",
+    "objects": [
+      {
+        "kind": "text",
+        "text": "SAFEWATER LINES  /  THE SHORT VERSION",
+        "lines": [
+          "SAFEWATER LINES / THE SHORT VERSION"
+        ],
+        "x": 48,
+        "y": 26,
+        "w": 864,
+        "h": 16,
+        "size": 11.2,
+        "color": "365F7B",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "Three things to remember",
+        "lines": [
+          "Three things to remember"
+        ],
+        "x": 48,
+        "y": 54,
+        "w": 864,
+        "h": 72,
+        "size": 32,
+        "color": "243441",
+        "bold": true,
+        "align": "left",
+        "leading": 1.12
+      },
+      {
+        "kind": "text",
+        "text": "If you remember nothing else from today, remember these.",
+        "lines": [
+          "If you remember nothing else from today, remember these."
+        ],
+        "x": 48,
+        "y": 135,
+        "w": 864,
+        "h": 24,
+        "size": 13.6,
+        "color": "647582",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "line",
+        "x": 48,
+        "y": 500,
+        "x2": 912,
+        "y2": 500,
+        "color": "DEE4E8",
+        "width": 0.6
+      },
+      {
+        "kind": "text",
+        "text": "02",
+        "lines": [
+          "02"
+        ],
+        "x": 816,
+        "y": 510,
+        "w": 96,
+        "h": 12,
+        "size": 9.4,
+        "color": "647582",
+        "bold": false,
+        "align": "right",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "1",
+        "lines": [
+          "1"
+        ],
+        "x": 48,
+        "y": 170,
+        "w": 40,
+        "h": 40,
+        "size": 32,
+        "color": "365F7B",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "People are proud of Safewater Lines.",
+        "lines": [
+          "People are proud of Safewater Lines."
+        ],
+        "x": 100,
+        "y": 172,
+        "w": 812,
+        "h": 28,
+        "size": 21,
+        "color": "243441",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "92% are proud to work here. 91% say their team helps each other.",
+        "lines": [
+          "92% are proud to work here. 91% say their team helps each other."
+        ],
+        "x": 100,
+        "y": 206,
+        "w": 812,
+        "h": 22,
+        "size": 17.7,
+        "color": "647582",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "2",
+        "lines": [
+          "2"
+        ],
+        "x": 48,
+        "y": 258,
+        "w": 40,
+        "h": 40,
+        "size": 32,
+        "color": "365F7B",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "They want people decisions to be fair and clear.",
+        "lines": [
+          "They want people decisions to be fair and clear."
+        ],
+        "x": 100,
+        "y": 260,
+        "w": 812,
+        "h": 28,
+        "size": 21,
+        "color": "243441",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "Promotions, rewards and recognition get the lowest scores of all 30 questions.",
+        "lines": [
+          "Promotions, rewards and recognition get the lowest scores of all 30 questions."
+        ],
+        "x": 100,
+        "y": 294,
+        "w": 812,
+        "h": 22,
+        "size": 17.7,
+        "color": "647582",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "3",
+        "lines": [
+          "3"
+        ],
+        "x": 48,
+        "y": 346,
+        "w": 40,
+        "h": 40,
+        "size": 32,
+        "color": "365F7B",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "They want leaders to listen, and then act.",
+        "lines": [
+          "They want leaders to listen, and then act."
+        ],
+        "x": 100,
+        "y": 348,
+        "w": 812,
+        "h": 28,
+        "size": 21,
+        "color": "243441",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "It was the No. 1 thing people asked HR to do better.",
+        "lines": [
+          "It was the No. 1 thing people asked HR to do better."
+        ],
+        "x": 100,
+        "y": 382,
+        "w": 812,
+        "h": 22,
+        "size": 17.7,
+        "color": "647582",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 48,
+        "y": 420,
+        "w": 864,
+        "h": 40,
+        "fill": "F2F5F7",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "rect",
+        "x": 48,
+        "y": 420,
+        "w": 4,
+        "h": 40,
+        "fill": "365F7B",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "Our plan: one 90-day pilot with three parts, starting in Customer Service.",
+        "lines": [
+          "Our plan: one 90-day pilot with three parts, starting in Customer Service."
+        ],
+        "x": 66,
+        "y": 432,
+        "w": 836,
+        "h": 19.8,
+        "size": 16.5,
+        "color": "243441",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      }
+    ]
+  },
+  {
+    "slide": 3,
+    "section": "Who answered",
+    "title": "Who took part",
+    "source": "survey_clean.csv; workbook language sheets.",
+    "notes": "[1:30 – 2:30] 327 people answered. They could reply in English, Hindi, Marathi, Tamil or Malayalam, from 23 locations, and they wrote almost 1,900 comments. Mumbai is the biggest group, about 40% of answers, and 38% have been here less than 3 years. One limit: we were not given the total number of employees, so we cannot say what share of staff took part.",
+    "objects": [
+      {
+        "kind": "text",
+        "text": "SAFEWATER LINES  /  WHO ANSWERED",
+        "lines": [
+          "SAFEWATER LINES / WHO ANSWERED"
+        ],
+        "x": 48,
+        "y": 26,
+        "w": 864,
+        "h": 16,
+        "size": 11.2,
+        "color": "365F7B",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "Who took part",
+        "lines": [
+          "Who took part"
+        ],
+        "x": 48,
+        "y": 54,
+        "w": 864,
+        "h": 72,
+        "size": 32,
+        "color": "243441",
+        "bold": true,
+        "align": "left",
+        "leading": 1.12
+      },
+      {
+        "kind": "text",
+        "text": "Answers came from across India and abroad, in five languages.",
+        "lines": [
+          "Answers came from across India and abroad, in five languages."
+        ],
+        "x": 48,
+        "y": 135,
+        "w": 864,
+        "h": 24,
+        "size": 13.6,
+        "color": "647582",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "line",
+        "x": 48,
+        "y": 500,
+        "x2": 912,
+        "y2": 500,
+        "color": "DEE4E8",
+        "width": 0.6
+      },
+      {
+        "kind": "text",
+        "text": "03",
+        "lines": [
+          "03"
+        ],
+        "x": 816,
+        "y": 510,
+        "w": 96,
+        "h": 12,
+        "size": 9.4,
+        "color": "647582",
+        "bold": false,
+        "align": "right",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "327",
+        "lines": [
+          "327"
+        ],
+        "x": 48,
+        "y": 175,
+        "w": 200,
+        "h": 52,
+        "size": 42,
+        "color": "365F7B",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "people answered",
+        "lines": [
+          "people answered"
+        ],
+        "x": 48,
+        "y": 232,
+        "w": 200,
+        "h": 22,
+        "size": 17.7,
+        "color": "647582",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "5",
+        "lines": [
+          "5"
+        ],
+        "x": 270,
+        "y": 175,
+        "w": 200,
+        "h": 52,
+        "size": 42,
+        "color": "365F7B",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "languages",
+        "lines": [
+          "languages"
+        ],
+        "x": 270,
+        "y": 232,
+        "w": 200,
+        "h": 22,
+        "size": 17.7,
+        "color": "647582",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "23",
+        "lines": [
+          "23"
+        ],
+        "x": 492,
+        "y": 175,
+        "w": 200,
+        "h": 52,
+        "size": 42,
+        "color": "365F7B",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "locations",
+        "lines": [
+          "locations"
+        ],
+        "x": 492,
+        "y": 232,
+        "w": 200,
+        "h": 22,
+        "size": 17.7,
+        "color": "647582",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "1,892",
+        "lines": [
+          "1,892"
+        ],
+        "x": 714,
+        "y": 175,
+        "w": 200,
+        "h": 52,
+        "size": 42,
+        "color": "365F7B",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "written comments",
+        "lines": [
+          "written comments"
+        ],
+        "x": 714,
+        "y": 232,
+        "w": 200,
+        "h": 22,
+        "size": 17.7,
+        "color": "647582",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "line",
+        "x": 48,
+        "y": 290,
+        "x2": 912,
+        "y2": 290,
+        "color": "DEE4E8",
+        "width": 1
+      },
+      {
+        "kind": "text",
+        "text": "BIGGEST GROUPS",
+        "lines": [
+          "BIGGEST GROUPS"
+        ],
+        "x": 48,
+        "y": 310,
+        "w": 380,
+        "h": 18,
+        "size": 11.8,
+        "color": "365F7B",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "Mumbai 40% of answers   ·   Less than 3 years' service 38%   ·   Men 79%, women 20%",
+        "lines": [
+          "Mumbai 40% of answers · Less than 3 years' service 38% · Men 79%, women 20%"
+        ],
+        "x": 48,
+        "y": 340,
+        "w": 864,
+        "h": 24,
+        "size": 18.9,
+        "color": "243441",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "line",
+        "x": 48,
+        "y": 457,
+        "x2": 912,
+        "y2": 457,
+        "color": "DEE4E8",
+        "width": 1
+      },
+      {
+        "kind": "text",
+        "text": "We were not given the total headcount, so we cannot say what share of employees took part.",
+        "lines": [
+          "We were not given the total headcount, so we cannot say what share of employees took part."
+        ],
+        "x": 48,
+        "y": 465,
+        "w": 864,
+        "h": 26,
+        "size": 12.4,
+        "color": "647582",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      }
+    ]
+  },
+  {
+    "slide": 4,
+    "section": "How to read the numbers",
+    "title": "How to read the numbers",
+    "source": "Survey answer scale; favourable = 4–5.",
+    "notes": "[2:30 – 3:00] Every question had five possible answers, from Almost never to Almost always. When we say a number like 80% positive, it means 8 out of 10 people answered Usually or Almost always. Sometimes is the middle answer, so we do not count it as positive. That is all you need to read the rest of the slides.",
+    "objects": [
+      {
+        "kind": "text",
+        "text": "SAFEWATER LINES  /  HOW TO READ THE NUMBERS",
+        "lines": [
+          "SAFEWATER LINES / HOW TO READ THE NUMBERS"
+        ],
+        "x": 48,
+        "y": 26,
+        "w": 864,
+        "h": 16,
+        "size": 11.2,
+        "color": "365F7B",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "How to read the numbers",
+        "lines": [
+          "How to read the numbers"
+        ],
+        "x": 48,
+        "y": 54,
+        "w": 864,
+        "h": 72,
+        "size": 32,
+        "color": "243441",
+        "bold": true,
+        "align": "left",
+        "leading": 1.12
+      },
+      {
+        "kind": "text",
+        "text": "Every question had the same five answers.",
+        "lines": [
+          "Every question had the same five answers."
+        ],
+        "x": 48,
+        "y": 135,
+        "w": 864,
+        "h": 24,
+        "size": 13.6,
+        "color": "647582",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "line",
+        "x": 48,
+        "y": 500,
+        "x2": 912,
+        "y2": 500,
+        "color": "DEE4E8",
+        "width": 0.6
+      },
+      {
+        "kind": "text",
+        "text": "04",
+        "lines": [
+          "04"
+        ],
+        "x": 816,
+        "y": 510,
+        "w": 96,
+        "h": 12,
+        "size": 9.4,
+        "color": "647582",
+        "bold": false,
+        "align": "right",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 48,
+        "y": 186,
+        "w": 160,
+        "h": 72,
+        "fill": "E9EEF1",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "1",
+        "lines": [
+          "1"
+        ],
+        "x": 48,
+        "y": 196,
+        "w": 160,
+        "h": 28,
+        "size": 22,
+        "color": "243441",
+        "bold": true,
+        "align": "center",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "Almost never",
+        "lines": [
+          "Almost never"
+        ],
+        "x": 48,
+        "y": 228,
+        "w": 160,
+        "h": 18.36,
+        "size": 15.3,
+        "color": "647582",
+        "bold": false,
+        "align": "center",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 224,
+        "y": 186,
+        "w": 160,
+        "h": 72,
+        "fill": "E9EEF1",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "2",
+        "lines": [
+          "2"
+        ],
+        "x": 224,
+        "y": 196,
+        "w": 160,
+        "h": 28,
+        "size": 22,
+        "color": "243441",
+        "bold": true,
+        "align": "center",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "Rarely",
+        "lines": [
+          "Rarely"
+        ],
+        "x": 224,
+        "y": 228,
+        "w": 160,
+        "h": 18.36,
+        "size": 15.3,
+        "color": "647582",
+        "bold": false,
+        "align": "center",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 400,
+        "y": 186,
+        "w": 160,
+        "h": 72,
+        "fill": "F2F5F7",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "3",
+        "lines": [
+          "3"
+        ],
+        "x": 400,
+        "y": 196,
+        "w": 160,
+        "h": 28,
+        "size": 22,
+        "color": "243441",
+        "bold": true,
+        "align": "center",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "Sometimes",
+        "lines": [
+          "Sometimes"
+        ],
+        "x": 400,
+        "y": 228,
+        "w": 160,
+        "h": 18.36,
+        "size": 15.3,
+        "color": "647582",
+        "bold": false,
+        "align": "center",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 576,
+        "y": 186,
+        "w": 160,
+        "h": 72,
+        "fill": "365F7B",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "4",
+        "lines": [
+          "4"
+        ],
+        "x": 576,
+        "y": 196,
+        "w": 160,
+        "h": 28,
+        "size": 22,
+        "color": "FFFFFF",
+        "bold": true,
+        "align": "center",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "Usually",
+        "lines": [
+          "Usually"
+        ],
+        "x": 576,
+        "y": 228,
+        "w": 160,
+        "h": 18.36,
+        "size": 15.3,
+        "color": "FFFFFF",
+        "bold": false,
+        "align": "center",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 752,
+        "y": 186,
+        "w": 160,
+        "h": 72,
+        "fill": "365F7B",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "5",
+        "lines": [
+          "5"
+        ],
+        "x": 752,
+        "y": 196,
+        "w": 160,
+        "h": 28,
+        "size": 22,
+        "color": "FFFFFF",
+        "bold": true,
+        "align": "center",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "Almost always",
+        "lines": [
+          "Almost always"
+        ],
+        "x": 752,
+        "y": 228,
+        "w": 160,
+        "h": 18.36,
+        "size": 15.3,
+        "color": "FFFFFF",
+        "bold": false,
+        "align": "center",
+        "leading": 1.2
+      },
+      {
+        "kind": "line",
+        "x": 576,
+        "y": 272,
+        "x2": 912,
+        "y2": 272,
+        "color": "365F7B",
+        "width": 2
+      },
+      {
+        "kind": "text",
+        "text": "= positive",
+        "lines": [
+          "= positive"
+        ],
+        "x": 576,
+        "y": 280,
+        "w": 336,
+        "h": 20,
+        "size": 16.5,
+        "color": "365F7B",
+        "bold": true,
+        "align": "center",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "“80% positive” means 8 in 10 people answered Usually or Almost always.",
+        "lines": [
+          "“80% positive” means 8 in 10 people answered Usually or Almost always."
+        ],
+        "x": 48,
+        "y": 330,
+        "w": 864,
+        "h": 26,
+        "size": 18,
+        "color": "243441",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "“Sometimes” is the middle answer. We do not count it as positive.",
+        "lines": [
+          "“Sometimes” is the middle answer. We do not count it as positive."
+        ],
+        "x": 48,
+        "y": 368,
+        "w": 864,
+        "h": 22,
+        "size": 17.7,
+        "color": "647582",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      }
+    ]
+  },
+  {
+    "slide": 5,
+    "section": "The good news",
+    "title": "The good news: people are proud\nand they help each other",
+    "source": "item_evidence_profile.csv (PRI2, PRI1, CAM1, CAM3).",
+    "notes": "[3:00 – 4:00] Let's start with the good news, because it is big. Almost everyone understands how their work helps the business. 92% are proud to work here. 91% say people in their team help each other, and 90% feel they belong. When we asked what people never want to lose, 119 people named their team or colleagues. Whatever we change, we must protect this.",
+    "objects": [
+      {
+        "kind": "text",
+        "text": "SAFEWATER LINES  /  THE GOOD NEWS",
+        "lines": [
+          "SAFEWATER LINES / THE GOOD NEWS"
+        ],
+        "x": 48,
+        "y": 26,
+        "w": 864,
+        "h": 16,
+        "size": 11.2,
+        "color": "365F7B",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "The good news: people are proud\nand they help each other",
+        "lines": [
+          "The good news: people are proud",
+          "and they help each other"
+        ],
+        "x": 48,
+        "y": 54,
+        "w": 864,
+        "h": 72,
+        "size": 32,
+        "color": "243441",
+        "bold": true,
+        "align": "left",
+        "leading": 1.12
+      },
+      {
+        "kind": "text",
+        "text": "Share of people answering Usually or Almost always.",
+        "lines": [
+          "Share of people answering Usually or Almost always."
+        ],
+        "x": 48,
+        "y": 135,
+        "w": 864,
+        "h": 24,
+        "size": 13.6,
+        "color": "647582",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "line",
+        "x": 48,
+        "y": 500,
+        "x2": 912,
+        "y2": 500,
+        "color": "DEE4E8",
+        "width": 0.6
+      },
+      {
+        "kind": "text",
+        "text": "05",
+        "lines": [
+          "05"
+        ],
+        "x": 816,
+        "y": 510,
+        "w": 96,
+        "h": 12,
+        "size": 9.4,
+        "color": "647582",
+        "bold": false,
+        "align": "right",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "I know how my work helps the business",
+        "lines": [
+          "I know how my work helps the business"
+        ],
+        "x": 48,
+        "y": 176,
+        "w": 600,
+        "h": 22.679999999999996,
+        "size": 18.9,
+        "color": "243441",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 48,
+        "y": 206,
+        "w": 640,
+        "h": 13,
+        "fill": "E9EEF1",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "rect",
+        "x": 48,
+        "y": 206,
+        "w": 612.5993883792048,
+        "h": 13,
+        "fill": "577A91",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "96%",
+        "lines": [
+          "96%"
+        ],
+        "x": 731,
+        "y": 180,
+        "w": 175,
+        "h": 40,
+        "size": 28,
+        "color": "365F7B",
+        "bold": true,
+        "align": "right",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "I am proud to work here",
+        "lines": [
+          "I am proud to work here"
+        ],
+        "x": 48,
+        "y": 244,
+        "w": 600,
+        "h": 22.679999999999996,
+        "size": 18.9,
+        "color": "243441",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 48,
+        "y": 274,
+        "w": 640,
+        "h": 13,
+        "fill": "E9EEF1",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "rect",
+        "x": 48,
+        "y": 274,
+        "w": 591.0703363914373,
+        "h": 13,
+        "fill": "577A91",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "92%",
+        "lines": [
+          "92%"
+        ],
+        "x": 731,
+        "y": 248,
+        "w": 175,
+        "h": 40,
+        "size": 28,
+        "color": "365F7B",
+        "bold": true,
+        "align": "right",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "People in my team help each other",
+        "lines": [
+          "People in my team help each other"
+        ],
+        "x": 48,
+        "y": 312,
+        "w": 600,
+        "h": 22.679999999999996,
+        "size": 18.9,
+        "color": "243441",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 48,
+        "y": 342,
+        "w": 640,
+        "h": 13,
+        "fill": "E9EEF1",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "rect",
+        "x": 48,
+        "y": 342,
+        "w": 583.2415902140673,
+        "h": 13,
+        "fill": "577A91",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "91%",
+        "lines": [
+          "91%"
+        ],
+        "x": 731,
+        "y": 316,
+        "w": 175,
+        "h": 40,
+        "size": 28,
+        "color": "365F7B",
+        "bold": true,
+        "align": "right",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "I feel I belong here",
+        "lines": [
+          "I feel I belong here"
+        ],
+        "x": 48,
+        "y": 380,
+        "w": 600,
+        "h": 22.679999999999996,
+        "size": 18.9,
+        "color": "243441",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 48,
+        "y": 410,
+        "w": 640,
+        "h": 13,
+        "fill": "E9EEF1",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "rect",
+        "x": 48,
+        "y": 410,
+        "w": 577.3700305810397,
+        "h": 13,
+        "fill": "577A91",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "90%",
+        "lines": [
+          "90%"
+        ],
+        "x": 731,
+        "y": 384,
+        "w": 175,
+        "h": 40,
+        "size": 28,
+        "color": "365F7B",
+        "bold": true,
+        "align": "right",
+        "leading": 1.2
+      },
+      {
+        "kind": "line",
+        "x": 48,
+        "y": 457,
+        "x2": 912,
+        "y2": 457,
+        "color": "DEE4E8",
+        "width": 1
+      },
+      {
+        "kind": "text",
+        "text": "These are the strengths to protect while we fix the gaps.",
+        "lines": [
+          "These are the strengths to protect while we fix the gaps."
+        ],
+        "x": 48,
+        "y": 465,
+        "w": 864,
+        "h": 26,
+        "size": 12.4,
+        "color": "647582",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      }
+    ]
+  },
+  {
+    "slide": 6,
+    "section": "One warning",
+    "title": "One warning: answers with a name\nlook more positive",
+    "source": "named_vs_anonymous.csv; notebook Step 7.4.",
+    "notes": "[4:00 – 5:30] One important warning. The survey asked people for their name, and 69% gave it. People who stayed anonymous were clearly less positive. For example, 92% of named people plan to stay 3 to 5 years, but only 78% of anonymous people. People may be more careful when their name is attached. So the real picture is probably a little less rosy than the headline numbers. Our simple advice: do not ask for names next time.",
+    "objects": [
+      {
+        "kind": "text",
+        "text": "SAFEWATER LINES  /  ONE WARNING",
+        "lines": [
+          "SAFEWATER LINES / ONE WARNING"
+        ],
+        "x": 48,
+        "y": 26,
+        "w": 864,
+        "h": 16,
+        "size": 11.2,
+        "color": "365F7B",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "One warning: answers with a name\nlook more positive",
+        "lines": [
+          "One warning: answers with a name",
+          "look more positive"
+        ],
+        "x": 48,
+        "y": 54,
+        "w": 864,
+        "h": 72,
+        "size": 32,
+        "color": "243441",
+        "bold": true,
+        "align": "left",
+        "leading": 1.12
+      },
+      {
+        "kind": "text",
+        "text": "The survey asked for an optional name. Most people gave it.",
+        "lines": [
+          "The survey asked for an optional name. Most people gave it."
+        ],
+        "x": 48,
+        "y": 135,
+        "w": 864,
+        "h": 24,
+        "size": 13.6,
+        "color": "647582",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "line",
+        "x": 48,
+        "y": 500,
+        "x2": 912,
+        "y2": 500,
+        "color": "DEE4E8",
+        "width": 0.6
+      },
+      {
+        "kind": "text",
+        "text": "06",
+        "lines": [
+          "06"
+        ],
+        "x": 816,
+        "y": 510,
+        "w": 96,
+        "h": 12,
+        "size": 9.4,
+        "color": "647582",
+        "bold": false,
+        "align": "right",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "PLAN TO STAY FOR THE NEXT 3–5 YEARS",
+        "lines": [
+          "PLAN TO STAY FOR THE NEXT 3–5 YEARS"
+        ],
+        "x": 48,
+        "y": 171,
+        "w": 440,
+        "h": 18,
+        "size": 11.8,
+        "color": "365F7B",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "92%",
+        "lines": [
+          "92%"
+        ],
+        "x": 48,
+        "y": 196,
+        "w": 200,
+        "h": 60,
+        "size": 50,
+        "color": "365F7B",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "People who gave their name (227)",
+        "lines": [
+          "People who gave their name",
+          "(227)"
+        ],
+        "x": 48,
+        "y": 258,
+        "w": 200,
+        "h": 36.72,
+        "size": 15.3,
+        "color": "647582",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "78%",
+        "lines": [
+          "78%"
+        ],
+        "x": 270,
+        "y": 196,
+        "w": 200,
+        "h": 60,
+        "size": 50,
+        "color": "577A91",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "People who stayed anonymous (100)",
+        "lines": [
+          "People who stayed",
+          "anonymous (100)"
+        ],
+        "x": 270,
+        "y": 258,
+        "w": 200,
+        "h": 36.72,
+        "size": 15.3,
+        "color": "647582",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "line",
+        "x": 520,
+        "y": 171,
+        "x2": 520,
+        "y2": 400,
+        "color": "DEE4E8",
+        "width": 1
+      },
+      {
+        "kind": "text",
+        "text": "69% of people typed their name on the survey.",
+        "lines": [
+          "69% of people typed their name on the",
+          "survey."
+        ],
+        "x": 552,
+        "y": 180,
+        "w": 360,
+        "h": 45.35999999999999,
+        "size": 18.9,
+        "color": "243441",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "Anonymous people were less positive on every key question.",
+        "lines": [
+          "Anonymous people were less positive on",
+          "every key question."
+        ],
+        "x": 552,
+        "y": 244,
+        "w": 360,
+        "h": 45.35999999999999,
+        "size": 18.9,
+        "color": "243441",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "So the true picture is probably a little less rosy.",
+        "lines": [
+          "So the true picture is probably a little",
+          "less rosy."
+        ],
+        "x": 552,
+        "y": 308,
+        "w": 360,
+        "h": 45.35999999999999,
+        "size": 18.9,
+        "color": "365F7B",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 48,
+        "y": 410,
+        "w": 864,
+        "h": 40,
+        "fill": "F2F5F7",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "rect",
+        "x": 48,
+        "y": 410,
+        "w": 4,
+        "h": 40,
+        "fill": "365F7B",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "Simple fix: don’t ask for names in the next survey.",
+        "lines": [
+          "Simple fix: don’t ask for names in the next survey."
+        ],
+        "x": 66,
+        "y": 422,
+        "w": 836,
+        "h": 19.8,
+        "size": 16.5,
+        "color": "243441",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      }
+    ]
+  },
+  {
+    "slide": 7,
+    "section": "Where it hurts",
+    "title": "Where it hurts: the five lowest scores",
+    "source": "item_evidence_profile.csv (RES4, CAM5, FAI3, FAI5, FAI1).",
+    "notes": "[5:30 – 6:30] Now the gaps. These are the five lowest scores out of 30 questions. Look at what they have in common: recognition, consistent decisions, understanding how decisions are made, and fair rewards. All of them are about how people decisions are made and explained. They are about 10 points below the average of all questions.",
+    "objects": [
+      {
+        "kind": "text",
+        "text": "SAFEWATER LINES  /  WHERE IT HURTS",
+        "lines": [
+          "SAFEWATER LINES / WHERE IT HURTS"
+        ],
+        "x": 48,
+        "y": 26,
+        "w": 864,
+        "h": 16,
+        "size": 11.2,
+        "color": "365F7B",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "Where it hurts: the five lowest scores",
+        "lines": [
+          "Where it hurts: the five lowest scores"
+        ],
+        "x": 48,
+        "y": 54,
+        "w": 864,
+        "h": 72,
+        "size": 32,
+        "color": "243441",
+        "bold": true,
+        "align": "left",
+        "leading": 1.12
+      },
+      {
+        "kind": "text",
+        "text": "Share of people answering Usually or Almost always. All five are about fairness and recognition.",
+        "lines": [
+          "Share of people answering Usually or Almost always. All five are about fairness and recognition."
+        ],
+        "x": 48,
+        "y": 135,
+        "w": 864,
+        "h": 24,
+        "size": 13.6,
+        "color": "647582",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "line",
+        "x": 48,
+        "y": 500,
+        "x2": 912,
+        "y2": 500,
+        "color": "DEE4E8",
+        "width": 0.6
+      },
+      {
+        "kind": "text",
+        "text": "07",
+        "lines": [
+          "07"
+        ],
+        "x": 816,
+        "y": 510,
+        "w": 96,
+        "h": 12,
+        "size": 9.4,
+        "color": "647582",
+        "bold": false,
+        "align": "right",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "My efforts are recognised",
+        "lines": [
+          "My efforts are recognised"
+        ],
+        "x": 48,
+        "y": 190,
+        "w": 380,
+        "h": 22,
+        "size": 17.7,
+        "color": "243441",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 440,
+        "y": 194,
+        "w": 380,
+        "h": 14,
+        "fill": "E9EEF1",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "rect",
+        "x": 440,
+        "y": 194,
+        "w": 275.4128440366972,
+        "h": 14,
+        "fill": "365F7B",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "72%",
+        "lines": [
+          "72%"
+        ],
+        "x": 834,
+        "y": 190,
+        "w": 60,
+        "h": 22.679999999999996,
+        "size": 18.9,
+        "color": "365F7B",
+        "bold": true,
+        "align": "right",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "We celebrate each other’s success",
+        "lines": [
+          "We celebrate each other’s success"
+        ],
+        "x": 48,
+        "y": 238,
+        "w": 380,
+        "h": 22,
+        "size": 17.7,
+        "color": "243441",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 440,
+        "y": 242,
+        "w": 380,
+        "h": 14,
+        "fill": "E9EEF1",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "rect",
+        "x": 440,
+        "y": 242,
+        "w": 276.5749235474006,
+        "h": 14,
+        "fill": "365F7B",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "73%",
+        "lines": [
+          "73%"
+        ],
+        "x": 834,
+        "y": 238,
+        "w": 60,
+        "h": 22.679999999999996,
+        "size": 18.9,
+        "color": "365F7B",
+        "bold": true,
+        "align": "right",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "People decisions are consistent",
+        "lines": [
+          "People decisions are consistent"
+        ],
+        "x": 48,
+        "y": 286,
+        "w": 380,
+        "h": 22,
+        "size": 17.7,
+        "color": "243441",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 440,
+        "y": 290,
+        "w": 380,
+        "h": 14,
+        "fill": "E9EEF1",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "rect",
+        "x": 440,
+        "y": 290,
+        "w": 283.54740061162084,
+        "h": 14,
+        "fill": "365F7B",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "75%",
+        "lines": [
+          "75%"
+        ],
+        "x": 834,
+        "y": 286,
+        "w": 60,
+        "h": 22.679999999999996,
+        "size": 18.9,
+        "color": "365F7B",
+        "bold": true,
+        "align": "right",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "I understand how people decisions are made",
+        "lines": [
+          "I understand how people decisions are made"
+        ],
+        "x": 48,
+        "y": 334,
+        "w": 380,
+        "h": 22,
+        "size": 17.7,
+        "color": "243441",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 440,
+        "y": 338,
+        "w": 380,
+        "h": 14,
+        "fill": "E9EEF1",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "rect",
+        "x": 440,
+        "y": 338,
+        "w": 287.03363914373085,
+        "h": 14,
+        "fill": "365F7B",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "76%",
+        "lines": [
+          "76%"
+        ],
+        "x": 834,
+        "y": 334,
+        "w": 60,
+        "h": 22.679999999999996,
+        "size": 18.9,
+        "color": "365F7B",
+        "bold": true,
+        "align": "right",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "Rewards are fair and based on performance",
+        "lines": [
+          "Rewards are fair and based on performance"
+        ],
+        "x": 48,
+        "y": 382,
+        "w": 380,
+        "h": 22,
+        "size": 17.7,
+        "color": "243441",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 440,
+        "y": 386,
+        "w": 380,
+        "h": 14,
+        "fill": "E9EEF1",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "rect",
+        "x": 440,
+        "y": 386,
+        "w": 289.35779816513764,
+        "h": 14,
+        "fill": "365F7B",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "76%",
+        "lines": [
+          "76%"
+        ],
+        "x": 834,
+        "y": 382,
+        "w": 60,
+        "h": 22.679999999999996,
+        "size": 18.9,
+        "color": "365F7B",
+        "bold": true,
+        "align": "right",
+        "leading": 1.2
+      },
+      {
+        "kind": "line",
+        "x": 762.7094801223242,
+        "y": 182,
+        "x2": 762.7094801223242,
+        "y2": 428,
+        "color": "243441",
+        "width": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "Average of all 30 questions: 85%",
+        "lines": [
+          "Average of all 30 questions: 85%"
+        ],
+        "x": 462.7094801223242,
+        "y": 165,
+        "w": 300,
+        "h": 15.6,
+        "size": 13.0,
+        "color": "243441",
+        "bold": true,
+        "align": "right",
+        "leading": 1.2
+      },
+      {
+        "kind": "line",
+        "x": 48,
+        "y": 457,
+        "x2": 912,
+        "y2": 457,
+        "color": "DEE4E8",
+        "width": 1
+      },
+      {
+        "kind": "text",
+        "text": "All five lowest scores are about how people decisions are made, explained and recognised.",
+        "lines": [
+          "All five lowest scores are about how people decisions are made, explained and recognised."
+        ],
+        "x": 48,
+        "y": 465,
+        "w": 864,
+        "h": 26,
+        "size": 12.4,
+        "color": "647582",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      }
+    ]
+  },
+  {
+    "slide": 8,
+    "section": "How we chose",
+    "title": "How we decided what to fix first",
+    "source": "Notebook Step 7.3; pass marks fixed before reading the result.",
+    "notes": "[6:30 – 8:00] Low scores alone are not enough to choose priorities, so we checked every theme in four ways. One: is the score low? Two: does it move together with people wanting to stay and recommend the company? Three: did people pick it when asked what HR should do better? Four: did people raise it on their own when we asked for one change? We set the pass marks before looking at the results.",
+    "objects": [
+      {
+        "kind": "text",
+        "text": "SAFEWATER LINES  /  HOW WE CHOSE",
+        "lines": [
+          "SAFEWATER LINES / HOW WE CHOSE"
+        ],
+        "x": 48,
+        "y": 26,
+        "w": 864,
+        "h": 16,
+        "size": 11.2,
+        "color": "365F7B",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "How we decided what to fix first",
+        "lines": [
+          "How we decided what to fix first"
+        ],
+        "x": 48,
+        "y": 54,
+        "w": 864,
+        "h": 72,
+        "size": 32,
+        "color": "243441",
+        "bold": true,
+        "align": "left",
+        "leading": 1.12
+      },
+      {
+        "kind": "text",
+        "text": "We listened in four different ways. A real priority should show up in all of them.",
+        "lines": [
+          "We listened in four different ways. A real priority should show up in all of them."
+        ],
+        "x": 48,
+        "y": 135,
+        "w": 864,
+        "h": 24,
+        "size": 13.6,
+        "color": "647582",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "line",
+        "x": 48,
+        "y": 500,
+        "x2": 912,
+        "y2": 500,
+        "color": "DEE4E8",
+        "width": 0.6
+      },
+      {
+        "kind": "text",
+        "text": "08",
+        "lines": [
+          "08"
+        ],
+        "x": 816,
+        "y": 510,
+        "w": 96,
+        "h": 12,
+        "size": 9.4,
+        "color": "647582",
+        "bold": false,
+        "align": "right",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 48,
+        "y": 174,
+        "w": 198,
+        "h": 3,
+        "fill": "365F7B",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "1",
+        "lines": [
+          "1"
+        ],
+        "x": 48,
+        "y": 190,
+        "w": 60,
+        "h": 36,
+        "size": 30,
+        "color": "365F7B",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "Low score",
+        "lines": [
+          "Low score"
+        ],
+        "x": 48,
+        "y": 236,
+        "w": 198,
+        "h": 24.12,
+        "size": 20.1,
+        "color": "243441",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "Which questions get the lowest scores?",
+        "lines": [
+          "Which questions get the",
+          "lowest scores?"
+        ],
+        "x": 48,
+        "y": 268,
+        "w": 194,
+        "h": 70,
+        "size": 15.9,
+        "color": "647582",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 270,
+        "y": 174,
+        "w": 198,
+        "h": 3,
+        "fill": "365F7B",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "2",
+        "lines": [
+          "2"
+        ],
+        "x": 270,
+        "y": 190,
+        "w": 60,
+        "h": 36,
+        "size": 30,
+        "color": "365F7B",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "Linked to staying",
+        "lines": [
+          "Linked to staying"
+        ],
+        "x": 270,
+        "y": 236,
+        "w": 198,
+        "h": 24.12,
+        "size": 20.1,
+        "color": "243441",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "Which questions move together with wanting to stay and recommend?",
+        "lines": [
+          "Which questions move",
+          "together with wanting to",
+          "stay and recommend?"
+        ],
+        "x": 270,
+        "y": 268,
+        "w": 194,
+        "h": 70,
+        "size": 15.9,
+        "color": "647582",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 492,
+        "y": 174,
+        "w": 198,
+        "h": 3,
+        "fill": "365F7B",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "3",
+        "lines": [
+          "3"
+        ],
+        "x": 492,
+        "y": 190,
+        "w": 60,
+        "h": 36,
+        "size": 30,
+        "color": "365F7B",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "HR wish list",
+        "lines": [
+          "HR wish list"
+        ],
+        "x": 492,
+        "y": 236,
+        "w": 198,
+        "h": 24.12,
+        "size": 20.1,
+        "color": "243441",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "What one thing did people ask HR to do better?",
+        "lines": [
+          "What one thing did people",
+          "ask HR to do better?"
+        ],
+        "x": 492,
+        "y": 268,
+        "w": 194,
+        "h": 70,
+        "size": 15.9,
+        "color": "647582",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 714,
+        "y": 174,
+        "w": 198,
+        "h": 3,
+        "fill": "365F7B",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "4",
+        "lines": [
+          "4"
+        ],
+        "x": 714,
+        "y": 190,
+        "w": 60,
+        "h": 36,
+        "size": 30,
+        "color": "365F7B",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "In their own words",
+        "lines": [
+          "In their own words"
+        ],
+        "x": 714,
+        "y": 236,
+        "w": 198,
+        "h": 24.12,
+        "size": 20.1,
+        "color": "243441",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "What did people raise when asked for “one change”?",
+        "lines": [
+          "What did people raise",
+          "when asked for “one",
+          "change”?"
+        ],
+        "x": 714,
+        "y": 268,
+        "w": 194,
+        "h": 70,
+        "size": 15.9,
+        "color": "647582",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 48,
+        "y": 410,
+        "w": 864,
+        "h": 40,
+        "fill": "F2F5F7",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "rect",
+        "x": 48,
+        "y": 410,
+        "w": 4,
+        "h": 40,
+        "fill": "365F7B",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "A real priority should pass all four. We set the pass marks before looking at the results.",
+        "lines": [
+          "A real priority should pass all four. We set the pass marks before looking at the results."
+        ],
+        "x": 66,
+        "y": 422,
+        "w": 836,
+        "h": 19.8,
+        "size": 16.5,
+        "color": "243441",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      }
+    ]
+  },
+  {
+    "slide": 9,
+    "section": "The result",
+    "title": "Two themes pass all four tests",
+    "source": "priority_triangulation.csv; notebook Step 7.3.",
+    "notes": "[8:00 – 9:00] Here is the result. Only two themes are strong on all four tests: fair people decisions with career growth, and leaders who listen and act. Those are our two priorities. Recognition scores lowest and people write about it a lot, so we put it inside priority one. Teamwork across teams is real but smaller, so it gets a targeted fix. Pay and facilities matter to people but there was no survey question on them, so we send them to the yearly review.",
+    "objects": [
+      {
+        "kind": "text",
+        "text": "SAFEWATER LINES  /  THE RESULT",
+        "lines": [
+          "SAFEWATER LINES / THE RESULT"
+        ],
+        "x": 48,
+        "y": 26,
+        "w": 864,
+        "h": 16,
+        "size": 11.2,
+        "color": "365F7B",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "Two themes pass all four tests",
+        "lines": [
+          "Two themes pass all four tests"
+        ],
+        "x": 48,
+        "y": 54,
+        "w": 864,
+        "h": 72,
+        "size": 32,
+        "color": "243441",
+        "bold": true,
+        "align": "left",
+        "leading": 1.12
+      },
+      {
+        "kind": "text",
+        "text": "Filled circle = strong; light = medium; empty = weak; dash = not asked.",
+        "lines": [
+          "Filled circle = strong; light = medium; empty = weak; dash = not asked."
+        ],
+        "x": 48,
+        "y": 135,
+        "w": 864,
+        "h": 24,
+        "size": 13.6,
+        "color": "647582",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "line",
+        "x": 48,
+        "y": 500,
+        "x2": 912,
+        "y2": 500,
+        "color": "DEE4E8",
+        "width": 0.6
+      },
+      {
+        "kind": "text",
+        "text": "09",
+        "lines": [
+          "09"
+        ],
+        "x": 816,
+        "y": 510,
+        "w": 96,
+        "h": 12,
+        "size": 9.4,
+        "color": "647582",
+        "bold": false,
+        "align": "right",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 48,
+        "y": 171,
+        "w": 864,
+        "h": 30,
+        "fill": "F2F5F7",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "THEME",
+        "lines": [
+          "THEME"
+        ],
+        "x": 57,
+        "y": 180,
+        "w": 236,
+        "h": 14,
+        "size": 11.2,
+        "color": "365F7B",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "LOW SCORE",
+        "lines": [
+          "LOW SCORE"
+        ],
+        "x": 307,
+        "y": 180,
+        "w": 106,
+        "h": 14,
+        "size": 11.2,
+        "color": "365F7B",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "LINKED TO STAY",
+        "lines": [
+          "LINKED TO STAY"
+        ],
+        "x": 427,
+        "y": 180,
+        "w": 106,
+        "h": 14,
+        "size": 11.2,
+        "color": "365F7B",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "HR WISH LIST",
+        "lines": [
+          "HR WISH LIST"
+        ],
+        "x": 547,
+        "y": 180,
+        "w": 106,
+        "h": 14,
+        "size": 11.2,
+        "color": "365F7B",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "OWN WORDS",
+        "lines": [
+          "OWN WORDS"
+        ],
+        "x": 667,
+        "y": 180,
+        "w": 106,
+        "h": 14,
+        "size": 11.2,
+        "color": "365F7B",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "OUR DECISION",
+        "lines": [
+          "OUR DECISION"
+        ],
+        "x": 787,
+        "y": 180,
+        "w": 120,
+        "h": 14,
+        "size": 11.2,
+        "color": "365F7B",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 48,
+        "y": 201,
+        "w": 864,
+        "h": 44,
+        "fill": "F7F9FA",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "Fair decisions & career growth",
+        "lines": [
+          "Fair decisions & career growth"
+        ],
+        "x": 57,
+        "y": 215,
+        "w": 236,
+        "h": 19.08,
+        "size": 15.9,
+        "color": "243441",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "circle",
+        "x": 348,
+        "y": 216,
+        "w": 15,
+        "h": 15,
+        "fill": "365F7B",
+        "stroke": null
+      },
+      {
+        "kind": "circle",
+        "x": 468,
+        "y": 216,
+        "w": 15,
+        "h": 15,
+        "fill": "365F7B",
+        "stroke": null
+      },
+      {
+        "kind": "circle",
+        "x": 588,
+        "y": 216,
+        "w": 15,
+        "h": 15,
+        "fill": "365F7B",
+        "stroke": null
+      },
+      {
+        "kind": "circle",
+        "x": 708,
+        "y": 216,
+        "w": 15,
+        "h": 15,
+        "fill": "365F7B",
+        "stroke": null
+      },
+      {
+        "kind": "text",
+        "text": "Priority 1",
+        "lines": [
+          "Priority 1"
+        ],
+        "x": 787,
+        "y": 215,
+        "w": 126,
+        "h": 18.36,
+        "size": 15.3,
+        "color": "365F7B",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "line",
+        "x": 48,
+        "y": 245,
+        "x2": 912,
+        "y2": 245,
+        "color": "DEE4E8",
+        "width": 0.6
+      },
+      {
+        "kind": "rect",
+        "x": 48,
+        "y": 245,
+        "w": 864,
+        "h": 44,
+        "fill": "F7F9FA",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "Leaders listen and act",
+        "lines": [
+          "Leaders listen and act"
+        ],
+        "x": 57,
+        "y": 259,
+        "w": 236,
+        "h": 19.08,
+        "size": 15.9,
+        "color": "243441",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "circle",
+        "x": 348,
+        "y": 260,
+        "w": 15,
+        "h": 15,
+        "fill": "365F7B",
+        "stroke": null
+      },
+      {
+        "kind": "circle",
+        "x": 468,
+        "y": 260,
+        "w": 15,
+        "h": 15,
+        "fill": "365F7B",
+        "stroke": null
+      },
+      {
+        "kind": "circle",
+        "x": 588,
+        "y": 260,
+        "w": 15,
+        "h": 15,
+        "fill": "365F7B",
+        "stroke": null
+      },
+      {
+        "kind": "circle",
+        "x": 708,
+        "y": 260,
+        "w": 15,
+        "h": 15,
+        "fill": "365F7B",
+        "stroke": null
+      },
+      {
+        "kind": "text",
+        "text": "Priority 2",
+        "lines": [
+          "Priority 2"
+        ],
+        "x": 787,
+        "y": 259,
+        "w": 126,
+        "h": 18.36,
+        "size": 15.3,
+        "color": "365F7B",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "line",
+        "x": 48,
+        "y": 289,
+        "x2": 912,
+        "y2": 289,
+        "color": "DEE4E8",
+        "width": 0.6
+      },
+      {
+        "kind": "text",
+        "text": "Recognition",
+        "lines": [
+          "Recognition"
+        ],
+        "x": 57,
+        "y": 303,
+        "w": 236,
+        "h": 19.08,
+        "size": 15.9,
+        "color": "243441",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "circle",
+        "x": 348,
+        "y": 304,
+        "w": 15,
+        "h": 15,
+        "fill": "365F7B",
+        "stroke": null
+      },
+      {
+        "kind": "circle",
+        "x": 468,
+        "y": 304,
+        "w": 15,
+        "h": 15,
+        "fill": "FFFFFF",
+        "stroke": "B9C7D1"
+      },
+      {
+        "kind": "circle",
+        "x": 588,
+        "y": 304,
+        "w": 15,
+        "h": 15,
+        "fill": "B9C7D1",
+        "stroke": null
+      },
+      {
+        "kind": "circle",
+        "x": 708,
+        "y": 304,
+        "w": 15,
+        "h": 15,
+        "fill": "365F7B",
+        "stroke": null
+      },
+      {
+        "kind": "text",
+        "text": "Part of Priority 1",
+        "lines": [
+          "Part of Priority 1"
+        ],
+        "x": 787,
+        "y": 303,
+        "w": 126,
+        "h": 18.36,
+        "size": 15.3,
+        "color": "647582",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "line",
+        "x": 48,
+        "y": 333,
+        "x2": 912,
+        "y2": 333,
+        "color": "DEE4E8",
+        "width": 0.6
+      },
+      {
+        "kind": "text",
+        "text": "Teamwork across teams",
+        "lines": [
+          "Teamwork across teams"
+        ],
+        "x": 57,
+        "y": 347,
+        "w": 236,
+        "h": 19.08,
+        "size": 15.9,
+        "color": "243441",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "circle",
+        "x": 348,
+        "y": 348,
+        "w": 15,
+        "h": 15,
+        "fill": "B9C7D1",
+        "stroke": null
+      },
+      {
+        "kind": "circle",
+        "x": 468,
+        "y": 348,
+        "w": 15,
+        "h": 15,
+        "fill": "365F7B",
+        "stroke": null
+      },
+      {
+        "kind": "text",
+        "text": "—",
+        "lines": [
+          "—"
+        ],
+        "x": 586,
+        "y": 346,
+        "w": 30,
+        "h": 19.8,
+        "size": 16.5,
+        "color": "647582",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "circle",
+        "x": 708,
+        "y": 348,
+        "w": 15,
+        "h": 15,
+        "fill": "FFFFFF",
+        "stroke": "B9C7D1"
+      },
+      {
+        "kind": "text",
+        "text": "Targeted fix",
+        "lines": [
+          "Targeted fix"
+        ],
+        "x": 787,
+        "y": 347,
+        "w": 126,
+        "h": 18.36,
+        "size": 15.3,
+        "color": "647582",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "line",
+        "x": 48,
+        "y": 377,
+        "x2": 912,
+        "y2": 377,
+        "color": "DEE4E8",
+        "width": 0.6
+      },
+      {
+        "kind": "text",
+        "text": "Pay, benefits & facilities",
+        "lines": [
+          "Pay, benefits & facilities"
+        ],
+        "x": 57,
+        "y": 391,
+        "w": 236,
+        "h": 19.08,
+        "size": 15.9,
+        "color": "243441",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "—",
+        "lines": [
+          "—"
+        ],
+        "x": 346,
+        "y": 390,
+        "w": 30,
+        "h": 19.8,
+        "size": 16.5,
+        "color": "647582",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "—",
+        "lines": [
+          "—"
+        ],
+        "x": 466,
+        "y": 390,
+        "w": 30,
+        "h": 19.8,
+        "size": 16.5,
+        "color": "647582",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "circle",
+        "x": 588,
+        "y": 392,
+        "w": 15,
+        "h": 15,
+        "fill": "365F7B",
+        "stroke": null
+      },
+      {
+        "kind": "circle",
+        "x": 708,
+        "y": 392,
+        "w": 15,
+        "h": 15,
+        "fill": "B9C7D1",
+        "stroke": null
+      },
+      {
+        "kind": "text",
+        "text": "Yearly review",
+        "lines": [
+          "Yearly review"
+        ],
+        "x": 787,
+        "y": 391,
+        "w": 126,
+        "h": 18.36,
+        "size": 15.3,
+        "color": "647582",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "line",
+        "x": 48,
+        "y": 421,
+        "x2": 912,
+        "y2": 421,
+        "color": "DEE4E8",
+        "width": 0.6
+      },
+      {
+        "kind": "line",
+        "x": 48,
+        "y": 457,
+        "x2": 912,
+        "y2": 457,
+        "color": "DEE4E8",
+        "width": 1
+      },
+      {
+        "kind": "text",
+        "text": "Only the first two themes are strong on all four tests.",
+        "lines": [
+          "Only the first two themes are strong on all four tests."
+        ],
+        "x": 48,
+        "y": 465,
+        "w": 864,
+        "h": 26,
+        "size": 12.4,
+        "color": "647582",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      }
+    ]
+  },
+  {
+    "slide": 10,
+    "section": "Priority 1",
+    "title": "Priority 1: fair decisions\nthat people understand",
+    "source": "item_evidence_profile.csv; driver_model_summary.csv; hr_priority_counts.csv; quote verbatim, de-identified.",
+    "notes": "[9:00 – 10:30] Priority one is fair decisions that people understand. Only 75% say people decisions are made consistently. Of the areas leaders can change, fairness is the one most linked to people wanting to stay and recommend the company. And 51 people said HR's main job should be helping careers grow. In one employee's words: inconsistent performance evaluations and opaque promotion criteria. What it means in practice: clear rules for promotion, pay and rewards, and a reason given for every decision.",
+    "objects": [
+      {
+        "kind": "text",
+        "text": "SAFEWATER LINES  /  PRIORITY 1",
+        "lines": [
+          "SAFEWATER LINES / PRIORITY 1"
+        ],
+        "x": 48,
+        "y": 26,
+        "w": 864,
+        "h": 16,
+        "size": 11.2,
+        "color": "365F7B",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "Priority 1: fair decisions\nthat people understand",
+        "lines": [
+          "Priority 1: fair decisions",
+          "that people understand"
+        ],
+        "x": 48,
+        "y": 54,
+        "w": 864,
+        "h": 72,
+        "size": 32,
+        "color": "243441",
+        "bold": true,
+        "align": "left",
+        "leading": 1.12
+      },
+      {
+        "kind": "text",
+        "text": "Promotions, pay rises, rewards and recognition.",
+        "lines": [
+          "Promotions, pay rises, rewards and recognition."
+        ],
+        "x": 48,
+        "y": 135,
+        "w": 864,
+        "h": 24,
+        "size": 13.6,
+        "color": "647582",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "line",
+        "x": 48,
+        "y": 500,
+        "x2": 912,
+        "y2": 500,
+        "color": "DEE4E8",
+        "width": 0.6
+      },
+      {
+        "kind": "text",
+        "text": "10",
+        "lines": [
+          "10"
+        ],
+        "x": 816,
+        "y": 510,
+        "w": 96,
+        "h": 12,
+        "size": 9.4,
+        "color": "647582",
+        "bold": false,
+        "align": "right",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "75%",
+        "lines": [
+          "75%"
+        ],
+        "x": 48,
+        "y": 172,
+        "w": 150,
+        "h": 44,
+        "size": 34,
+        "color": "365F7B",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "say people decisions are made consistently, one of the lowest scores",
+        "lines": [
+          "say people decisions are made",
+          "consistently, one of the lowest scores"
+        ],
+        "x": 210,
+        "y": 178,
+        "w": 340,
+        "h": 42.48,
+        "size": 17.7,
+        "color": "243441",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "No. 1",
+        "lines": [
+          "No. 1"
+        ],
+        "x": 48,
+        "y": 248,
+        "w": 150,
+        "h": 44,
+        "size": 34,
+        "color": "365F7B",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "Of the areas leaders can change, fairness is most linked to wanting to stay",
+        "lines": [
+          "Of the areas leaders can change, fairness",
+          "is most linked to wanting to stay"
+        ],
+        "x": 210,
+        "y": 254,
+        "w": 340,
+        "h": 42.48,
+        "size": 17.7,
+        "color": "243441",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "51",
+        "lines": [
+          "51"
+        ],
+        "x": 48,
+        "y": 324,
+        "w": 150,
+        "h": 44,
+        "size": 34,
+        "color": "365F7B",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "people said HR’s main job should be helping careers grow",
+        "lines": [
+          "people said HR’s main job should be",
+          "helping careers grow"
+        ],
+        "x": 210,
+        "y": 330,
+        "w": 340,
+        "h": 42.48,
+        "size": 17.7,
+        "color": "243441",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "line",
+        "x": 586,
+        "y": 172,
+        "x2": 586,
+        "y2": 390,
+        "color": "DEE4E8",
+        "width": 1
+      },
+      {
+        "kind": "rect",
+        "x": 614,
+        "y": 180,
+        "w": 3,
+        "h": 84,
+        "fill": "B9C7D1",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "“Inconsistent performance evaluations and opaque promotion criteria.”",
+        "lines": [
+          "“Inconsistent performance",
+          "evaluations and opaque",
+          "promotion criteria.”"
+        ],
+        "x": 628,
+        "y": 180,
+        "w": 284,
+        "h": 90,
+        "size": 20.1,
+        "color": "243441",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "An employee, answering the fairness question",
+        "lines": [
+          "An employee, answering the fairness question"
+        ],
+        "x": 628,
+        "y": 276,
+        "w": 284,
+        "h": 16.32,
+        "size": 13.6,
+        "color": "647582",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 48,
+        "y": 410,
+        "w": 864,
+        "h": 40,
+        "fill": "F2F5F7",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "rect",
+        "x": 48,
+        "y": 410,
+        "w": 4,
+        "h": 40,
+        "fill": "365F7B",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "In practice: clear rules for promotion, pay and rewards, and a reason for every decision.",
+        "lines": [
+          "In practice: clear rules for promotion, pay and rewards, and a reason for every decision."
+        ],
+        "x": 66,
+        "y": 422,
+        "w": 836,
+        "h": 19.8,
+        "size": 16.5,
+        "color": "243441",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      }
+    ]
+  },
+  {
+    "slide": 11,
+    "section": "Priority 2",
+    "title": "Priority 2: leaders who listen,\nand then act",
+    "source": "hr_priority_counts.csv; item_evidence_profile.csv (CRE5); quote verbatim, de-identified.",
+    "notes": "[10:30 – 12:00] Priority two is leaders who listen and then act. We asked everyone to pick the one thing HR should do better. The top answer, by a clear margin, was listening to employees and their concerns: 67 people. Today only 80% say leaders act on feedback, and among the actionable questions it is the one most linked to people wanting to stay. People are not asking for more announcements. They want proof that when they raise something, something happens.",
+    "objects": [
+      {
+        "kind": "text",
+        "text": "SAFEWATER LINES  /  PRIORITY 2",
+        "lines": [
+          "SAFEWATER LINES / PRIORITY 2"
+        ],
+        "x": 48,
+        "y": 26,
+        "w": 864,
+        "h": 16,
+        "size": 11.2,
+        "color": "365F7B",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "Priority 2: leaders who listen,\nand then act",
+        "lines": [
+          "Priority 2: leaders who listen,",
+          "and then act"
+        ],
+        "x": 48,
+        "y": 54,
+        "w": 864,
+        "h": 72,
+        "size": 32,
+        "color": "243441",
+        "bold": true,
+        "align": "left",
+        "leading": 1.12
+      },
+      {
+        "kind": "text",
+        "text": "“If HR could do one thing better…”: everyone picked one answer.",
+        "lines": [
+          "“If HR could do one thing better…”: everyone picked one answer."
+        ],
+        "x": 48,
+        "y": 135,
+        "w": 864,
+        "h": 24,
+        "size": 13.6,
+        "color": "647582",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "line",
+        "x": 48,
+        "y": 500,
+        "x2": 912,
+        "y2": 500,
+        "color": "DEE4E8",
+        "width": 0.6
+      },
+      {
+        "kind": "text",
+        "text": "11",
+        "lines": [
+          "11"
+        ],
+        "x": 816,
+        "y": 510,
+        "w": 96,
+        "h": 12,
+        "size": 9.4,
+        "color": "647582",
+        "bold": false,
+        "align": "right",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "Listen to our concerns",
+        "lines": [
+          "Listen to our concerns"
+        ],
+        "x": 48,
+        "y": 176,
+        "w": 190,
+        "h": 17.76,
+        "size": 14.8,
+        "color": "243441",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 246,
+        "y": 179.0,
+        "w": 230,
+        "h": 10,
+        "fill": "E9EEF1",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "rect",
+        "x": 246,
+        "y": 179.0,
+        "w": 230.0,
+        "h": 10,
+        "fill": "365F7B",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "67",
+        "lines": [
+          "67"
+        ],
+        "x": 482,
+        "y": 176,
+        "w": 46,
+        "h": 17.76,
+        "size": 14.8,
+        "color": "365F7B",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "Help careers grow",
+        "lines": [
+          "Help careers grow"
+        ],
+        "x": 48,
+        "y": 199,
+        "w": 190,
+        "h": 17.76,
+        "size": 14.8,
+        "color": "243441",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 246,
+        "y": 202.0,
+        "w": 230,
+        "h": 10,
+        "fill": "E9EEF1",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "rect",
+        "x": 246,
+        "y": 202.0,
+        "w": 175.07462686567163,
+        "h": 10,
+        "fill": "B9C7D1",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "51",
+        "lines": [
+          "51"
+        ],
+        "x": 482,
+        "y": 199,
+        "w": 46,
+        "h": 17.76,
+        "size": 14.8,
+        "color": "647582",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "Better benefits & facilities",
+        "lines": [
+          "Better benefits & facilities"
+        ],
+        "x": 48,
+        "y": 222,
+        "w": 190,
+        "h": 17.76,
+        "size": 14.8,
+        "color": "243441",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 246,
+        "y": 225.0,
+        "w": 230,
+        "h": 10,
+        "fill": "E9EEF1",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "rect",
+        "x": 246,
+        "y": 225.0,
+        "w": 175.07462686567163,
+        "h": 10,
+        "fill": "B9C7D1",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "51",
+        "lines": [
+          "51"
+        ],
+        "x": 482,
+        "y": 222,
+        "w": 46,
+        "h": 17.76,
+        "size": 14.8,
+        "color": "647582",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "Solve our problems",
+        "lines": [
+          "Solve our problems"
+        ],
+        "x": 48,
+        "y": 245,
+        "w": 190,
+        "h": 17.76,
+        "size": 14.8,
+        "color": "243441",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 246,
+        "y": 248.0,
+        "w": 230,
+        "h": 10,
+        "fill": "E9EEF1",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "rect",
+        "x": 246,
+        "y": 248.0,
+        "w": 120.14925373134328,
+        "h": 10,
+        "fill": "B9C7D1",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "35",
+        "lines": [
+          "35"
+        ],
+        "x": 482,
+        "y": 245,
+        "w": 46,
+        "h": 17.76,
+        "size": 14.8,
+        "color": "647582",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "Recognise good work",
+        "lines": [
+          "Recognise good work"
+        ],
+        "x": 48,
+        "y": 268,
+        "w": 190,
+        "h": 17.76,
+        "size": 14.8,
+        "color": "243441",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 246,
+        "y": 271.0,
+        "w": 230,
+        "h": 10,
+        "fill": "E9EEF1",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "rect",
+        "x": 246,
+        "y": 271.0,
+        "w": 102.98507462686568,
+        "h": 10,
+        "fill": "B9C7D1",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "30",
+        "lines": [
+          "30"
+        ],
+        "x": 482,
+        "y": 268,
+        "w": 46,
+        "h": 17.76,
+        "size": 14.8,
+        "color": "647582",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "Support us when needed",
+        "lines": [
+          "Support us when needed"
+        ],
+        "x": 48,
+        "y": 291,
+        "w": 190,
+        "h": 17.76,
+        "size": 14.8,
+        "color": "243441",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 246,
+        "y": 294.0,
+        "w": 230,
+        "h": 10,
+        "fill": "E9EEF1",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "rect",
+        "x": 246,
+        "y": 294.0,
+        "w": 99.55223880597015,
+        "h": 10,
+        "fill": "B9C7D1",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "29",
+        "lines": [
+          "29"
+        ],
+        "x": 482,
+        "y": 291,
+        "w": 46,
+        "h": 17.76,
+        "size": 14.8,
+        "color": "647582",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "Simpler rules",
+        "lines": [
+          "Simpler rules"
+        ],
+        "x": 48,
+        "y": 314,
+        "w": 190,
+        "h": 17.76,
+        "size": 14.8,
+        "color": "243441",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 246,
+        "y": 317.0,
+        "w": 230,
+        "h": 10,
+        "fill": "E9EEF1",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "rect",
+        "x": 246,
+        "y": 317.0,
+        "w": 68.65671641791045,
+        "h": 10,
+        "fill": "B9C7D1",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "20",
+        "lines": [
+          "20"
+        ],
+        "x": 482,
+        "y": 314,
+        "w": 46,
+        "h": 17.76,
+        "size": 14.8,
+        "color": "647582",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "Be easy to approach",
+        "lines": [
+          "Be easy to approach"
+        ],
+        "x": 48,
+        "y": 337,
+        "w": 190,
+        "h": 17.76,
+        "size": 14.8,
+        "color": "243441",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 246,
+        "y": 340.0,
+        "w": 230,
+        "h": 10,
+        "fill": "E9EEF1",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "rect",
+        "x": 246,
+        "y": 340.0,
+        "w": 61.7910447761194,
+        "h": 10,
+        "fill": "B9C7D1",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "18",
+        "lines": [
+          "18"
+        ],
+        "x": 482,
+        "y": 337,
+        "w": 46,
+        "h": 17.76,
+        "size": 14.8,
+        "color": "647582",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "More activities",
+        "lines": [
+          "More activities"
+        ],
+        "x": 48,
+        "y": 360,
+        "w": 190,
+        "h": 17.76,
+        "size": 14.8,
+        "color": "243441",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 246,
+        "y": 363.0,
+        "w": 230,
+        "h": 10,
+        "fill": "E9EEF1",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "rect",
+        "x": 246,
+        "y": 363.0,
+        "w": 44.626865671641795,
+        "h": 10,
+        "fill": "B9C7D1",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "13",
+        "lines": [
+          "13"
+        ],
+        "x": 482,
+        "y": 360,
+        "w": 46,
+        "h": 17.76,
+        "size": 14.8,
+        "color": "647582",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "Keep us informed",
+        "lines": [
+          "Keep us informed"
+        ],
+        "x": 48,
+        "y": 383,
+        "w": 190,
+        "h": 17.76,
+        "size": 14.8,
+        "color": "243441",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 246,
+        "y": 386.0,
+        "w": 230,
+        "h": 10,
+        "fill": "E9EEF1",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "rect",
+        "x": 246,
+        "y": 386.0,
+        "w": 44.626865671641795,
+        "h": 10,
+        "fill": "365F7B",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "13",
+        "lines": [
+          "13"
+        ],
+        "x": 482,
+        "y": 383,
+        "w": 46,
+        "h": 17.76,
+        "size": 14.8,
+        "color": "365F7B",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "line",
+        "x": 560,
+        "y": 172,
+        "x2": 560,
+        "y2": 400,
+        "color": "DEE4E8",
+        "width": 1
+      },
+      {
+        "kind": "text",
+        "text": "80%",
+        "lines": [
+          "80%"
+        ],
+        "x": 588,
+        "y": 172,
+        "w": 324,
+        "h": 44,
+        "size": 34,
+        "color": "365F7B",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "say leaders act on feedback today",
+        "lines": [
+          "say leaders act on feedback today"
+        ],
+        "x": 588,
+        "y": 218,
+        "w": 324,
+        "h": 22,
+        "size": 17.7,
+        "color": "243441",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 588,
+        "y": 262,
+        "w": 3,
+        "h": 84,
+        "fill": "B9C7D1",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "“Employees’ problems and suggestions should be heard and appropriate action taken promptly.”",
+        "lines": [
+          "“Employees’ problems and suggestions",
+          "should be heard and appropriate action",
+          "taken promptly.”"
+        ],
+        "x": 602,
+        "y": 262,
+        "w": 310,
+        "h": 90,
+        "size": 17.7,
+        "color": "243441",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 48,
+        "y": 420,
+        "w": 864,
+        "h": 40,
+        "fill": "F2F5F7",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "rect",
+        "x": 48,
+        "y": 420,
+        "w": 4,
+        "h": 40,
+        "fill": "365F7B",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "In practice: every concern gets an owner, a date and an answer.",
+        "lines": [
+          "In practice: every concern gets an owner, a date and an answer."
+        ],
+        "x": 66,
+        "y": 432,
+        "w": 836,
+        "h": 19.8,
+        "size": 16.5,
+        "color": "243441",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      }
+    ]
+  },
+  {
+    "slide": 12,
+    "section": "Where to start",
+    "title": "Where to start: Customer Service",
+    "source": "group_hotspots.csv; notebook Step 7.5.",
+    "notes": "[12:00 – 13:00] Where should we start? This table shows the share of positive answers by group, and darker means lower. Customer Service is the lowest group on almost everything: only 57% feel recognised, and 76% plan to stay. People with 3 to 5 years' service also dip. Women answer less positively than men on fairness and recognition. This is not about blaming a team. It tells us where to listen first and where a pilot can make the biggest difference.",
+    "objects": [
+      {
+        "kind": "text",
+        "text": "SAFEWATER LINES  /  WHERE TO START",
+        "lines": [
+          "SAFEWATER LINES / WHERE TO START"
+        ],
+        "x": 48,
+        "y": 26,
+        "w": 864,
+        "h": 16,
+        "size": 11.2,
+        "color": "365F7B",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "Where to start: Customer Service",
+        "lines": [
+          "Where to start: Customer Service"
+        ],
+        "x": 48,
+        "y": 54,
+        "w": 864,
+        "h": 72,
+        "size": 32,
+        "color": "243441",
+        "bold": true,
+        "align": "left",
+        "leading": 1.12
+      },
+      {
+        "kind": "text",
+        "text": "% positive by group. Darker = lower. Groups with at least 10 people.",
+        "lines": [
+          "% positive by group. Darker = lower. Groups with at least 10 people."
+        ],
+        "x": 48,
+        "y": 135,
+        "w": 864,
+        "h": 24,
+        "size": 13.6,
+        "color": "647582",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "line",
+        "x": 48,
+        "y": 500,
+        "x2": 912,
+        "y2": 500,
+        "color": "DEE4E8",
+        "width": 0.6
+      },
+      {
+        "kind": "text",
+        "text": "12",
+        "lines": [
+          "12"
+        ],
+        "x": 816,
+        "y": 510,
+        "w": 96,
+        "h": 12,
+        "size": 9.4,
+        "color": "647582",
+        "bold": false,
+        "align": "right",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 48,
+        "y": 171,
+        "w": 860,
+        "h": 28,
+        "fill": "F2F5F7",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "FAIR DECISIONS",
+        "lines": [
+          "FAIR DECISIONS"
+        ],
+        "x": 308,
+        "y": 180,
+        "w": 150,
+        "h": 14.16,
+        "size": 11.8,
+        "color": "365F7B",
+        "bold": true,
+        "align": "center",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "LEADERS ACT",
+        "lines": [
+          "LEADERS ACT"
+        ],
+        "x": 458,
+        "y": 180,
+        "w": 150,
+        "h": 14.16,
+        "size": 11.8,
+        "color": "365F7B",
+        "bold": true,
+        "align": "center",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "RECOGNITION",
+        "lines": [
+          "RECOGNITION"
+        ],
+        "x": 608,
+        "y": 180,
+        "w": 150,
+        "h": 14.16,
+        "size": 11.8,
+        "color": "365F7B",
+        "bold": true,
+        "align": "center",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "PLAN TO STAY",
+        "lines": [
+          "PLAN TO STAY"
+        ],
+        "x": 758,
+        "y": 180,
+        "w": 150,
+        "h": 14.16,
+        "size": 11.8,
+        "color": "365F7B",
+        "bold": true,
+        "align": "center",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "Everyone (327)",
+        "lines": [
+          "Everyone (327)"
+        ],
+        "x": 57,
+        "y": 209,
+        "w": 242,
+        "h": 19.08,
+        "size": 15.9,
+        "color": "243441",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 309,
+        "y": 203,
+        "w": 148,
+        "h": 26,
+        "fill": "87A0B1",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "75%",
+        "lines": [
+          "75%"
+        ],
+        "x": 308,
+        "y": 209,
+        "w": 150,
+        "h": 19.08,
+        "size": 15.9,
+        "color": "FFFFFF",
+        "bold": false,
+        "align": "center",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 459,
+        "y": 203,
+        "w": 148,
+        "h": 26,
+        "fill": "9EB2C0",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "80%",
+        "lines": [
+          "80%"
+        ],
+        "x": 458,
+        "y": 209,
+        "w": 150,
+        "h": 19.08,
+        "size": 15.9,
+        "color": "243441",
+        "bold": false,
+        "align": "center",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 609,
+        "y": 203,
+        "w": 148,
+        "h": 26,
+        "fill": "7893A6",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "72%",
+        "lines": [
+          "72%"
+        ],
+        "x": 608,
+        "y": 209,
+        "w": 150,
+        "h": 19.08,
+        "size": 15.9,
+        "color": "FFFFFF",
+        "bold": false,
+        "align": "center",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 759,
+        "y": 203,
+        "w": 148,
+        "h": 26,
+        "fill": "C6D2DB",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "87%",
+        "lines": [
+          "87%"
+        ],
+        "x": 758,
+        "y": 209,
+        "w": 150,
+        "h": 19.08,
+        "size": 15.9,
+        "color": "243441",
+        "bold": false,
+        "align": "center",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "Customer Service (51)",
+        "lines": [
+          "Customer Service (51)"
+        ],
+        "x": 57,
+        "y": 242,
+        "w": 242,
+        "h": 19.08,
+        "size": 15.9,
+        "color": "243441",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 309,
+        "y": 236,
+        "w": 148,
+        "h": 26,
+        "fill": "4B7089",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "64%",
+        "lines": [
+          "64%"
+        ],
+        "x": 308,
+        "y": 242,
+        "w": 150,
+        "h": 19.08,
+        "size": 15.9,
+        "color": "FFFFFF",
+        "bold": true,
+        "align": "center",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 459,
+        "y": 236,
+        "w": 148,
+        "h": 26,
+        "fill": "638399",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "69%",
+        "lines": [
+          "69%"
+        ],
+        "x": 458,
+        "y": 242,
+        "w": 150,
+        "h": 19.08,
+        "size": 15.9,
+        "color": "FFFFFF",
+        "bold": true,
+        "align": "center",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 609,
+        "y": 236,
+        "w": 148,
+        "h": 26,
+        "fill": "365F7B",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "57%",
+        "lines": [
+          "57%"
+        ],
+        "x": 608,
+        "y": 242,
+        "w": 150,
+        "h": 19.08,
+        "size": 15.9,
+        "color": "FFFFFF",
+        "bold": true,
+        "align": "center",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 759,
+        "y": 236,
+        "w": 148,
+        "h": 26,
+        "fill": "8DA4B4",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "76%",
+        "lines": [
+          "76%"
+        ],
+        "x": 758,
+        "y": 242,
+        "w": 150,
+        "h": 19.08,
+        "size": 15.9,
+        "color": "243441",
+        "bold": true,
+        "align": "center",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "Sales (54)",
+        "lines": [
+          "Sales (54)"
+        ],
+        "x": 57,
+        "y": 270,
+        "w": 242,
+        "h": 19.08,
+        "size": 15.9,
+        "color": "243441",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 309,
+        "y": 264,
+        "w": 148,
+        "h": 26,
+        "fill": "839DAE",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "75%",
+        "lines": [
+          "75%"
+        ],
+        "x": 308,
+        "y": 270,
+        "w": 150,
+        "h": 19.08,
+        "size": 15.9,
+        "color": "FFFFFF",
+        "bold": false,
+        "align": "center",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 459,
+        "y": 264,
+        "w": 148,
+        "h": 26,
+        "fill": "809AAC",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "74%",
+        "lines": [
+          "74%"
+        ],
+        "x": 458,
+        "y": 270,
+        "w": 150,
+        "h": 19.08,
+        "size": 15.9,
+        "color": "FFFFFF",
+        "bold": false,
+        "align": "center",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 609,
+        "y": 264,
+        "w": 148,
+        "h": 26,
+        "fill": "7692A6",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "72%",
+        "lines": [
+          "72%"
+        ],
+        "x": 608,
+        "y": 270,
+        "w": 150,
+        "h": 19.08,
+        "size": 15.9,
+        "color": "FFFFFF",
+        "bold": false,
+        "align": "center",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 759,
+        "y": 264,
+        "w": 148,
+        "h": 26,
+        "fill": "C4D1D9",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "87%",
+        "lines": [
+          "87%"
+        ],
+        "x": 758,
+        "y": 270,
+        "w": 150,
+        "h": 19.08,
+        "size": 15.9,
+        "color": "243441",
+        "bold": false,
+        "align": "center",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "Documentation (59)",
+        "lines": [
+          "Documentation (59)"
+        ],
+        "x": 57,
+        "y": 298,
+        "w": 242,
+        "h": 19.08,
+        "size": 15.9,
+        "color": "243441",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 309,
+        "y": 292,
+        "w": 148,
+        "h": 26,
+        "fill": "8FA6B6",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "77%",
+        "lines": [
+          "77%"
+        ],
+        "x": 308,
+        "y": 298,
+        "w": 150,
+        "h": 19.08,
+        "size": 15.9,
+        "color": "243441",
+        "bold": false,
+        "align": "center",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 459,
+        "y": 292,
+        "w": 148,
+        "h": 26,
+        "fill": "B8C7D1",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "85%",
+        "lines": [
+          "85%"
+        ],
+        "x": 458,
+        "y": 298,
+        "w": 150,
+        "h": 19.08,
+        "size": 15.9,
+        "color": "243441",
+        "bold": false,
+        "align": "center",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 609,
+        "y": 292,
+        "w": 148,
+        "h": 26,
+        "fill": "A6B9C5",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "81%",
+        "lines": [
+          "81%"
+        ],
+        "x": 608,
+        "y": 298,
+        "w": 150,
+        "h": 19.08,
+        "size": 15.9,
+        "color": "243441",
+        "bold": false,
+        "align": "center",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 759,
+        "y": 292,
+        "w": 148,
+        "h": 26,
+        "fill": "DCE3E9",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "92%",
+        "lines": [
+          "92%"
+        ],
+        "x": 758,
+        "y": 298,
+        "w": 150,
+        "h": 19.08,
+        "size": 15.9,
+        "color": "243441",
+        "bold": false,
+        "align": "center",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "Finance & Accounts (38)",
+        "lines": [
+          "Finance & Accounts (38)"
+        ],
+        "x": 57,
+        "y": 326,
+        "w": 242,
+        "h": 19.08,
+        "size": 15.9,
+        "color": "243441",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 309,
+        "y": 320,
+        "w": 148,
+        "h": 26,
+        "fill": "BAC8D2",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "85%",
+        "lines": [
+          "85%"
+        ],
+        "x": 308,
+        "y": 326,
+        "w": 150,
+        "h": 19.08,
+        "size": 15.9,
+        "color": "243441",
+        "bold": false,
+        "align": "center",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 459,
+        "y": 320,
+        "w": 148,
+        "h": 26,
+        "fill": "A7BAC6",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "82%",
+        "lines": [
+          "82%"
+        ],
+        "x": 458,
+        "y": 326,
+        "w": 150,
+        "h": 19.08,
+        "size": 15.9,
+        "color": "243441",
+        "bold": false,
+        "align": "center",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 609,
+        "y": 320,
+        "w": 148,
+        "h": 26,
+        "fill": "B5C5CF",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "84%",
+        "lines": [
+          "84%"
+        ],
+        "x": 608,
+        "y": 326,
+        "w": 150,
+        "h": 19.08,
+        "size": 15.9,
+        "color": "243441",
+        "bold": false,
+        "align": "center",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 759,
+        "y": 320,
+        "w": 148,
+        "h": 26,
+        "fill": "DFE6EB",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "92%",
+        "lines": [
+          "92%"
+        ],
+        "x": 758,
+        "y": 326,
+        "w": 150,
+        "h": 19.08,
+        "size": 15.9,
+        "color": "243441",
+        "bold": false,
+        "align": "center",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "Operations (36)",
+        "lines": [
+          "Operations (36)"
+        ],
+        "x": 57,
+        "y": 354,
+        "w": 242,
+        "h": 19.08,
+        "size": 15.9,
+        "color": "243441",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 309,
+        "y": 348,
+        "w": 148,
+        "h": 26,
+        "fill": "C9D4DC",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "88%",
+        "lines": [
+          "88%"
+        ],
+        "x": 308,
+        "y": 354,
+        "w": 150,
+        "h": 19.08,
+        "size": 15.9,
+        "color": "243441",
+        "bold": false,
+        "align": "center",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 459,
+        "y": 348,
+        "w": 148,
+        "h": 26,
+        "fill": "CED8E0",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "89%",
+        "lines": [
+          "89%"
+        ],
+        "x": 458,
+        "y": 354,
+        "w": 150,
+        "h": 19.08,
+        "size": 15.9,
+        "color": "243441",
+        "bold": false,
+        "align": "center",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 609,
+        "y": 348,
+        "w": 148,
+        "h": 26,
+        "fill": "BFCDD6",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "86%",
+        "lines": [
+          "86%"
+        ],
+        "x": 608,
+        "y": 354,
+        "w": 150,
+        "h": 19.08,
+        "size": 15.9,
+        "color": "243441",
+        "bold": false,
+        "align": "center",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 759,
+        "y": 348,
+        "w": 148,
+        "h": 26,
+        "fill": "DCE4E9",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "92%",
+        "lines": [
+          "92%"
+        ],
+        "x": 758,
+        "y": 354,
+        "w": 150,
+        "h": 19.08,
+        "size": 15.9,
+        "color": "243441",
+        "bold": false,
+        "align": "center",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "3–5 years’ service (53)",
+        "lines": [
+          "3–5 years’ service (53)"
+        ],
+        "x": 57,
+        "y": 382,
+        "w": 242,
+        "h": 19.08,
+        "size": 15.9,
+        "color": "243441",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 309,
+        "y": 376,
+        "w": 148,
+        "h": 26,
+        "fill": "608097",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "68%",
+        "lines": [
+          "68%"
+        ],
+        "x": 308,
+        "y": 382,
+        "w": 150,
+        "h": 19.08,
+        "size": 15.9,
+        "color": "FFFFFF",
+        "bold": false,
+        "align": "center",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 459,
+        "y": 376,
+        "w": 148,
+        "h": 26,
+        "fill": "87A0B1",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "75%",
+        "lines": [
+          "75%"
+        ],
+        "x": 458,
+        "y": 382,
+        "w": 150,
+        "h": 19.08,
+        "size": 15.9,
+        "color": "FFFFFF",
+        "bold": false,
+        "align": "center",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 609,
+        "y": 376,
+        "w": 148,
+        "h": 26,
+        "fill": "567890",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "66%",
+        "lines": [
+          "66%"
+        ],
+        "x": 608,
+        "y": 382,
+        "w": 150,
+        "h": 19.08,
+        "size": 15.9,
+        "color": "FFFFFF",
+        "bold": false,
+        "align": "center",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 759,
+        "y": 376,
+        "w": 148,
+        "h": 26,
+        "fill": "9BB0BE",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "79%",
+        "lines": [
+          "79%"
+        ],
+        "x": 758,
+        "y": 382,
+        "w": 150,
+        "h": 19.08,
+        "size": 15.9,
+        "color": "243441",
+        "bold": false,
+        "align": "center",
+        "leading": 1.2
+      },
+      {
+        "kind": "line",
+        "x": 48,
+        "y": 457,
+        "x2": 912,
+        "y2": 457,
+        "color": "DEE4E8",
+        "width": 1
+      },
+      {
+        "kind": "text",
+        "text": "Women answer less positively than men on fair decisions and recognition (9–13 points lower).",
+        "lines": [
+          "Women answer less positively than men on fair decisions and recognition (9–13 points lower)."
+        ],
+        "x": 48,
+        "y": 465,
+        "w": 864,
+        "h": 26,
+        "size": 12.4,
+        "color": "647582",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      }
+    ]
+  },
+  {
+    "slide": 13,
+    "section": "A smaller fix",
+    "title": "A smaller fix: handovers between teams",
+    "source": "cross_team_paired_detail.csv; item_evidence_profile.csv (CAM1, CAM2).",
+    "notes": "[13:00 – 14:00] There is one smaller issue. People rate their own team very highly, 91%, but teams working together across the company lower, 82%. 45 people rate their own team well but other teams poorly. It is real, but smaller than the two priorities, and people rarely raised it on their own. So we suggest a targeted fix: take one handover in Customer Service and agree who sends what, who receives it, and who covers when someone is away.",
+    "objects": [
+      {
+        "kind": "text",
+        "text": "SAFEWATER LINES  /  A SMALLER FIX",
+        "lines": [
+          "SAFEWATER LINES / A SMALLER FIX"
+        ],
+        "x": 48,
+        "y": 26,
+        "w": 864,
+        "h": 16,
+        "size": 11.2,
+        "color": "365F7B",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "A smaller fix: handovers between teams",
+        "lines": [
+          "A smaller fix: handovers between teams"
+        ],
+        "x": 48,
+        "y": 54,
+        "w": 864,
+        "h": 72,
+        "size": 32,
+        "color": "243441",
+        "bold": true,
+        "align": "left",
+        "leading": 1.12
+      },
+      {
+        "kind": "text",
+        "text": "People help their own team. Work between teams is harder.",
+        "lines": [
+          "People help their own team. Work between teams is harder."
+        ],
+        "x": 48,
+        "y": 135,
+        "w": 864,
+        "h": 24,
+        "size": 13.6,
+        "color": "647582",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "line",
+        "x": 48,
+        "y": 500,
+        "x2": 912,
+        "y2": 500,
+        "color": "DEE4E8",
+        "width": 0.6
+      },
+      {
+        "kind": "text",
+        "text": "13",
+        "lines": [
+          "13"
+        ],
+        "x": 816,
+        "y": 510,
+        "w": 96,
+        "h": 12,
+        "size": 9.4,
+        "color": "647582",
+        "bold": false,
+        "align": "right",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "My own team helps each other",
+        "lines": [
+          "My own team helps each other"
+        ],
+        "x": 48,
+        "y": 182,
+        "w": 450,
+        "h": 22.679999999999996,
+        "size": 18.9,
+        "color": "243441",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 48,
+        "y": 214,
+        "w": 400,
+        "h": 14,
+        "fill": "E9EEF1",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "rect",
+        "x": 48,
+        "y": 214,
+        "w": 364.52599388379207,
+        "h": 14,
+        "fill": "577A91",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "91%",
+        "lines": [
+          "91%"
+        ],
+        "x": 458,
+        "y": 204,
+        "w": 80,
+        "h": 32,
+        "size": 24,
+        "color": "365F7B",
+        "bold": true,
+        "align": "right",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "Teams across the company work well together",
+        "lines": [
+          "Teams across the company work well together"
+        ],
+        "x": 48,
+        "y": 262,
+        "w": 450,
+        "h": 22.679999999999996,
+        "size": 18.9,
+        "color": "243441",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 48,
+        "y": 294,
+        "w": 400,
+        "h": 14,
+        "fill": "E9EEF1",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "rect",
+        "x": 48,
+        "y": 294,
+        "w": 329.05198776758414,
+        "h": 14,
+        "fill": "577A91",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "82%",
+        "lines": [
+          "82%"
+        ],
+        "x": 458,
+        "y": 284,
+        "w": 80,
+        "h": 32,
+        "size": 24,
+        "color": "365F7B",
+        "bold": true,
+        "align": "right",
+        "leading": 1.2
+      },
+      {
+        "kind": "line",
+        "x": 580,
+        "y": 172,
+        "x2": 580,
+        "y2": 380,
+        "color": "DEE4E8",
+        "width": 1
+      },
+      {
+        "kind": "text",
+        "text": "45",
+        "lines": [
+          "45"
+        ],
+        "x": 612,
+        "y": 172,
+        "w": 300,
+        "h": 56,
+        "size": 46,
+        "color": "365F7B",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "people rate their own team well but work with other teams poorly",
+        "lines": [
+          "people rate their own team well but",
+          "work with other teams poorly"
+        ],
+        "x": 612,
+        "y": 232,
+        "w": 300,
+        "h": 44,
+        "size": 17.7,
+        "color": "243441",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 48,
+        "y": 410,
+        "w": 864,
+        "h": 40,
+        "fill": "F2F5F7",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "rect",
+        "x": 48,
+        "y": 410,
+        "w": 4,
+        "h": 40,
+        "fill": "365F7B",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "The fix: one Customer Service handover. Who sends what, who receives it, who covers.",
+        "lines": [
+          "The fix: one Customer Service handover. Who sends what, who receives it, who covers."
+        ],
+        "x": 66,
+        "y": 422,
+        "w": 836,
+        "h": 19.8,
+        "size": 16.5,
+        "color": "243441",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      }
+    ]
+  },
+  {
+    "slide": 14,
+    "section": "What else we heard",
+    "title": "What else people told us",
+    "source": "one_change_topics.csv; hr_priority_counts.csv.",
+    "notes": "[14:00 – 15:00] When we asked an open question, if you could make one change, people mostly asked for better communication, recognition, career growth and follow-through. That matches our two priorities. People also care about pay, benefits and facilities: 51 people picked it as HR's main job. A 90-day pilot cannot fix pay, so we suggest sending it to the yearly pay and facilities review, and telling people clearly that this is where it went.",
+    "objects": [
+      {
+        "kind": "text",
+        "text": "SAFEWATER LINES  /  WHAT ELSE WE HEARD",
+        "lines": [
+          "SAFEWATER LINES / WHAT ELSE WE HEARD"
+        ],
+        "x": 48,
+        "y": 26,
+        "w": 864,
+        "h": 16,
+        "size": 11.2,
+        "color": "365F7B",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "What else people told us",
+        "lines": [
+          "What else people told us"
+        ],
+        "x": 48,
+        "y": 54,
+        "w": 864,
+        "h": 72,
+        "size": 32,
+        "color": "243441",
+        "bold": true,
+        "align": "left",
+        "leading": 1.12
+      },
+      {
+        "kind": "text",
+        "text": "“If you could make one change…”: the question that did not suggest any topic.",
+        "lines": [
+          "“If you could make one change…”: the question that did not suggest any topic."
+        ],
+        "x": 48,
+        "y": 135,
+        "w": 864,
+        "h": 24,
+        "size": 13.6,
+        "color": "647582",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "line",
+        "x": 48,
+        "y": 500,
+        "x2": 912,
+        "y2": 500,
+        "color": "DEE4E8",
+        "width": 0.6
+      },
+      {
+        "kind": "text",
+        "text": "14",
+        "lines": [
+          "14"
+        ],
+        "x": 816,
+        "y": 510,
+        "w": 96,
+        "h": 12,
+        "size": 9.4,
+        "color": "647582",
+        "bold": false,
+        "align": "right",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "Better communication",
+        "lines": [
+          "Better communication"
+        ],
+        "x": 48,
+        "y": 182,
+        "w": 200,
+        "h": 19.8,
+        "size": 16.5,
+        "color": "243441",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 256,
+        "y": 185.75,
+        "w": 230,
+        "h": 10,
+        "fill": "E9EEF1",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "rect",
+        "x": 256,
+        "y": 185.75,
+        "w": 230.0,
+        "h": 10,
+        "fill": "365F7B",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "69",
+        "lines": [
+          "69"
+        ],
+        "x": 492,
+        "y": 182,
+        "w": 46,
+        "h": 19.8,
+        "size": 16.5,
+        "color": "365F7B",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "Recognition & feedback",
+        "lines": [
+          "Recognition & feedback"
+        ],
+        "x": 48,
+        "y": 216,
+        "w": 200,
+        "h": 19.8,
+        "size": 16.5,
+        "color": "243441",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 256,
+        "y": 219.75,
+        "w": 230,
+        "h": 10,
+        "fill": "E9EEF1",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "rect",
+        "x": 256,
+        "y": 219.75,
+        "w": 200.0,
+        "h": 10,
+        "fill": "365F7B",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "60",
+        "lines": [
+          "60"
+        ],
+        "x": 492,
+        "y": 216,
+        "w": 46,
+        "h": 19.8,
+        "size": 16.5,
+        "color": "365F7B",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "Career growth & learning",
+        "lines": [
+          "Career growth & learning"
+        ],
+        "x": 48,
+        "y": 250,
+        "w": 200,
+        "h": 19.8,
+        "size": 16.5,
+        "color": "243441",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 256,
+        "y": 253.75,
+        "w": 230,
+        "h": 10,
+        "fill": "E9EEF1",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "rect",
+        "x": 256,
+        "y": 253.75,
+        "w": 156.66666666666669,
+        "h": 10,
+        "fill": "365F7B",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "47",
+        "lines": [
+          "47"
+        ],
+        "x": 492,
+        "y": 250,
+        "w": 46,
+        "h": 19.8,
+        "size": 16.5,
+        "color": "365F7B",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "Act on what we say",
+        "lines": [
+          "Act on what we say"
+        ],
+        "x": 48,
+        "y": 284,
+        "w": 200,
+        "h": 19.8,
+        "size": 16.5,
+        "color": "243441",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 256,
+        "y": 287.75,
+        "w": 230,
+        "h": 10,
+        "fill": "E9EEF1",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "rect",
+        "x": 256,
+        "y": 287.75,
+        "w": 136.66666666666666,
+        "h": 10,
+        "fill": "365F7B",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "41",
+        "lines": [
+          "41"
+        ],
+        "x": 492,
+        "y": 284,
+        "w": 46,
+        "h": 19.8,
+        "size": 16.5,
+        "color": "365F7B",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "Workload & flexibility",
+        "lines": [
+          "Workload & flexibility"
+        ],
+        "x": 48,
+        "y": 318,
+        "w": 200,
+        "h": 19.8,
+        "size": 16.5,
+        "color": "243441",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 256,
+        "y": 321.75,
+        "w": 230,
+        "h": 10,
+        "fill": "E9EEF1",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "rect",
+        "x": 256,
+        "y": 321.75,
+        "w": 126.66666666666667,
+        "h": 10,
+        "fill": "B9C7D1",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "38",
+        "lines": [
+          "38"
+        ],
+        "x": 492,
+        "y": 318,
+        "w": 46,
+        "h": 19.8,
+        "size": 16.5,
+        "color": "647582",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "Support & respect",
+        "lines": [
+          "Support & respect"
+        ],
+        "x": 48,
+        "y": 352,
+        "w": 200,
+        "h": 19.8,
+        "size": 16.5,
+        "color": "243441",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 256,
+        "y": 355.75,
+        "w": 230,
+        "h": 10,
+        "fill": "E9EEF1",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "rect",
+        "x": 256,
+        "y": 355.75,
+        "w": 120.0,
+        "h": 10,
+        "fill": "B9C7D1",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "36",
+        "lines": [
+          "36"
+        ],
+        "x": 492,
+        "y": 352,
+        "w": 46,
+        "h": 19.8,
+        "size": 16.5,
+        "color": "647582",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "people",
+        "lines": [
+          "people"
+        ],
+        "x": 492,
+        "y": 165,
+        "w": 60,
+        "h": 14.16,
+        "size": 11.8,
+        "color": "647582",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "line",
+        "x": 580,
+        "y": 172,
+        "x2": 580,
+        "y2": 420,
+        "color": "DEE4E8",
+        "width": 1
+      },
+      {
+        "kind": "text",
+        "text": "ALSO HEARD",
+        "lines": [
+          "ALSO HEARD"
+        ],
+        "x": 612,
+        "y": 172,
+        "w": 300,
+        "h": 18,
+        "size": 11.8,
+        "color": "365F7B",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "Pay, benefits & facilities",
+        "lines": [
+          "Pay, benefits & facilities"
+        ],
+        "x": 612,
+        "y": 200,
+        "w": 300,
+        "h": 24.12,
+        "size": 20.1,
+        "color": "243441",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "51 people picked this as HR’s main job.",
+        "lines": [
+          "51 people picked this as HR’s main",
+          "job."
+        ],
+        "x": 612,
+        "y": 232,
+        "w": 300,
+        "h": 42.48,
+        "size": 17.7,
+        "color": "243441",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "Send it to the yearly pay and facilities review, and tell people that is where it went.",
+        "lines": [
+          "Send it to the yearly pay and",
+          "facilities review, and tell people",
+          "that is where it went."
+        ],
+        "x": 612,
+        "y": 292,
+        "w": 300,
+        "h": 64,
+        "size": 17.7,
+        "color": "365F7B",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "line",
+        "x": 48,
+        "y": 457,
+        "x2": 912,
+        "y2": 457,
+        "color": "DEE4E8",
+        "width": 1
+      },
+      {
+        "kind": "text",
+        "text": "A 90-day pilot cannot fix pay. Being open about where it goes still builds trust.",
+        "lines": [
+          "A 90-day pilot cannot fix pay. Being open about where it goes still builds trust."
+        ],
+        "x": 48,
+        "y": 465,
+        "w": 864,
+        "h": 26,
+        "size": 12.4,
+        "color": "647582",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      }
+    ]
+  },
+  {
+    "slide": 15,
+    "section": "Our plan",
+    "title": "Our plan: one 90-day pilot,\nthree parts",
+    "source": "implementation_roadmap_0_90_days.csv (revised IDs P1, P2, T); proposed owners, not approved commitments.",
+    "notes": "[15:00 – 16:30] Here is the plan. One 90-day pilot with three parts, starting in Customer Service. Part one, owned by the HR head: publish clear rules for promotion, pay and rewards, give a reason for every decision, and have managers recognise each person every month. Part two, owned by a leadership sponsor: log every concern with an owner and a date, and send a monthly 'you said, we did' update. Part three, owned by the Operations head: fix one handover between teams. None of this needs a new system.",
+    "objects": [
+      {
+        "kind": "text",
+        "text": "SAFEWATER LINES  /  OUR PLAN",
+        "lines": [
+          "SAFEWATER LINES / OUR PLAN"
+        ],
+        "x": 48,
+        "y": 26,
+        "w": 864,
+        "h": 16,
+        "size": 11.2,
+        "color": "365F7B",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "Our plan: one 90-day pilot,\nthree parts",
+        "lines": [
+          "Our plan: one 90-day pilot,",
+          "three parts"
+        ],
+        "x": 48,
+        "y": 54,
+        "w": 864,
+        "h": 72,
+        "size": 32,
+        "color": "243441",
+        "bold": true,
+        "align": "left",
+        "leading": 1.12
+      },
+      {
+        "kind": "text",
+        "text": "Starting in Customer Service. Using the tools and processes we already have.",
+        "lines": [
+          "Starting in Customer Service. Using the tools and processes we already have."
+        ],
+        "x": 48,
+        "y": 135,
+        "w": 864,
+        "h": 24,
+        "size": 13.6,
+        "color": "647582",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "line",
+        "x": 48,
+        "y": 500,
+        "x2": 912,
+        "y2": 500,
+        "color": "DEE4E8",
+        "width": 0.6
+      },
+      {
+        "kind": "text",
+        "text": "15",
+        "lines": [
+          "15"
+        ],
+        "x": 816,
+        "y": 510,
+        "w": 96,
+        "h": 12,
+        "size": 9.4,
+        "color": "647582",
+        "bold": false,
+        "align": "right",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 48,
+        "y": 172,
+        "w": 272,
+        "h": 34,
+        "fill": "F2F5F7",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "1  /  Fair decisions",
+        "lines": [
+          "1 / Fair decisions"
+        ],
+        "x": 60,
+        "y": 181,
+        "w": 256,
+        "h": 21.24,
+        "size": 17.7,
+        "color": "365F7B",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "OWNER",
+        "lines": [
+          "OWNER"
+        ],
+        "x": 48,
+        "y": 218,
+        "w": 272,
+        "h": 13.44,
+        "size": 11.2,
+        "color": "365F7B",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "HR head",
+        "lines": [
+          "HR head"
+        ],
+        "x": 48,
+        "y": 234,
+        "w": 272,
+        "h": 21.24,
+        "size": 17.7,
+        "color": "243441",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 48,
+        "y": 280,
+        "w": 6,
+        "h": 6,
+        "fill": "365F7B",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "Publish clear rules for promotion, pay and rewards.",
+        "lines": [
+          "Publish clear rules for promotion,",
+          "pay and rewards."
+        ],
+        "x": 64,
+        "y": 273,
+        "w": 254,
+        "h": 40,
+        "size": 16.5,
+        "color": "243441",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 48,
+        "y": 330,
+        "w": 6,
+        "h": 6,
+        "fill": "365F7B",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "Give a reason for every decision.",
+        "lines": [
+          "Give a reason for every decision."
+        ],
+        "x": 64,
+        "y": 323,
+        "w": 254,
+        "h": 40,
+        "size": 16.5,
+        "color": "243441",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 48,
+        "y": 380,
+        "w": 6,
+        "h": 6,
+        "fill": "365F7B",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "Managers recognise each person monthly.",
+        "lines": [
+          "Managers recognise each person",
+          "monthly."
+        ],
+        "x": 64,
+        "y": 373,
+        "w": 254,
+        "h": 40,
+        "size": 16.5,
+        "color": "243441",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 344,
+        "y": 172,
+        "w": 272,
+        "h": 34,
+        "fill": "F2F5F7",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "2  /  Listen and act",
+        "lines": [
+          "2 / Listen and act"
+        ],
+        "x": 356,
+        "y": 181,
+        "w": 256,
+        "h": 21.24,
+        "size": 17.7,
+        "color": "365F7B",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "OWNER",
+        "lines": [
+          "OWNER"
+        ],
+        "x": 344,
+        "y": 218,
+        "w": 272,
+        "h": 13.44,
+        "size": 11.2,
+        "color": "365F7B",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "Leadership sponsor + HR",
+        "lines": [
+          "Leadership sponsor + HR"
+        ],
+        "x": 344,
+        "y": 234,
+        "w": 272,
+        "h": 21.24,
+        "size": 17.7,
+        "color": "243441",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 344,
+        "y": 280,
+        "w": 6,
+        "h": 6,
+        "fill": "365F7B",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "Log every concern with an owner and a date.",
+        "lines": [
+          "Log every concern with an owner",
+          "and a date."
+        ],
+        "x": 360,
+        "y": 273,
+        "w": 254,
+        "h": 40,
+        "size": 16.5,
+        "color": "243441",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 344,
+        "y": 330,
+        "w": 6,
+        "h": 6,
+        "fill": "365F7B",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "Monthly “you said, we did” update.",
+        "lines": [
+          "Monthly “you said, we did” update."
+        ],
+        "x": 360,
+        "y": 323,
+        "w": 254,
+        "h": 40,
+        "size": 16.5,
+        "color": "243441",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 344,
+        "y": 380,
+        "w": 6,
+        "h": 6,
+        "fill": "365F7B",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "Listening sessions, Customer Service first.",
+        "lines": [
+          "Listening sessions, Customer",
+          "Service first."
+        ],
+        "x": 360,
+        "y": 373,
+        "w": 254,
+        "h": 40,
+        "size": 16.5,
+        "color": "243441",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 640,
+        "y": 172,
+        "w": 272,
+        "h": 34,
+        "fill": "F2F5F7",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "3  /  Handovers",
+        "lines": [
+          "3 / Handovers"
+        ],
+        "x": 652,
+        "y": 181,
+        "w": 256,
+        "h": 21.24,
+        "size": 17.7,
+        "color": "365F7B",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "OWNER",
+        "lines": [
+          "OWNER"
+        ],
+        "x": 640,
+        "y": 218,
+        "w": 272,
+        "h": 13.44,
+        "size": 11.2,
+        "color": "365F7B",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "Operations head",
+        "lines": [
+          "Operations head"
+        ],
+        "x": 640,
+        "y": 234,
+        "w": 272,
+        "h": 21.24,
+        "size": 17.7,
+        "color": "243441",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 640,
+        "y": 280,
+        "w": 6,
+        "h": 6,
+        "fill": "365F7B",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "Map one Customer Service handover.",
+        "lines": [
+          "Map one Customer Service",
+          "handover."
+        ],
+        "x": 656,
+        "y": 273,
+        "w": 254,
+        "h": 40,
+        "size": 16.5,
+        "color": "243441",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 640,
+        "y": 330,
+        "w": 6,
+        "h": 6,
+        "fill": "365F7B",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "Agree who sends, receives and covers.",
+        "lines": [
+          "Agree who sends, receives and",
+          "covers."
+        ],
+        "x": 656,
+        "y": 323,
+        "w": 254,
+        "h": 40,
+        "size": 16.5,
+        "color": "243441",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 640,
+        "y": 380,
+        "w": 6,
+        "h": 6,
+        "fill": "365F7B",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "Flag anything overdue.",
+        "lines": [
+          "Flag anything overdue."
+        ],
+        "x": 656,
+        "y": 373,
+        "w": 254,
+        "h": 40,
+        "size": 16.5,
+        "color": "243441",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "line",
+        "x": 48,
+        "y": 457,
+        "x2": 912,
+        "y2": 457,
+        "color": "DEE4E8",
+        "width": 1
+      },
+      {
+        "kind": "text",
+        "text": "No new system is needed. Owners are our proposal and need leadership approval.",
+        "lines": [
+          "No new system is needed. Owners are our proposal and need leadership approval."
+        ],
+        "x": 48,
+        "y": 465,
+        "w": 864,
+        "h": 26,
+        "size": 12.4,
+        "color": "647582",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      }
+    ]
+  },
+  {
+    "slide": 16,
+    "section": "Step by step",
+    "title": "90 days, step by step",
+    "source": "roadmap_decision_gates.csv (adapted).",
+    "notes": "[16:30 – 17:30] Step by step. In the first two weeks we choose the pilot teams, check today's rules and run a short anonymous survey as our starting point. By day 30 the rules are published, owners are named and the concern log is open. From day 31 to 60 we run it, review problems every week and check it is not adding paperwork. In the last month we repeat the short survey and decide together: grow it, change it or stop it.",
+    "objects": [
+      {
+        "kind": "text",
+        "text": "SAFEWATER LINES  /  STEP BY STEP",
+        "lines": [
+          "SAFEWATER LINES / STEP BY STEP"
+        ],
+        "x": 48,
+        "y": 26,
+        "w": 864,
+        "h": 16,
+        "size": 11.2,
+        "color": "365F7B",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "90 days, step by step",
+        "lines": [
+          "90 days, step by step"
+        ],
+        "x": 48,
+        "y": 54,
+        "w": 864,
+        "h": 72,
+        "size": 32,
+        "color": "243441",
+        "bold": true,
+        "align": "left",
+        "leading": 1.12
+      },
+      {
+        "kind": "text",
+        "text": "Day 0 is the day leadership approves the pilot.",
+        "lines": [
+          "Day 0 is the day leadership approves the pilot."
+        ],
+        "x": 48,
+        "y": 135,
+        "w": 864,
+        "h": 24,
+        "size": 13.6,
+        "color": "647582",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "line",
+        "x": 48,
+        "y": 500,
+        "x2": 912,
+        "y2": 500,
+        "color": "DEE4E8",
+        "width": 0.6
+      },
+      {
+        "kind": "text",
+        "text": "16",
+        "lines": [
+          "16"
+        ],
+        "x": 816,
+        "y": 510,
+        "w": 96,
+        "h": 12,
+        "size": 9.4,
+        "color": "647582",
+        "bold": false,
+        "align": "right",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 48,
+        "y": 174,
+        "w": 198,
+        "h": 3,
+        "fill": "365F7B",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "DAYS 0–14",
+        "lines": [
+          "DAYS 0–14"
+        ],
+        "x": 48,
+        "y": 192,
+        "w": 198,
+        "h": 18,
+        "size": 11.8,
+        "color": "365F7B",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "Get ready",
+        "lines": [
+          "Get ready"
+        ],
+        "x": 48,
+        "y": 224,
+        "w": 198,
+        "h": 28,
+        "size": 20,
+        "color": "243441",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "Pick pilot teams. Check today’s rules. Short anonymous survey.",
+        "lines": [
+          "Pick pilot teams. Check",
+          "today’s rules. Short",
+          "anonymous survey."
+        ],
+        "x": 48,
+        "y": 270,
+        "w": 194,
+        "h": 110,
+        "size": 17.1,
+        "color": "647582",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 270,
+        "y": 174,
+        "w": 198,
+        "h": 3,
+        "fill": "365F7B",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "DAYS 15–30",
+        "lines": [
+          "DAYS 15–30"
+        ],
+        "x": 270,
+        "y": 192,
+        "w": 198,
+        "h": 18,
+        "size": 11.8,
+        "color": "365F7B",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "Set up",
+        "lines": [
+          "Set up"
+        ],
+        "x": 270,
+        "y": 224,
+        "w": 198,
+        "h": 28,
+        "size": 20,
+        "color": "243441",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "Publish rules. Name owners. Open the concern log.",
+        "lines": [
+          "Publish rules. Name",
+          "owners. Open the",
+          "concern log."
+        ],
+        "x": 270,
+        "y": 270,
+        "w": 194,
+        "h": 110,
+        "size": 17.1,
+        "color": "647582",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 492,
+        "y": 174,
+        "w": 198,
+        "h": 3,
+        "fill": "365F7B",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "DAYS 31–60",
+        "lines": [
+          "DAYS 31–60"
+        ],
+        "x": 492,
+        "y": 192,
+        "w": 198,
+        "h": 18,
+        "size": 11.8,
+        "color": "365F7B",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "Run it",
+        "lines": [
+          "Run it"
+        ],
+        "x": 492,
+        "y": 224,
+        "w": 198,
+        "h": 28,
+        "size": 20,
+        "color": "243441",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "Monthly recognition and updates. Weekly problem review.",
+        "lines": [
+          "Monthly recognition and",
+          "updates. Weekly problem",
+          "review."
+        ],
+        "x": 492,
+        "y": 270,
+        "w": 194,
+        "h": 110,
+        "size": 17.1,
+        "color": "647582",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 714,
+        "y": 174,
+        "w": 198,
+        "h": 3,
+        "fill": "365F7B",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "DAYS 61–90",
+        "lines": [
+          "DAYS 61–90"
+        ],
+        "x": 714,
+        "y": 192,
+        "w": 198,
+        "h": 18,
+        "size": 11.8,
+        "color": "365F7B",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "Decide",
+        "lines": [
+          "Decide"
+        ],
+        "x": 714,
+        "y": 224,
+        "w": 198,
+        "h": 28,
+        "size": 20,
+        "color": "243441",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "Repeat the short survey. Grow it, change it or stop it.",
+        "lines": [
+          "Repeat the short survey.",
+          "Grow it, change it or stop",
+          "it."
+        ],
+        "x": 714,
+        "y": 270,
+        "w": 194,
+        "h": 110,
+        "size": 17.1,
+        "color": "647582",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "line",
+        "x": 48,
+        "y": 457,
+        "x2": 912,
+        "y2": 457,
+        "color": "DEE4E8",
+        "width": 1
+      },
+      {
+        "kind": "text",
+        "text": "At each step, leadership decides whether to continue.",
+        "lines": [
+          "At each step, leadership decides whether to continue."
+        ],
+        "x": 48,
+        "y": 465,
+        "w": 864,
+        "h": 26,
+        "size": 12.4,
+        "color": "647582",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      }
+    ]
+  },
+  {
+    "slide": 17,
+    "section": "How we'll know",
+    "title": "How we will know it worked",
+    "source": "roadmap_kpi_dictionary.csv; item_evidence_profile.csv. Targets are suggestions to confirm in the first 14 days.",
+    "notes": "[17:30 – 18:30] How will we know it worked? For each part we check two things: did we do the work, and did employees notice? For example, rules published for every pilot role, and the share who say decisions are consistent going up from 75% by about 5 points. We measure with a short anonymous survey so people can be honest. And we watch our strengths, pride and teamwork, to make sure they do not drop.",
+    "objects": [
+      {
+        "kind": "text",
+        "text": "SAFEWATER LINES  /  HOW WE'LL KNOW",
+        "lines": [
+          "SAFEWATER LINES / HOW WE'LL KNOW"
+        ],
+        "x": 48,
+        "y": 26,
+        "w": 864,
+        "h": 16,
+        "size": 11.2,
+        "color": "365F7B",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "How we will know it worked",
+        "lines": [
+          "How we will know it worked"
+        ],
+        "x": 48,
+        "y": 54,
+        "w": 864,
+        "h": 72,
+        "size": 32,
+        "color": "243441",
+        "bold": true,
+        "align": "left",
+        "leading": 1.12
+      },
+      {
+        "kind": "text",
+        "text": "Check that we did the work, and that employees noticed.",
+        "lines": [
+          "Check that we did the work, and that employees noticed."
+        ],
+        "x": 48,
+        "y": 135,
+        "w": 864,
+        "h": 24,
+        "size": 13.6,
+        "color": "647582",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "line",
+        "x": 48,
+        "y": 500,
+        "x2": 912,
+        "y2": 500,
+        "color": "DEE4E8",
+        "width": 0.6
+      },
+      {
+        "kind": "text",
+        "text": "17",
+        "lines": [
+          "17"
+        ],
+        "x": 816,
+        "y": 510,
+        "w": 96,
+        "h": 12,
+        "size": 9.4,
+        "color": "647582",
+        "bold": false,
+        "align": "right",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 48,
+        "y": 171,
+        "w": 864,
+        "h": 30,
+        "fill": "F2F5F7",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "PART",
+        "lines": [
+          "PART"
+        ],
+        "x": 57,
+        "y": 179,
+        "w": 132,
+        "h": 21,
+        "size": 11.8,
+        "color": "365F7B",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "WE CHECK THAT…",
+        "lines": [
+          "WE CHECK THAT…"
+        ],
+        "x": 207,
+        "y": 179,
+        "w": 342,
+        "h": 21,
+        "size": 11.8,
+        "color": "365F7B",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "EMPLOYEES SHOULD SAY… (TODAY → GOAL)",
+        "lines": [
+          "EMPLOYEES SHOULD SAY… (TODAY → GOAL)"
+        ],
+        "x": 567,
+        "y": 179,
+        "w": 336,
+        "h": 21,
+        "size": 11.8,
+        "color": "365F7B",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "Fair decisions",
+        "lines": [
+          "Fair decisions"
+        ],
+        "x": 57,
+        "y": 211,
+        "w": 132,
+        "h": 44,
+        "size": 14.8,
+        "color": "243441",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "Rules are published for every pilot role, with a reason for each decision.",
+        "lines": [
+          "Rules are published for every pilot role, with a",
+          "reason for each decision."
+        ],
+        "x": 207,
+        "y": 211,
+        "w": 342,
+        "h": 44,
+        "size": 14.8,
+        "color": "647582",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "“Decisions are consistent”: 75% → about 80%",
+        "lines": [
+          "“Decisions are consistent”: 75% → about 80%"
+        ],
+        "x": 567,
+        "y": 211,
+        "w": 336,
+        "h": 44,
+        "size": 14.8,
+        "color": "647582",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "line",
+        "x": 48,
+        "y": 257,
+        "x2": 912,
+        "y2": 257,
+        "color": "DEE4E8",
+        "width": 0.6
+      },
+      {
+        "kind": "text",
+        "text": "Listen and act",
+        "lines": [
+          "Listen and act"
+        ],
+        "x": 57,
+        "y": 267,
+        "w": 132,
+        "h": 44,
+        "size": 14.8,
+        "color": "243441",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "Every concern is answered within 2 working days and has an owner.",
+        "lines": [
+          "Every concern is answered within 2 working days",
+          "and has an owner."
+        ],
+        "x": 207,
+        "y": 267,
+        "w": 342,
+        "h": 44,
+        "size": 14.8,
+        "color": "647582",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "“Leaders act on feedback”: 80% → about 85%",
+        "lines": [
+          "“Leaders act on feedback”: 80% → about 85%"
+        ],
+        "x": 567,
+        "y": 267,
+        "w": 336,
+        "h": 44,
+        "size": 14.8,
+        "color": "647582",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "line",
+        "x": 48,
+        "y": 313,
+        "x2": 912,
+        "y2": 313,
+        "color": "DEE4E8",
+        "width": 0.6
+      },
+      {
+        "kind": "text",
+        "text": "Handovers",
+        "lines": [
+          "Handovers"
+        ],
+        "x": 57,
+        "y": 323,
+        "w": 132,
+        "h": 44,
+        "size": 14.8,
+        "color": "243441",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "At least 95% of handovers are complete by Day 60.",
+        "lines": [
+          "At least 95% of handovers are complete by Day 60."
+        ],
+        "x": 207,
+        "y": 323,
+        "w": 342,
+        "h": 44,
+        "size": 14.8,
+        "color": "647582",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "“Teams work well together”: 82% → higher",
+        "lines": [
+          "“Teams work well together”: 82% → higher"
+        ],
+        "x": 567,
+        "y": 323,
+        "w": 336,
+        "h": 44,
+        "size": 14.8,
+        "color": "647582",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "line",
+        "x": 48,
+        "y": 369,
+        "x2": 912,
+        "y2": 369,
+        "color": "DEE4E8",
+        "width": 0.6
+      },
+      {
+        "kind": "text",
+        "text": "Protect strengths",
+        "lines": [
+          "Protect strengths"
+        ],
+        "x": 57,
+        "y": 379,
+        "w": 132,
+        "h": 44,
+        "size": 14.8,
+        "color": "243441",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "No extra paperwork beyond the agreed logs.",
+        "lines": [
+          "No extra paperwork beyond the agreed logs."
+        ],
+        "x": 207,
+        "y": 379,
+        "w": 342,
+        "h": 44,
+        "size": 14.8,
+        "color": "647582",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "Pride 92% and own-team help 91% do not drop",
+        "lines": [
+          "Pride 92% and own-team help 91% do not drop"
+        ],
+        "x": 567,
+        "y": 379,
+        "w": 336,
+        "h": 44,
+        "size": 14.8,
+        "color": "647582",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "line",
+        "x": 48,
+        "y": 425,
+        "x2": 912,
+        "y2": 425,
+        "color": "DEE4E8",
+        "width": 0.6
+      },
+      {
+        "kind": "line",
+        "x": 48,
+        "y": 465,
+        "x2": 912,
+        "y2": 465,
+        "color": "DEE4E8",
+        "width": 1
+      },
+      {
+        "kind": "text",
+        "text": "Measured with a short anonymous survey. Goals are suggestions to confirm in the first 14 days.",
+        "lines": [
+          "Measured with a short anonymous survey. Goals are suggestions to confirm in the first 14 days."
+        ],
+        "x": 48,
+        "y": 473,
+        "w": 864,
+        "h": 26,
+        "size": 12.4,
+        "color": "647582",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      }
+    ]
+  },
+  {
+    "slide": 18,
+    "section": "Your decision",
+    "title": "What we ask you to decide today",
+    "source": "implementation_roadmap_0_90_days.csv; roadmap_decision_gates.csv.",
+    "notes": "[18:30 – 19:30] We are asking for three decisions today. One: approve one 90-day pilot with the three parts. Two: name the owners, the HR head, a leadership sponsor and the Operations head, and give them time for one review a month. Three: run the next survey without names. Thank you. We are happy to take questions.",
+    "objects": [
+      {
+        "kind": "text",
+        "text": "SAFEWATER LINES  /  YOUR DECISION",
+        "lines": [
+          "SAFEWATER LINES / YOUR DECISION"
+        ],
+        "x": 48,
+        "y": 26,
+        "w": 864,
+        "h": 16,
+        "size": 11.2,
+        "color": "365F7B",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "What we ask you to decide today",
+        "lines": [
+          "What we ask you to decide today"
+        ],
+        "x": 48,
+        "y": 54,
+        "w": 864,
+        "h": 72,
+        "size": 32,
+        "color": "243441",
+        "bold": true,
+        "align": "left",
+        "leading": 1.12
+      },
+      {
+        "kind": "text",
+        "text": "Three decisions to get started.",
+        "lines": [
+          "Three decisions to get started."
+        ],
+        "x": 48,
+        "y": 135,
+        "w": 864,
+        "h": 24,
+        "size": 13.6,
+        "color": "647582",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "line",
+        "x": 48,
+        "y": 500,
+        "x2": 912,
+        "y2": 500,
+        "color": "DEE4E8",
+        "width": 0.6
+      },
+      {
+        "kind": "text",
+        "text": "18",
+        "lines": [
+          "18"
+        ],
+        "x": 816,
+        "y": 510,
+        "w": 96,
+        "h": 12,
+        "size": 9.4,
+        "color": "647582",
+        "bold": false,
+        "align": "right",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "01",
+        "lines": [
+          "01"
+        ],
+        "x": 48,
+        "y": 176,
+        "w": 70,
+        "h": 44,
+        "size": 32,
+        "color": "365F7B",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "Approve one 90-day pilot",
+        "lines": [
+          "Approve one 90-day pilot"
+        ],
+        "x": 138,
+        "y": 176,
+        "w": 760,
+        "h": 30,
+        "size": 21,
+        "color": "243441",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "Fair decisions, listen and act, and one handover, starting in Customer Service.",
+        "lines": [
+          "Fair decisions, listen and act, and one handover, starting in Customer Service."
+        ],
+        "x": 138,
+        "y": 214,
+        "w": 760,
+        "h": 24,
+        "size": 17.7,
+        "color": "647582",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "02",
+        "lines": [
+          "02"
+        ],
+        "x": 48,
+        "y": 264,
+        "w": 70,
+        "h": 44,
+        "size": 32,
+        "color": "365F7B",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "Name the owners",
+        "lines": [
+          "Name the owners"
+        ],
+        "x": 138,
+        "y": 264,
+        "w": 760,
+        "h": 30,
+        "size": 21,
+        "color": "243441",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "HR head, a leadership sponsor and the Operations head, with one review a month.",
+        "lines": [
+          "HR head, a leadership sponsor and the Operations head, with one review a month."
+        ],
+        "x": 138,
+        "y": 302,
+        "w": 760,
+        "h": 24,
+        "size": 17.7,
+        "color": "647582",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "03",
+        "lines": [
+          "03"
+        ],
+        "x": 48,
+        "y": 352,
+        "w": 70,
+        "h": 44,
+        "size": 32,
+        "color": "365F7B",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "Run the next survey without names",
+        "lines": [
+          "Run the next survey without names"
+        ],
+        "x": 138,
+        "y": 352,
+        "w": 760,
+        "h": 30,
+        "size": 21,
+        "color": "243441",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "A short anonymous survey now, and again at Day 90.",
+        "lines": [
+          "A short anonymous survey now, and again at Day 90."
+        ],
+        "x": 138,
+        "y": 390,
+        "w": 760,
+        "h": 24,
+        "size": 17.7,
+        "color": "647582",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      }
+    ]
+  },
+  {
+    "slide": 19,
+    "section": "Thank you",
+    "title": "Thank you. Questions?",
+    "source": "Safewater_Lines_Full_Reference.pdf; dashboard/dist/index.html.",
+    "notes": "[19:30 – 20:00] Thank you. Before questions, three honest limits. These links are not proof of cause and effect. We were not given the total headcount. And the comments were read with AI help and checked once, not by an independent team. We are happy to take questions, and we can show any result by department or tenure on the dashboard.",
+    "objects": [
+      {
+        "kind": "text",
+        "text": "SAFEWATER LINES  /  THANK YOU",
+        "lines": [
+          "SAFEWATER LINES / THANK YOU"
+        ],
+        "x": 48,
+        "y": 26,
+        "w": 864,
+        "h": 16,
+        "size": 11.2,
+        "color": "365F7B",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "Thank you. Questions?",
+        "lines": [
+          "Thank you. Questions?"
+        ],
+        "x": 48,
+        "y": 54,
+        "w": 864,
+        "h": 72,
+        "size": 32,
+        "color": "243441",
+        "bold": true,
+        "align": "left",
+        "leading": 1.12
+      },
+      {
+        "kind": "text",
+        "text": "Before questions, three honest limits.",
+        "lines": [
+          "Before questions, three honest limits."
+        ],
+        "x": 48,
+        "y": 135,
+        "w": 864,
+        "h": 24,
+        "size": 13.6,
+        "color": "647582",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "line",
+        "x": 48,
+        "y": 500,
+        "x2": 912,
+        "y2": 500,
+        "color": "DEE4E8",
+        "width": 0.6
+      },
+      {
+        "kind": "text",
+        "text": "19",
+        "lines": [
+          "19"
+        ],
+        "x": 816,
+        "y": 510,
+        "w": 96,
+        "h": 12,
+        "size": 9.4,
+        "color": "647582",
+        "bold": false,
+        "align": "right",
+        "leading": 1.2
+      },
+      {
+        "kind": "text",
+        "text": "WHAT WE CAN AND CANNOT SAY",
+        "lines": [
+          "WHAT WE CAN AND CANNOT SAY"
+        ],
+        "x": 48,
+        "y": 180,
+        "w": 600,
+        "h": 18,
+        "size": 11.8,
+        "color": "365F7B",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 48,
+        "y": 220,
+        "w": 6,
+        "h": 6,
+        "fill": "365F7B",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "The links we show are not proof of cause and effect.",
+        "lines": [
+          "The links we show are not proof of cause and effect."
+        ],
+        "x": 66,
+        "y": 213,
+        "w": 846,
+        "h": 24,
+        "size": 18.9,
+        "color": "243441",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 48,
+        "y": 266,
+        "w": 6,
+        "h": 6,
+        "fill": "365F7B",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "We do not know the total headcount, so we cannot give a response rate.",
+        "lines": [
+          "We do not know the total headcount, so we cannot give a response rate."
+        ],
+        "x": 66,
+        "y": 259,
+        "w": 846,
+        "h": 24,
+        "size": 18.9,
+        "color": "243441",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 48,
+        "y": 312,
+        "w": 6,
+        "h": 6,
+        "fill": "365F7B",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "Comments were read with AI help and checked once, not by an independent team.",
+        "lines": [
+          "Comments were read with AI help and checked once, not by an independent team."
+        ],
+        "x": 66,
+        "y": 305,
+        "w": 846,
+        "h": 24,
+        "size": 18.9,
+        "color": "243441",
+        "bold": false,
+        "align": "left",
+        "leading": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 48,
+        "y": 380,
+        "w": 864,
+        "h": 40,
+        "fill": "F2F5F7",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "rect",
+        "x": 48,
+        "y": 380,
+        "w": 4,
+        "h": 40,
+        "fill": "365F7B",
+        "stroke": null,
+        "radius": false
+      },
+      {
+        "kind": "text",
+        "text": "Happy to take questions. We can show any result by department or tenure.",
+        "lines": [
+          "Happy to take questions. We can show any result by department or tenure."
+        ],
+        "x": 66,
+        "y": 392,
+        "w": 836,
+        "h": 19.8,
+        "size": 16.5,
+        "color": "243441",
+        "bold": true,
+        "align": "left",
+        "leading": 1.2
+      }
+    ]
+  }
+]

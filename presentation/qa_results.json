@@ -1,12 +1,12 @@
 {
-  "slides": 17,
-  "main_slides": 13,
+  "slides": 20,
+  "main_slides": 16,
   "appendix_slides": 4,
   "pptx_reopened": true,
   "all_slides_have_speaker_notes": true,
   "all_shapes_within_slide": true,
   "text_boxes_fit_using_Arial_metrics": true,
-  "pdf_pages": 17,
+  "pdf_pages": 20,
   "preview_engine": "PDF companion rendered by PyMuPDF; not a native PowerPoint render",
-  "source_assertions": "327 records; 9810 answers; 45 paired discordant; 137 fairness breadth; 179 recognition requests"
+  "source_assertions": "327 records; 9810 answers; 45 paired discordant; 137 fairness breadth; 179 recognition requests; fix-first set; two themes strong on 4/4 lenses; Fairness largest driver block; top HR choice = listening"
 }

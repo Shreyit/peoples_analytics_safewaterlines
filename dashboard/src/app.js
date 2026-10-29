@@ -54,17 +54,22 @@
     return `<div class="focus-bar-row"><span class="focus-bar-label" tabindex="0" title="${esc(q.question)}">${esc(label)}</span>${stack(q)}<span class="focus-bar-value">${pct(q.shares[2])}</span></div>`;
   }
   function renderFocus() {
-    const f = D.focus;
-    $("focus-kpis").innerHTML = kpi("Within-team vs cross-team", f.crossGapPP.toFixed(1), "Favourable-share difference · CAM1 minus CAM2", "pp") +
-      kpi("Own team favourable, cross-team 1–3", f.pair.gap, `Out of 327 records · ${f.pair.reverse} show the reverse pattern`) +
-      kpi("At least one fairness item at 1–3", f.fairAnyN, `${pct(f.fairAnyN / 327 * 100)} of records · includes Sometimes`, "/ 327") +
-      kpi("Recognition favourable", pct(item("RES4").shares[2]), "237 / 327 · RES4 contributions recognised");
+    const f = D.focus, p = f.priorities;
+    $("focus-kpis").innerHTML = kpi("Intend to stay 3–5 years", pct(p.stayAll), `Anonymous respondents ${pct(p.stayAnonymous)} · n = ${p.anonymousN}`) +
+      kpi("Fairness share of outcome link", p.fairnessShare.toFixed(0), `Largest block · relative weights, R² ${p.r2.toFixed(2)}`, "%") +
+      kpi("Leaders act on feedback", pct(item("CRE5").shares[2]), `Top actionable link · ${p.listenHrPct.toFixed(0)}% top HR request`) +
+      kpi("Own team favourable, cross-team 1–3", f.pair.gap, `Out of 327 · ${f.pair.reverse} the reverse · targeted fix`);
+    const p1 = [["RES4", "Efforts recognised"], ["CAM5", "Successes celebrated"], ["FAI3", "Consistent decisions"],
+                ["FAI5", "Understanding decisions"], ["FAI1", "Fair rewards & recognition"], ["FAI2", "Equal growth opportunities"]];
+    $("fairness-chart").innerHTML = p1.map(([code, label]) => focusBar(code, label)).join("");
+    $("fairness-note").textContent = `Fairness: ${p.fairnessShare.toFixed(0)}% of the explained link to staying`;
+    $("fairness-any").textContent = f.fairAnyN;
+    const max = Math.max(...p.hrChoice.map(h => h.n));
+    $("listen-chart").innerHTML = p.hrChoice.map(h => `<div class="voice-row"><span class="voice-label">${esc(h.label)}</span><span class="voice-track"><span class="${h.listen ? "listen" : ""}" style="width:${h.n / max * 100}%"></span></span><span class="voice-value ${h.listen ? "listen" : ""}" title="${pct(h.n / 327 * 100)} of respondents">${h.n}</span></div>`).join("");
+    $("listen-note").textContent = `Leaders act on feedback: ${pct(item("CRE5").shares[2])} favourable`;
     $("cross-chart").innerHTML = focusBar("CAM1", "Help within own team") + focusBar("CAM2", "Teams work well together") + focusBar("CAM4", "Support from other teams");
-    $("paired-table").innerHTML = `<table class="paired-table"><thead><tr><th></th><th>Cross-team 1–3</th><th>Cross-team 4–5</th></tr></thead><tbody><tr><th>Own-team 1–3</th><td>${f.pair.bothLower}</td><td>${f.pair.reverse}</td></tr><tr><th>Own-team 4–5</th><td class="emphasis">${f.pair.gap}</td><td>${f.pair.bothFavourable}</td></tr></tbody></table>`;
-    const fairLabels = ["Rewards / performance", "Career-growth opportunities", "Decision consistency", "Workload distribution", "Understanding decisions"];
-    $("fairness-chart").innerHTML = fairLabels.map((label, i) => focusBar("FAI" + (i + 1), label)).join("");
-    $("fairness-two").textContent = f.fairTwoN;
-    $("voice-chart").innerHTML = f.voice.map(t => `<div class="voice-row"><span class="voice-label">${esc(t.label)}</span><span class="voice-track"><span style="width:${t.n / 327 * 100}%"></span></span><span class="voice-value" title="${pct(t.n / 327 * 100)} of all response records">${t.n}</span></div>`).join("");
+    $("paired-note").innerHTML = `<strong>${f.pair.gap}</strong> rate own team 4–5 but cross-team 1–3 · ${f.pair.reverse} the reverse`;
+    $("cs-note").textContent = `Customer Service cross-team ${p.customerServiceCross.toFixed(0)}%`;
   }
 
   function showPage(page, focusTab = false) {
@@ -78,7 +83,7 @@
     $("overview-controls").hidden = state.page !== "overview";
     $("focus-controls").hidden = state.page !== "focus";
     $("footer-page").textContent = state.page === "overview" ? "01 / 02" : "02 / 02";
-    $("footer-scope").textContent = state.page === "overview" ? "Favourable = 4–5 of valid answers. Culture mean is a descriptive working measure." : "Full study. Comment coding is interpretive; independent human validation remains outstanding. Co-occurrence and associations are not causal.";
+    $("footer-scope").textContent = state.page === "overview" ? "Favourable = 4–5 of valid answers. Culture mean is a descriptive working measure." : "Full study. Priority order from notebook Step 7 (four sources of evidence). Associations are not causal; comment coding is not independently validated.";
     if (focusTab) $("tab-" + state.page).focus();
     history.replaceState(null, "", "#" + state.page);
   }

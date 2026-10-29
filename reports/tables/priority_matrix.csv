@@ -1,0 +1,20 @@
+,question,fav_pct,importance_pct,imp_ci_low,imp_ci_high,p_top5,imp_no_straightliners,imp_anonymous_only,quadrant
+CRE5,Leaders are willing to listen to employee feedback and act on it.,79.817,8.468,5.021,13.546,0.708,9.187,7.458,Fix first
+FAI2,Employees have equal opportunities to grow and develop their careers.,81.651,8.088,4.904,11.865,0.75,8.605,8.242,Fix first
+CRE3,I have confidence in the direction of the organization.,89.602,7.697,3.959,12.162,0.61,7.819,6.93,Protect
+RES3,I feel comfortable sharing my views or concerns at work,82.569,7.654,3.424,12.993,0.562,8.054,5.948,Protect
+CAM2,Teams across the organization work well together.,82.263,7.508,3.977,11.458,0.636,7.788,5.402,Fix first
+RES2,"I receive the resources, support and recognition I need to do my job well.",82.875,6.978,3.975,10.627,0.514,7.213,10.31,Protect
+FAI4,I believe workload and responsibilities are distributed fairly within my team.,83.18,6.206,3.321,9.831,0.366,6.302,3.738,Protect
+FAI1,"Performance, recognition and rewards are fair and based on performance.",76.147,5.935,3.433,9.627,0.268,5.999,7.072,Fix first
+FAI3,People-related decisions are made consistently by the Leadership team without favoritism or bias.,74.618,5.07,2.844,8.499,0.136,4.991,3.533,Fix first
+FAI5,I understand how decisions affecting employees are made.,75.535,5.041,2.353,8.77,0.17,4.917,4.04,Fix first
+CRE2,Our leaders do what they say they will do.,82.569,4.644,2.61,7.293,0.066,4.512,4.554,Maintain
+RES5,"I am treated with dignity and respect, regardless of my role or position.",87.156,4.618,2.394,7.568,0.092,4.417,1.881,Maintain
+RES4,My efforts and contributions are appreciated and recognised,72.477,4.354,2.649,6.71,0.026,4.156,8.95,Monitor
+CAM5,People here celebrate each other's successes and achievements.,72.783,3.96,2.225,6.995,0.038,3.655,8.064,Monitor
+RES1,"My manager genuinely supports my performance, development and well-being.",88.073,3.756,2.206,6.389,0.028,3.529,3.274,Maintain
+CRE4,Senior leaders communicate important changes in a timely manner,85.321,3.452,2.11,5.799,0.012,3.149,2.247,Maintain
+CAM4,I can rely on colleagues from other teams when I need their support.,80.122,3.37,1.587,6.511,0.018,2.973,4.666,Monitor
+CRE1,Communication from senior leadership is open and honest.,86.544,2.182,1.362,3.914,0.0,1.837,2.087,Maintain
+CAM1,People in my team genuinely support and help one another,91.131,1.019,0.742,2.375,0.0,0.897,1.604,Maintain

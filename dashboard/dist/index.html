@@ -66,38 +66,36 @@
   <section class="dashboard-page focus-page" id="focus" role="tabpanel" aria-labelledby="tab-focus" hidden>
     <div class="kpi-row" id="focus-kpis"></div>
     <div class="focus-top-grid">
-      <article class="panel cross-panel" data-panel>
-        <div class="panel-heading"><h2>Within-team support vs cross-team work</h2><span class="panel-caption">Favourable shares</span></div>
-        <div id="cross-chart" class="focus-bars"></div>
-        <div class="paired-section"><div class="paired-title">Same-record comparison <span class="muted">n = 327</span></div>
-          <div id="paired-table"></div>
-        </div>
-      </article>
       <article class="panel fairness-panel" data-panel>
-        <div class="panel-heading"><h2>Fairness by survey item</h2><span class="panel-caption">Favourable shares</span></div>
+        <div class="panel-heading"><h2>Priority 1 · Fair decisions, growth &amp; recognition</h2><span class="panel-caption">Favourable shares</span></div>
         <div id="fairness-chart" class="focus-bars"></div>
-        <div class="panel-note fairness-note"><span><strong id="fairness-two">97</strong> records rate ≥2 fairness items at 1–3</span><span>Includes Sometimes</span></div>
+        <div class="panel-note fairness-note"><span id="fairness-note">Fairness is the block most linked to staying</span><span><strong id="fairness-any">137</strong> rate ≥1 fairness item 1–3 · incl. Sometimes</span></div>
+      </article>
+      <article class="panel listen-panel" data-panel>
+        <div class="panel-heading"><h2>Priority 2 · Leaders listen and act</h2><span class="panel-caption">If HR could do one thing better · n = 327</span></div>
+        <div id="listen-chart" class="listen-chart"></div>
+        <div class="panel-note"><span id="listen-note">Leaders act on feedback</span><span>Top actionable link to outcomes</span></div>
       </article>
     </div>
     <div class="focus-bottom-grid">
-      <article class="panel voice-panel" data-panel>
-        <div class="panel-heading"><h2>Related employee requests</h2><span class="panel-caption">Unique records / 327 · topics overlap</span></div>
-        <div id="voice-chart" class="voice-chart"></div>
-        <div class="panel-note">Contextual comment coding <span>73 fairness replies report no current concern</span></div>
+      <article class="panel handover-panel" data-panel>
+        <div class="panel-heading"><h2>Targeted fix · cross-team handovers</h2><span class="panel-caption">Favourable shares</span></div>
+        <div id="cross-chart" class="focus-bars"></div>
+        <div class="panel-note"><span id="paired-note"><strong>45</strong> rate own team 4–5 but cross-team 1–3</span><span id="cs-note">Customer Service lowest</span></div>
       </article>
       <article class="panel action-panel" data-panel>
-        <div class="panel-heading"><h2>From evidence to practical action</h2><span class="panel-caption">Proposed pilot pathway</span></div>
+        <div class="panel-heading"><h2>One 90-day pilot, three workstreams</h2><span class="panel-caption">Proposed owners</span></div>
         <div class="action-rows">
-          <div class="action-row"><span class="action-id">P1</span><div><h3>Clarify handovers and backup ownership</h3><p>Map one workflow; track completeness, delays and rework.</p></div></div>
-          <div class="action-row"><span class="action-id">P2</span><div><h3>Explain and consistently apply people criteria</h3><p>Review appraisal, progression and reward decisions.</p></div></div>
-          <div class="action-row"><span class="action-id">S3</span><div><h3>Make listening lead to visible follow-through</h3><p>Acknowledge concerns; assign an owner and next update.</p></div></div>
+          <div class="action-row"><span class="action-id">P1</span><div><h3>Publish and explain people-decision criteria; recognise monthly</h3><p>HR head + business heads · reasons recorded, review route offered.</p></div></div>
+          <div class="action-row"><span class="action-id">P2</span><div><h3>Close the listening loop</h3><p>Leadership sponsor + HR · concern log, owner and date; monthly ‘you said, we did’.</p></div></div>
+          <div class="action-row"><span class="action-id">T</span><div><h3>Fix one Customer Service handover</h3><p>Operations head · information, receiver, backup and escalation.</p></div></div>
         </div>
         <div class="roadmap-strip"><span><b>0–14</b> Baseline</span><span><b>15–30</b> Set up</span><span><b>31–60</b> Pilot</span><span><b>61–90</b> Evaluate</span></div>
       </article>
     </div>
   </section>
 
-  <footer class="footer"><span id="footer-scope">Favourable = 4–5 of valid answers. Culture mean is a descriptive working measure.</span><span>Analysis snapshot · 29 Oct 2026 <span class="footer-page" id="footer-page">01 / 02</span></span></footer>
+  <footer class="footer"><span id="footer-scope">Favourable = 4–5 of valid answers. Culture mean is a descriptive working measure.</span><span>Analysis snapshot · 30 Oct 2026 <span class="footer-page" id="footer-page">01 / 02</span></span></footer>
 </main>
 
 <dialog id="method-dialog" aria-labelledby="method-title">
@@ -107,6 +105,7 @@
     <div><dt>Measures</dt><dd>Favourable = 4–5; unfavourable = 1–2; 3 means Sometimes. Culture mean averages 25 items and is not a validated engagement index.</dd></div>
     <div><dt>Filters</dt><dd>Department and tenure apply to the overview. Focus findings always show the full study. Scores for fewer than ten records are withheld.</dd></div>
     <div><dt>Employee voice</dt><dd>Topic counts are unique response records, with multiple topics allowed. They are suggestions, not dissatisfaction or incident counts.</dd></div>
+    <div><dt>Priorities</dt><dd>Ordered by four sources: current score, relative-weights link to recommend / satisfaction / intention to stay, the HR forced choice and open "one change" comments (notebook Step 7).</dd></div>
     <div><dt>Interpretation</dt><dd>Comments received a documented assistant re-review; independent human validation remains outstanding. Associations are not causal effects.</dd></div>
   </dl>
   <p class="dialog-note">Aggregate local snapshot · no raw comments, employee names or individual records are included.</p>

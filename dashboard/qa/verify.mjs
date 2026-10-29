@@ -73,9 +73,13 @@ try {
   await page.click('#tab-focus');
   assert.equal(await page.locator('#overview-controls').isVisible(),false);
   assert.equal(await page.locator('#focus-controls').isVisible(),true);
-  assert.match(await page.locator('#focus-kpis').innerText(),/137/);
-  assert.match(await page.locator('#paired-table').innerText(),/45/);
-  assert.equal(await page.locator('#fairness-chart .focus-bar-row').count(),5);
+  assert.match(await page.locator('#focus-kpis').innerText(),/87\.5%/);
+  assert.match(await page.locator('#focus-kpis').innerText(),/78\.0%/);
+  assert.match(await page.locator('#paired-note').innerText(),/45/);
+  assert.match(await page.locator('#fairness-any').innerText(),/137/);
+  assert.equal(await page.locator('#fairness-chart .focus-bar-row').count(),6);
+  assert.equal(await page.locator('#listen-chart .voice-row').count(),10);
+  assert.equal(await page.locator('#cross-chart .focus-bar-row').count(),3);
   await page.click('#method-button');
   assert.equal(await page.locator('#method-dialog').isVisible(),true);
   const dialogFits=await page.locator('#method-dialog').evaluate(el=>{const r=el.getBoundingClientRect();return r.top>=0&&r.bottom<=innerHeight&&el.scrollHeight<=el.clientHeight+1});
@@ -99,7 +103,7 @@ try {
   await page.waitForFunction(()=>window.__DASHBOARD_READY__===true);
   assert.match(await page.locator('#overview-kpis').innerText(),/84\.9%/);
   await page.click('#tab-focus');
-  assert.match(await page.locator('#focus-kpis').innerText(),/137/);
+  assert.match(await page.locator('#focus-kpis').innerText(),/87\.5%/);
   await context.close();
   const failed=results.filter(r=>r.violations.length);
   fs.writeFileSync(path.join(folder,'results.json'),JSON.stringify({browser:'Chromium headless',cases:results,errors,interactionChecks:'passed',notes:'Viewport sizes are assumed content areas, not manufacturer default settings.'},null,2)+'\n');

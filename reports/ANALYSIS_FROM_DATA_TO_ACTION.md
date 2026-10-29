@@ -6,7 +6,7 @@ Updated 29 October 2026. This is the complete reading guide for the analysis so 
 
 The analytical draft, a documented same-assistant review and the proposed implementation roadmap are complete. The review reread 568 comment records, including all 104 original flags, and changed 53 coding/status decisions. 75 cases still need context clarification/confirmation. No independent team-member or native-speaker validation is claimed. A roadmap with proposed owners, timing and measures is ready for organisational review; the PowerPoint is not yet built.
 
-The two primary priorities—cross-team execution and fairness—were selected by the user and are supported by descriptive evidence. Recognition, role clarity/workload/backup, and voice/follow-through are supporting themes. These are not outputs of an invented numerical priority score.
+Cross-team execution and fairness were first selected as the focus. The Step 7 prioritisation check (section 15) revised the order: Priority 1 is fair, explainable people decisions and growth, with recognition; Priority 2 is leaders listening and visibly acting; cross-team handovers are a targeted fix; role clarity/workload/backup supports the pilot. The order rests on four sources of evidence with grading rules fixed in advance, not on a single synthetic score.
 
 ## The progression at a glance
 
@@ -166,7 +166,7 @@ The highest request topics include communication/explanation, recognition/feedba
 
 Bigrams contain two adjacent words; trigrams three. Examples include career growth, regular feedback, knowledge sharing and work life balance. We preserve original word adjacency/negation, do not cross sentences/comments/questions, count a phrase once per record within a question, and filter prompt boilerplate/known name tokens. A minimum support of five is a readability threshold, not statistical significance. English-focused surface forms miss paraphrases and mixed-language variants. N-grams help navigate and inspect the comments; they do not independently validate themes or classify sentiment.
 
-## 8. Deepen the two primary priorities
+## 8. Deepen the fairness and cross-team findings
 
 ### Cross-team execution
 
@@ -230,15 +230,15 @@ Day 0 is organisational approval/start, not the student deadline. Owners below a
 | action_id | workstream | timing_from_approval | proposed_accountable_owner | action | proposed_standard_or_decision_gate |
 | --- | --- | --- | --- | --- | --- |
 | G0 | Governance and scope | Days 0–7 | HR lead + executive sponsor | Name an accountable sponsor, choose one cross-functional workflow and pilot roles, confirm resources and employee communication | Baseline and capacity decision by Day 7 |
-| P1-A | Cross-team execution | Days 0–14 | Operations/functional head | Map one real handover path, required information, receiving owner, urgency rules, escalation and rework; collect a baseline | Agree workflow-specific response expectations by Day 14 |
-| P1-B | Cross-team execution | Days 15–30 | Operations/functional head | Pilot a simple handover checklist, receiving acknowledgement, shared status and escalation route | Proposed standard: 100% of in-scope handover types documented by Day 30 |
-| P1-C | Cross-team execution | Days 31–60 | Operations/functional head | Review delayed/reworked handovers weekly, fix the recurring obstacle and check that tracking is not adding excessive admin | Proposed pilot standard: ≥95% required-field completeness; efficiency target agreed from the Day-14 baseline |
-| P2-A | Fairness of people decisions | Days 0–14 | HR head | Review existing appraisal, progression and reward criteria against how decisions are explained; listen to contrasting employee experiences | Agree what can be clarified now and what requires policy review by Day 14 |
-| P2-B | Fairness of people decisions | Days 15–30 | HR head | Publish understandable criteria for pilot roles, brief eligible employees and state how to seek clarification or review | Proposed standard: criteria/explanation available for 100% of pilot roles by Day 30 |
-| P2-C | Fairness of people decisions | Days 31–60 | HR head | Review a defined set of pilot decisions for documented criteria, explanation and consistent application; correct verified gaps | Proposed standard: every reviewed decision has a documented reason and identified owner; report exceptions openly in aggregate |
-| S1 | Recognition and feedback | Days 15–60 | Pilot functional managers | Offer each pilot employee a specific feedback conversation and explain non-monetary recognition criteria; review access across roles | Proposed standard: every eligible pilot employee offered a feedback conversation each 30-day cycle |
+| T-A | Cross-team execution | Days 0–14 | Operations/functional head | Map one real handover path, required information, receiving owner, urgency rules, escalation and rework; collect a baseline | Agree workflow-specific response expectations by Day 14 |
+| T-B | Cross-team execution | Days 15–30 | Operations/functional head | Pilot a simple handover checklist, receiving acknowledgement, shared status and escalation route | Proposed standard: 100% of in-scope handover types documented by Day 30 |
+| T-C | Cross-team execution | Days 31–60 | Operations/functional head | Review delayed/reworked handovers weekly, fix the recurring obstacle and check that tracking is not adding excessive admin | Proposed pilot standard: ≥95% required-field completeness; efficiency target agreed from the Day-14 baseline |
+| P1-A | Fairness of people decisions | Days 0–14 | HR head | Review existing appraisal, progression and reward criteria against how decisions are explained; listen to contrasting employee experiences | Agree what can be clarified now and what requires policy review by Day 14 |
+| P1-B | Fairness of people decisions | Days 15–30 | HR head | Publish understandable criteria for pilot roles, brief eligible employees and state how to seek clarification or review | Proposed standard: criteria/explanation available for 100% of pilot roles by Day 30 |
+| P1-C | Fairness of people decisions | Days 31–60 | HR head | Review a defined set of pilot decisions for documented criteria, explanation and consistent application; correct verified gaps | Proposed standard: every reviewed decision has a documented reason and identified owner; report exceptions openly in aggregate |
+| P1-R | Recognition and feedback | Days 15–60 | Pilot functional managers | Offer each pilot employee a specific feedback conversation and explain non-monetary recognition criteria; review access across roles | Proposed standard: every eligible pilot employee offered a feedback conversation each 30-day cycle |
 | S2 | Role clarity, workload and backup | Days 0–30; review to Day 60 | Pilot functional head | Document critical task owners and backup, priorities, leave coverage and legitimate escalation needs outside normal hours | Proposed standard: 100% of agreed critical tasks have primary, backup and escalation owners by Day 30 |
-| S3 | Voice and visible follow-through | Days 0–30; ongoing | HR lead | Create a simple concern/action log, acknowledge normal concerns, assign an owner and update employees on progress and closure | Proposed normal-concern standards: acknowledge within 2 business days; owner and next-update date within 5; sensitive/urgent matters follow existing routes |
+| P2 | Voice and visible follow-through | Days 0–30; ongoing | HR lead | Create a simple concern/action log, acknowledge normal concerns, assign an owner and update employees on progress and closure | Proposed normal-concern standards: acknowledge within 2 business days; owner and next-update date within 5; sensitive/urgent matters follow existing routes |
 | V1 | Verification of specific accounts | Days 0–7; then case-dependent | HR lead / Administration or IT head by issue | Confidentially verify facilities/equipment and respectful-treatment/time-boundary accounts, triage confirmed issues and route them appropriately | Initial triage in the first week; remediation dates depend on verified urgency, scope and resources |
 | G1 | Pilot learning review | Day 30 | Executive sponsor | Check pilot readiness, process coverage, workload burden and unresolved verification issues | Proceed only with usable baseline, assigned owners and feasible operating standards |
 | G2 | Experience and process review | Days 60–90 | HR lead + executive sponsor | Repeat the selected exact questions, report valid n/category shares and respondent composition, compare operational measures and listen to examples of actual change | Set outcome targets by Day 14; assess at Days 60/90; decide scale, adapt or stop at Day 90 |
@@ -325,4 +325,26 @@ We can describe how these records answered, identify relative strengths/gaps, sh
 
 The [notebook](../notebooks/00_data_understanding_eda.ipynb) is the analytical source. The [short final synthesis](FINAL_ANALYSIS_SYNTHESIS.md) is a concise companion. The [roadmap CSV](tables/implementation_roadmap_0_90_days.csv), [KPI dictionary](tables/roadmap_kpi_dictionary.csv), [decision gates](tables/roadmap_decision_gates.csv), [review before/after table](tables/coding_review_before_after.csv) and [finding-verification register](tables/finding_verification_register.csv) support review. Existing figures and tables are regenerated from current assignments, including the network.
 
-The requested assistant review and practical roadmap draft are complete. Genuine independent review, clarification of ambiguous cases, verification of specific accounts and organisational approval remain honestly labelled. The next production task is to settle the executive storyline/visual structure and build/rehearse the PowerPoint using the strongest bounded claims and the roadmap. No additional statistical method is required unless it resolves a specific remaining decision question.
+The requested assistant review and practical roadmap draft are complete. Genuine independent review, clarification of ambiguous cases, verification of specific accounts and organisational approval remain honestly labelled. The executive PowerPoint and dashboard now follow the Step 7 priority order (section 15). No additional statistical method is required unless it resolves a specific remaining decision question.
+
+<!-- STEP7_PRIORITISATION -->
+
+## 15. Prioritisation check (Step 7, 30 October 2026)
+
+Relative weights on 19 actionable items explain 65% of the variation in an outcome built from recommend, satisfaction and intention to stay (pride and belonging excluded as near-outcomes). Fairness carries 31% of the dimension-level link. Fix-first items (above-median link, below-median score): CRE5, FAI2, CAM2, FAI1, FAI3, FAI5. The ranking is unchanged without straight-liners (ρ = 1.00); among the 100 anonymous respondents it shifts (ρ = 0.59): recognition rises and cross-team drops.
+
+| theme | Score | Outcome link | HR choice | 'One change' | Strong (of 4) |
+| --- | --- | --- | --- | --- | --- |
+| Fair, explainable people decisions & growth | Strong | Strong | Strong | Strong | 4 |
+| Leaders listen and visibly act | Strong | Strong | Strong | Strong | 4 |
+| Recognition of contributions | Strong | Weak | Medium | Strong | 2 |
+| Cross-team collaboration | Medium | Strong | — | Weak | 1 |
+| Support when problems arise | Weak | Weak | Strong | Medium | 1 |
+| Workload & role clarity | Weak | Medium | Weak | Strong | 1 |
+| Pay, benefits & facilities | — | — | Strong | Medium | 1 |
+
+**Revised order:** Priority 1 is fair, explainable people decisions and growth, with recognition inside it. Priority 2 is leaders listening and visibly acting. Cross-team handovers become a targeted pilot starting in Customer Service. Pay, benefits and facilities go to the annual review.
+
+**Named vs anonymous:** 91.6% of named and 78.0% of anonymous respondents intend to stay 3–5 years. This is consistent with, not proof of, more guarded answers when named; report both and drop the name field next time.
+
+Associations are not causes. Grading thresholds were fixed before reading the result. Tables: priority_matrix.csv, priority_triangulation.csv, hr_priority_counts.csv, one_change_topics.csv, named_vs_anonymous.csv, group_hotspots.csv, driver_model_summary.csv.

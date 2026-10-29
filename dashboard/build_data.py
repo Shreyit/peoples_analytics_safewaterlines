@@ -119,9 +119,30 @@ voice_short = {"r": "Recognition / feedback", "d": "Career / learning", "v": "Vo
 voice = [{"code": key, "label": label, "n": int(topics.loc[key, "request_record_n"])}
          for key, label in voice_short.items()]
 voice.sort(key=lambda row: -row["n"])
+
+# Step 7 prioritisation results (notebook): aggregate tables only.
+tables = ROOT / "reports/tables"
+model = pd.read_csv(tables / "driver_model_summary.csv", index_col=0)["value"]
+nva = pd.read_csv(tables / "named_vs_anonymous.csv", index_col=0)
+hr = pd.read_csv(tables / "hr_priority_counts.csv", index_col=0)
+hot = pd.read_csv(tables / "group_hotspots.csv").set_index("group")
+hr_short = {"Listening to employees and their concerns": "Listening to concerns", "Help employees progress in their careers": "Career progression",
+            "Improve employee benefits and facilities": "Benefits & facilities", "Help resolve employee problems": "Resolving problems",
+            "Recognising and appreciating good work": "Recognising good work", "Supporting employees when they need help": "Support when needed",
+            "Making rules and processes simple": "Simpler rules & processes", "Being available and easy to approach": "Being approachable",
+            "Employee activities and engagement": "Activities & engagement", "Keeping employees informed": "Keeping people informed"}
+assert int(hr["respondents"].iloc[0]) == 67 and set(hr.index) == set(hr_short)
+priorities = {
+    "stayAll": float(df.PRI3.ge(4).mean() * 100), "stayAnonymous": float(nva.loc["Anonymous", "stay_3_5_yrs_fav"]),
+    "anonymousN": int(nva.loc["Anonymous", "n"]), "fairnessShare": float(model["dim_FAI"]), "r2": float(model["actionable_r2"]),
+    "hrChoice": [{"label": hr_short[k], "n": int(r.respondents), "listen": k in ("Listening to employees and their concerns", "Keeping employees informed")}
+                 for k, r in hr.iterrows()],
+    "listenHrPct": float(hr.loc[["Listening to employees and their concerns", "Keeping employees informed"], "pct"].sum()),
+    "customerServiceCross": float(hot.loc["Customer Service", "Cross-team"]),
+}
 payload = {
     "meta": {"organisation": "Safewater Lines", "survey": "Your Voice",
-        "analysisSnapshot": "29 October 2026", "responsesAsOf": "21 October",
+        "analysisSnapshot": "30 October 2026", "responsesAsOf": "21 October",
         "sourceHash": hashlib.sha256(source.read_bytes()).hexdigest(),
         "recordN": len(df), "itemN": len(items), "minimumGroupN": MIN_N,
         "eligibleWorkforce": None, "commentN": 1892, "reviewedCommentN": 568,
@@ -130,7 +151,7 @@ payload = {
     "cohorts": cohorts, "focus": {"pair": pair,
         "crossGapPP": float((df.CAM1.ge(4).mean() - df.CAM2.ge(4).mean()) * 100),
         "fairAnyN": int(fair_count.gt(0).sum()), "fairTwoN": int(fair_count.ge(2).sum()),
-        "fairNoConcernN": 73, "voice": voice},
+        "fairNoConcernN": 73, "voice": voice, "priorities": priorities},
 }
 # The browser package is an aggregate snapshot: never copy the source CSV or comments.
 encoded = json.dumps(payload, ensure_ascii=False, allow_nan=False, separators=(",", ":"))

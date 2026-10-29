@@ -7,7 +7,7 @@ on run argv
         tell application "Microsoft PowerPoint"
             open (POSIX file inputPath)
             set deck to active presentation
-            if (name of deck) does not contain "Safewater_Lines_People_Experience" then error "The expected deck is not active."
+            if (name of deck) does not contain "Safewater_Lines_" then error "The expected deck is not active."
             save deck in (POSIX file outputPath) as save as PDF
             close deck saving no
         end tell
