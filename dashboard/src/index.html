@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>Safewater Lines · People Experience</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="../dist/data.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+<main class="dashboard" id="dashboard">
+  <header class="masthead">
+    <div class="identity">
+      <div class="eyebrow">SAFEWATER LINES <span> / PEOPLE ANALYTICS</span></div>
+      <h1>People experience</h1>
+      <p>Your Voice employee survey <span class="separator">·</span> Responses as of 21 October</p>
+    </div>
+    <div class="header-actions">
+      <nav class="page-tabs" role="tablist" aria-label="Dashboard pages">
+        <button id="tab-overview" role="tab" aria-controls="overview" aria-selected="true" data-page="overview"><span>01</span> Overview</button>
+        <button id="tab-focus" role="tab" aria-controls="focus" aria-selected="false" data-page="focus" tabindex="-1"><span>02</span> Focus findings</button>
+      </nav>
+      <button class="icon-button" id="fullscreen" title="Enter full screen" aria-label="Enter full screen"><svg width="17" height="17" viewBox="0 0 20 20" aria-hidden="true"><path d="M7 3H3v4m10-4h4v4M3 13v4h4m10-4v4h-4" fill="none" stroke="currentColor" stroke-width="1.4"/></svg></button>
+    </div>
+  </header>
+
+  <div class="toolbar">
+    <div class="filter-controls" id="overview-controls">
+      <label>Department <select id="department" aria-label="Filter by department"><option value="all">All departments</option></select></label>
+      <label>Tenure <select id="tenure" aria-label="Filter by tenure"><option value="all">All tenures</option></select></label>
+      <button id="reset" class="text-button">Reset filters</button>
+      <span id="scope-label" class="scope-label" aria-live="polite">Full study · 327 responses</span>
+    </div>
+    <div id="focus-controls" class="focus-scope" hidden><span class="scope-dot"></span> Study-wide findings <span class="scope-divider">|</span> 327 response records <span class="scope-divider">|</span><div class="legend focus-legend"><span><i class="swatch unfav"></i>1–2 Unfavourable</span><span><i class="swatch sometimes"></i>3 Sometimes</span><span><i class="swatch fav"></i>4–5 Favourable</span></div></div>
+    <button id="method-button" class="text-button notes-button" aria-haspopup="dialog">About the measures <span aria-hidden="true">ⓘ</span></button>
+  </div>
+
+  <section class="dashboard-page overview-page" id="overview" role="tabpanel" aria-labelledby="tab-overview">
+    <div class="kpi-row" id="overview-kpis" aria-live="polite"></div>
+    <div class="overview-top-grid">
+      <article class="panel scorecard-panel" data-panel>
+        <div class="panel-heading"><h2>Dimension scorecard</h2><span class="panel-caption">Select a dimension to inspect its questions</span></div>
+        <div class="scorecard-head"><span>Survey block</span><span>Mean / 5</span><span>Favourable</span></div>
+        <div id="dimension-scorecard" class="scorecard-body"></div>
+        <div class="panel-note">Equal-weight working means <span>1 — 5 scale</span></div>
+      </article>
+      <article class="panel group-panel" data-panel>
+        <div class="panel-heading"><h2>Experience by group</h2><select id="group-by" class="small-select" aria-label="Group comparison"><option value="tenure">Tenure</option><option value="department">Department</option></select></div>
+        <div class="group-head"><span>Group <span class="muted">(response n)</span></span><span>Culture mean / 5</span></div>
+        <div id="group-chart" class="group-chart"></div>
+        <div class="panel-note">25-item descriptive summary <span>Scores shown for n ≥ 10</span></div>
+      </article>
+    </div>
+    <article class="panel diagnostics-panel" data-panel>
+      <div class="panel-heading"><h2><span id="selected-dimension">Fairness</span> <span class="heading-detail">/ question diagnostics</span></h2><span class="panel-caption">Short labels · hover or focus for exact wording</span></div>
+      <div class="question-table" role="table" aria-label="Question diagnostics">
+        <div class="question-head" role="row"><span role="columnheader">Question</span><span role="columnheader">Response distribution</span><span role="columnheader">Mean</span><span role="columnheader">Fav. %</span><span role="columnheader">Valid n</span></div>
+        <div id="question-rows" class="question-rows" role="rowgroup"></div>
+      </div>
+      <div class="diagnostic-bottom"><div class="legend"><span><i class="swatch unfav"></i>1–2 · Almost never / Rarely</span><span><i class="swatch sometimes"></i>3 · Sometimes</span><span><i class="swatch fav"></i>4–5 · Usually / Almost always</span></div><span id="missing-label">No missing rating answers</span></div>
+    </article>
+  </section>
+
+  <section class="dashboard-page focus-page" id="focus" role="tabpanel" aria-labelledby="tab-focus" hidden>
+    <div class="kpi-row" id="focus-kpis"></div>
+    <div class="focus-top-grid">
+      <article class="panel cross-panel" data-panel>
+        <div class="panel-heading"><h2>Within-team support vs cross-team work</h2><span class="panel-caption">Favourable shares</span></div>
+        <div id="cross-chart" class="focus-bars"></div>
+        <div class="paired-section"><div class="paired-title">Same-record comparison <span class="muted">n = 327</span></div>
+          <div id="paired-table"></div>
+        </div>
+      </article>
+      <article class="panel fairness-panel" data-panel>
+        <div class="panel-heading"><h2>Fairness by survey item</h2><span class="panel-caption">Favourable shares</span></div>
+        <div id="fairness-chart" class="focus-bars"></div>
+        <div class="panel-note fairness-note"><span><strong id="fairness-two">97</strong> records rate ≥2 fairness items at 1–3</span><span>Includes Sometimes</span></div>
+      </article>
+    </div>
+    <div class="focus-bottom-grid">
+      <article class="panel voice-panel" data-panel>
+        <div class="panel-heading"><h2>Related employee requests</h2><span class="panel-caption">Unique records / 327 · topics overlap</span></div>
+        <div id="voice-chart" class="voice-chart"></div>
+        <div class="panel-note">Contextual comment coding <span>73 fairness replies report no current concern</span></div>
+      </article>
+      <article class="panel action-panel" data-panel>
+        <div class="panel-heading"><h2>From evidence to practical action</h2><span class="panel-caption">Proposed pilot pathway</span></div>
+        <div class="action-rows">
+          <div class="action-row"><span class="action-id">P1</span><div><h3>Clarify handovers and backup ownership</h3><p>Map one workflow; track completeness, delays and rework.</p></div></div>
+          <div class="action-row"><span class="action-id">P2</span><div><h3>Explain and consistently apply people criteria</h3><p>Review appraisal, progression and reward decisions.</p></div></div>
+          <div class="action-row"><span class="action-id">S3</span><div><h3>Make listening lead to visible follow-through</h3><p>Acknowledge concerns; assign an owner and next update.</p></div></div>
+        </div>
+        <div class="roadmap-strip"><span><b>0–14</b> Baseline</span><span><b>15–30</b> Set up</span><span><b>31–60</b> Pilot</span><span><b>61–90</b> Evaluate</span></div>
+      </article>
+    </div>
+  </section>
+
+  <footer class="footer"><span id="footer-scope">Favourable = 4–5 of valid answers. Culture mean is a descriptive working measure.</span><span>Analysis snapshot · 29 Oct 2026 <span class="footer-page" id="footer-page">01 / 02</span></span></footer>
+</main>
+
+<dialog id="method-dialog" aria-labelledby="method-title">
+  <div class="dialog-heading"><h2 id="method-title">How to read this dashboard</h2><button id="close-method" aria-label="Close measure notes">×</button></div>
+  <dl>
+    <div><dt>Scope</dt><dd>327 master response records, 30 rating items. Eligible workforce size is unavailable, so no participation rate is calculated.</dd></div>
+    <div><dt>Measures</dt><dd>Favourable = 4–5; unfavourable = 1–2; 3 means Sometimes. Culture mean averages 25 items and is not a validated engagement index.</dd></div>
+    <div><dt>Filters</dt><dd>Department and tenure apply to the overview. Focus findings always show the full study. Scores for fewer than ten records are withheld.</dd></div>
+    <div><dt>Employee voice</dt><dd>Topic counts are unique response records, with multiple topics allowed. They are suggestions, not dissatisfaction or incident counts.</dd></div>
+    <div><dt>Interpretation</dt><dd>Comments received a documented assistant re-review; independent human validation remains outstanding. Associations are not causal effects.</dd></div>
+  </dl>
+  <p class="dialog-note">Aggregate local snapshot · no raw comments, employee names or individual records are included.</p>
+</dialog>
+<div id="small-viewport" class="small-viewport" hidden>For a readable, non-scrolling layout, use a browser viewport of at least 1120 × 640 or enter full screen.</div>
+</body>
+</html>
