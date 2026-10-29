@@ -10,9 +10,10 @@ data/
   raw/          original workbook (read-only, never edit)
   processed/    survey_clean.csv, codebook.csv  ← written by notebook 00
 notebooks/
-  00_data_understanding_eda.ipynb   one working notebook: preparation, EDA, analytical foundation; extend here
+  00_data_understanding_eda.ipynb   one working notebook: EDA, methods, employee voice, integrated evidence
   archive/                          old / superseded notebooks
 reports/figures/                    exported charts for the deck
+reports/tables/                     aggregate findings, codebook, phrase references and action options
 src/                                reusable helpers (once code repeats across notebooks)
 ```
 
@@ -29,3 +30,4 @@ In VS Code, select the `.venv (Python 3.14)` kernel and run notebooks top to bot
 - `full_name` is personal data: it's dropped in processing and must never be exported.
 - `CULTURE_MEAN` is our descriptive 25-item summary (formerly `TRUST_INDEX`), not an official or validated Trust Index.
 - Step 1 follows the EDA summary. The final Markdown cell contains the methodology reference, distinguishing used, planned, and conditional methods. Prepare the executive PowerPoint after the findings and action roadmap are complete.
+- Steps 2–4 add thematic content coding, supporting bigrams/trigrams, paired and tenure profiles, and an evidence/action-options register. Qualitative counts are exploratory single-assistant coding; independent review is outstanding. The source-order hash protects the embedded coding ledger from silent reuse on changed comments.

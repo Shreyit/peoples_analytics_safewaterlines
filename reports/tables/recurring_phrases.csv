@@ -1,0 +1,70 @@
+question,words,phrase,record_n,pct_question_nonblank
+oe_fairness_concern,2,career growth,13,4.220779220779221
+oe_fairness_concern,2,equal opportunities,11,3.571428571428571
+oe_fairness_concern,2,growth opportunities,11,3.571428571428571
+oe_fairness_concern,2,opportunities recognition,10,3.2467532467532463
+oe_fairness_concern,2,consistent criteria,8,2.5974025974025974
+oe_fairness_concern,2,decision making,8,2.5974025974025974
+oe_fairness_concern,3,clear and consistent,8,2.5974025974025974
+oe_fairness_concern,3,opportunities for growth,7,2.272727272727273
+oe_fairness_concern,3,opportunities recognition workload,6,1.948051948051948
+oe_fairness_concern,3,workload and career,6,1.948051948051948
+oe_fairness_concern,3,consistency and transparency,5,1.6233766233766231
+oe_fairness_concern,3,decisions are fair,5,1.6233766233766231
+oe_feel_valued,2,good work,15,4.746835443037975
+oe_feel_valued,2,regular feedback,13,4.113924050632911
+oe_feel_valued,2,open communication,8,2.5316455696202533
+oe_feel_valued,2,timely support,8,2.5316455696202533
+oe_feel_valued,2,regular recognition,7,2.2151898734177213
+oe_feel_valued,2,timely feedback,6,1.89873417721519
+oe_feel_valued,3,efforts and contributions,10,3.1645569620253164
+oe_feel_valued,3,recognize employees efforts,9,2.848101265822785
+oe_feel_valued,3,appreciation and recognition,6,1.89873417721519
+oe_feel_valued,3,recognize employees contributions,6,1.89873417721519
+oe_feel_valued,3,support when needed,6,1.89873417721519
+oe_feel_valued,3,time to time,5,1.5822784810126582
+oe_leaders_trust,2,communicate openly,11,3.459119496855346
+oe_leaders_trust,2,important decisions,9,2.8301886792452833
+oe_leaders_trust,2,build trust,8,2.515723270440252
+oe_leaders_trust,2,communicating openly,8,2.515723270440252
+oe_leaders_trust,2,following through,8,2.515723270440252
+oe_leaders_trust,2,reasons behind,7,2.20125786163522
+oe_leaders_trust,3,communicate more openly,15,4.716981132075472
+oe_leaders_trust,3,openly and consistently,13,4.088050314465408
+oe_leaders_trust,3,leaders could build,11,3.459119496855346
+oe_leaders_trust,3,trust by communicating,8,2.515723270440252
+oe_leaders_trust,3,help build greater,7,2.20125786163522
+oe_leaders_trust,3,through on commitments,6,1.8867924528301887
+oe_one_change,2,improve communication,24,7.6190476190476195
+oe_one_change,2,regular feedback,10,3.1746031746031744
+oe_one_change,2,growth opportunities,9,2.857142857142857
+oe_one_change,2,work life,9,2.857142857142857
+oe_one_change,2,life balance,8,2.5396825396825395
+oe_one_change,2,career growth,7,2.2222222222222223
+oe_one_change,3,communication and transparency,11,3.492063492063492
+oe_one_change,3,work life balance,7,2.2222222222222223
+oe_one_change,3,better work life,6,1.9047619047619049
+oe_teamwork,2,improve communication,21,6.624605678233439
+oe_teamwork,2,work together,16,5.047318611987381
+oe_teamwork,2,open communication,15,4.73186119873817
+oe_teamwork,2,knowledge sharing,14,4.416403785488959
+oe_teamwork,2,reduce misunderstandings,9,2.8391167192429023
+oe_teamwork,2,communicate openly,8,2.5236593059936907
+oe_teamwork,3,communication and coordination,15,4.73186119873817
+oe_teamwork,3,coordination between teams,11,3.4700315457413247
+oe_teamwork,3,communication and regular,9,2.8391167192429023
+oe_teamwork,3,regular knowledge sharing,7,2.2082018927444795
+oe_teamwork,3,communication between teams,6,1.8927444794952681
+oe_teamwork,3,create more opportunities,6,1.8927444794952681
+oe_value_most,2,work environment,23,7.232704402515723
+oe_value_most,2,work culture,20,6.289308176100629
+oe_value_most,2,supportive work,19,5.9748427672955975
+oe_value_most,2,supportive team,18,5.660377358490567
+oe_value_most,2,work together,15,4.716981132075472
+oe_value_most,2,strong sense,10,3.1446540880503147
+oe_value_most,3,sense of teamwork,18,5.660377358490567
+oe_value_most,3,want to lose,12,3.7735849056603774
+oe_value_most,3,supportive work culture,9,2.8301886792452833
+oe_value_most,3,supportive work environment,9,2.8301886792452833
+oe_value_most,3,value the supportive,8,2.515723270440252
+oe_value_most,3,supportive team culture,7,2.20125786163522

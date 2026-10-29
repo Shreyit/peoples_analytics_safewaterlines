@@ -1,10 +1,18 @@
 # Safewater Lines — working project brain
 
-Last updated: 28 October 2026.
+Last updated: 29 October 2026.
 
 ## Current status
 
 Step 1 (analytical foundation, method research and selection rules) is now implemented after the EDA summary in `notebooks/00_data_understanding_eda.ipynb`. Keep all analytical work in that notebook and maintain its methodology reference as the final Markdown cell. Build the executive PowerPoint after the evidence, findings and proposed roadmap are complete.
+
+Steps 2–4 now implement useful method selection, rating strength/gap profiles, contextual multi-label coding of the six comment questions, exact bigrams/trigrams, paired team-support comparisons, a descriptive rating–comment bridge, a limited tenure follow-up and a seven-entry evidence/action-options register. Three figures and eleven aggregate reference tables are generated under `reports/` by the notebook.
+
+Qualitative status: all 1,892 nonblank comment records are accounted for in a hash-locked semantic coding ledger inside the notebook; 1,593 receive at least one topic. Coding is one assistant interpretation, not independently human-validated research. Stances distinguish requests, current strengths, mixed accounts, no concern/change proposed, unclear replies and nonresponses. There are 104 priority-review comment records (unclear, transliterated or cross-referenced); the notebook retains an in-memory `coding_review_queue`. Do not claim inter-rater reliability, coding accuracy or saturation. No raw comments, names or row IDs are exported in the presentation tables.
+
+Request topics count each source record once across questions; preserve topics count explicit strengths in the preserve prompt. Both main percentages use all 327 source records, and the commenter-base alternative is labelled. They are prompted topic mentions, not workforce prevalence, incident counts or severity scores. In the first assistant pass, requests include communication/explanations (194 records), recognition/feedback (179) and teamwork/coordination (176); 119 records explicitly value teamwork in the preserve prompt. The fairness question retains 73 no-concern replies. These counts may change during independent review.
+
+The paired rating comparison finds 45 source records favourable on within-team support (CAM1) but at 1–3 on cross-team collaboration (CAM2). This supports a focused follow-up on handovers and coordination without implying causality. Specific work-condition, boundary and respectful-treatment accounts require confidential verification and must not be presented as proven incidents.
 
 The notebook now records the organisational question map, base-data checks, metric definitions, relevant HR concepts, research sources (including practitioner discussion), and used/planned/conditional methods. The existing EDA was streamlined and unsupported interpretations were corrected. Names remain excluded from processed data. The custom `TRUST_INDEX` column is now named `CULTURE_MEAN`; it is a descriptive 25-item summary, not an official or validated Trust Index.
 
@@ -68,7 +76,7 @@ For each candidate method, record:
 | Alternatives | Is there a simpler, clearer way to answer the question? |
 | Decision | Adopt, defer, or reject, with reasons and source links |
 
-The notebook records current method decisions. Distributions, explicit denominators, descriptive working means, exploratory rank associations, group comparisons with a joint BY adjustment, and response-style sensitivity are used. Factor analysis, regression and calibrated fuzzy models remain conditional. Codebook-based comment analysis is planned and must not be labelled completed or confused with reflexive thematic analysis.
+The notebook records current method decisions. Distributions, explicit denominators, descriptive working means, exploratory rank associations, group comparisons with a joint BY adjustment, and response-style sensitivity are used. Applied codebook-based thematic content analysis and supporting n-grams are now used, explicitly labelled as one assistant coding pass with no independent validation. This must not be confused with reflexive thematic analysis. Factor analysis, regression and calibrated fuzzy models remain conditional and have not been added.
 
 ### 3. Audit the base data and measures
 
@@ -150,7 +158,12 @@ These questions do not prevent descriptive analysis. Record unavailable context 
 | 28 October 2026 | Rename the custom summary to CULTURE_MEAN; correct causal/bias and eNPS claims | Prevent unvalidated measurement and interpretation claims |
 | 28 October 2026 | Use a joint BY adjustment for the 11 listed exploratory full/sensitivity comparisons; withhold sparse HR-table p-values | Overlapping tests and sparse expected counts need explicit handling |
 | 28 October 2026 | Do not report an equivalent frequency-weighted mean as an extra fuzzy finding | Executed equivalence check shows no additional information; other fuzzy models remain conditional |
+| 29 October 2026 | Use semantic content coding and supporting exact bigrams/trigrams; retain no-concern and unclear replies | The comments add actionable context that ratings alone miss; n-grams assist navigation rather than replace interpretation |
+| 29 October 2026 | Store all semantic decisions in the same notebook and guard them with a comment-text/order hash | Reproducible coding without silently reusing labels after source changes |
+| 29 October 2026 | Label qualitative counts exploratory and single-assistant; flag review cases | No independent human validation or inter-rater agreement was performed |
+| 29 October 2026 | Add paired item, rating–comment and limited tenure profiles, not additional predictive or fuzzy models | These answer actual organisational questions with clearer assumptions and available data |
+| 29 October 2026 | Draft evidence-linked action options without final targets or assumed owner commitments | Priorities need organisational context and verification before the final roadmap and PowerPoint |
 
 ## Immediate next step
 
-Use the reviewed EDA to build a denominator-aware strength/gap profile, examine relevant variations, and begin contextual codebook-based analysis of the six comment questions. Integrate comments with rating patterns and selected HR priorities before choosing interventions. Revisit advanced or fuzzy methods only where they answer an unresolved question better than the baseline. The PowerPoint follows the completed findings and roadmap.
+Review the codebook and coding cases, confirm the working interpretations and serious issue summaries, then agree final priorities and translate the evidence/action-options register into a practical timed roadmap with proposed owners and measures. No new statistical method is required just to increase complexity. Prepare the PowerPoint after the findings and roadmap are finalised; the presentation remains outstanding.
