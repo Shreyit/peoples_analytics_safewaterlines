@@ -1,39 +1,167 @@
-# Safewater Lines — People Analytics ("Your Voice" survey)
+# Safewater Lines — People Analytics
 
-## Project direction
+An analysis of the **Your Voice employee survey**, connecting employee experience to practical organisational improvements. The central priorities are **cross-team execution** and **fairness of people decisions**, supported by recognition, role clarity/backup and visible follow-through. Pride and mutual support are strengths to preserve.
 
-- [Assignment brief](docs/PROJECT_BRIEF.md): organisation objectives, deliverables, deadline, and confidentiality requirements.
-- [Working project brain](docs/PROJECT_BRAIN.md): our approach, research agenda, decisions, and next steps. Read this before extending the analysis.
+**Current outputs:** one analytical notebook, a two-page offline dashboard, an editable executive PowerPoint, detailed findings and a proposed 90-day implementation roadmap. Presentation deadline: **30 October 2026, at TISS**.
 
+## Start here — important files
+
+| Deliverable | Open this file | What it contains |
+| --- | --- | --- |
+| **PowerPoint presentation** | **[Safewater_Lines_People_Experience.pptx](presentation/output/Safewater_Lines_People_Experience.pptx)** | Main executive deliverable: 13 main slides + four appendix slides, editable charts, speaker notes and source references |
+| **Presentation PDF** | **[PowerPoint-exported PDF](presentation/output/Safewater_Lines_People_Experience_PowerPoint.pdf)** | The slide appearance exported and checked in Microsoft PowerPoint |
+| **Main analytical notebook** | **[00_data_understanding_eda.ipynb](notebooks/00_data_understanding_eda.ipynb)** | The single source for data understanding, cleaning, analysis, comment coding, findings, roadmap and the final methodology table |
+| **Interactive dashboard** | **[dashboard/dist/index.html](dashboard/dist/index.html)** | Two pages: survey overview with filters, followed by cross-team/fairness findings and proposed actions; opens offline |
+| **Complete findings and methods** | **[ANALYSIS_FROM_DATA_TO_ACTION.md](reports/ANALYSIS_FROM_DATA_TO_ACTION.md)** | Walkthrough from the source data and base measures through deeper findings, review and implementation |
+| **Concise findings synthesis** | [FINAL_ANALYSIS_SYNTHESIS.md](reports/FINAL_ANALYSIS_SYNTHESIS.md) | Strengths, primary priorities, supporting themes, evidence and interpretation limits |
+| **Presentation speaker guide** | [SPEAKER_GUIDE.md](presentation/SPEAKER_GUIDE.md) | Slide-by-slide narrative, evidence and talking points; suggested 12–15-minute rehearsal plan |
+| **Slide overview** | [Native PowerPoint contact sheet](presentation/preview/native/contact-sheet.png) | All 17 slides at a glance |
+
+To review the project, open the **PowerPoint or PDF** first, use the **dashboard** to explore questions, then consult the **findings guide and notebook** for the evidence.
+
+## Folder structure
+
+```text
+peoples_analytics_safewaterlines/
+├── README.md                              Project navigation and setup
+├── pyproject.toml                         Core analysis dependencies
+├── uv.lock                                Locked analysis environment
+├── .python-version                        Project Python version
+│
+├── docs/
+│   ├── PROJECT_BRIEF.md                    Assignment, deliverables and deadline
+│   └── PROJECT_BRAIN.md                    Working approach, decisions and status
+│
+├── data/
+│   ├── raw/
+│   │   └── Your Voice- Responses 21 OCT - FINAL.xlsx
+│   └── processed/
+│       ├── survey_clean.csv               Confidential cleaned response data
+│       └── codebook.csv                   Variable labels and question wording
+│
+├── notebooks/
+│   └── 00_data_understanding_eda.ipynb     MAIN ANALYSIS NOTEBOOK
+│
+├── reports/
+│   ├── ANALYSIS_FROM_DATA_TO_ACTION.md     Complete findings/methods walkthrough
+│   ├── FINAL_ANALYSIS_SYNTHESIS.md         Concise organisational story
+│   ├── tables/                            Aggregate evidence, review and roadmap CSVs
+│   ├── figures/                           Exported analysis charts
+│   └── network/
+│       ├── topic_network.html             Offline interactive topic map
+│       ├── topic_network_data.json        Aggregate network data
+│       ├── topics_map.txt                 VOSviewer-compatible map file
+│       └── topics_network.txt             VOSviewer-compatible network file
+│
+├── dashboard/
+│   ├── README.md                          Opening, measures and sizing instructions
+│   ├── build_data.py                      Refresh aggregate dashboard data
+│   ├── dist/
+│   │   ├── index.html                     OPEN THIS DASHBOARD
+│   │   ├── data.js                        Aggregate data snapshot
+│   │   ├── app.js                         Packaged dashboard interactions
+│   │   └── styles.css                     Packaged responsive layout
+│   ├── src/                               Editable HTML, JavaScript and CSS
+│   └── qa/
+│       ├── verify.mjs                     Browser layout/interaction checks
+│       ├── results.json                   Recorded verification results
+│       └── screenshots/                   Both pages at tested laptop viewports
+│
+├── presentation/
+│   ├── README.md                          Deck structure, verification and rebuilds
+│   ├── SPEAKER_GUIDE.md                    Slide-by-slide presentation notes
+│   ├── build_presentation.py              Generate editable PPTX and companion PDF
+│   ├── requirements.txt                   Separate presentation dependencies
+│   ├── export_native.applescript          Export through macOS PowerPoint
+│   ├── verify_native.py                   Check PowerPoint-rendered PDF
+│   ├── slide_content.json                 Structured slide content and layout
+│   ├── qa_results.json                    Build/layout verification results
+│   ├── native_qa_results.json             Native PowerPoint verification results
+│   ├── output/
+│   │   ├── Safewater_Lines_People_Experience.pptx
+│   │   ├── Safewater_Lines_People_Experience_PowerPoint.pdf
+│   │   └── Safewater_Lines_People_Experience.pdf  Companion PDF from shared layout
+│   └── preview/
+│       ├── native/                        Actual PowerPoint slide PNGs/contact sheet
+│       └── ...                            Companion slide PNGs/contact sheet
+│
+└── src/                                   Reserved for reusable analysis helpers
 ```
-data/
-  raw/          original workbook (read-only, never edit)
-  processed/    survey_clean.csv, codebook.csv  ← written by notebook 00
-notebooks/
-  00_data_understanding_eda.ipynb   one working notebook: EDA, methods, employee voice, integrated evidence
-  archive/                          old / superseded notebooks
-reports/figures/                    exported charts for the deck
-reports/tables/                     aggregate findings, codebook, phrase references and action options
-reports/network/                    offline interactive topic map, aggregate JSON and VOSviewer-compatible files
-reports/FINAL_ANALYSIS_SYNTHESIS.md  consolidated findings and actions for presentation planning
-reports/ANALYSIS_FROM_DATA_TO_ACTION.md  complete base-to-findings guide, review results and proposed roadmap
-src/                                reusable helpers (once code repeats across notebooks)
+
+The tree highlights the maintained deliverables and supporting files; it omits local environment files, caches and individual chart/table exports.
+
+## Analysis and evidence
+
+The notebook starts from the supplied master data and question wording, then moves through base distributions, working summaries, contextual employee-comment coding, paired comparisons, focused group profiles and integrated recommendations. It also records exploratory measurement checks and sensitivity analyses. The **last Markdown cell is the methodology reference**.
+
+| Reference | Purpose |
+| --- | --- |
+| [Assignment brief](docs/PROJECT_BRIEF.md) | Organisational objectives, expected outputs, timeline and confidentiality requirements |
+| [Project brain](docs/PROJECT_BRAIN.md) | Agreed approach, method-selection principles, decisions and current status |
+| [Item evidence profile](reports/tables/item_evidence_profile.csv) | Valid answers, category shares, means and response-style sensitivity |
+| [Finding verification register](reports/tables/finding_verification_register.csv) | Source-traced checks for headline findings |
+| [Focus evidence and actions](reports/tables/final_focus_evidence_and_actions.csv) | Cross-team work, fairness and supporting themes connected to action options |
+| [Employee voice summary](reports/tables/employee_voice_topic_summary.csv) | Overlapping request/preserve topics with labelled denominators |
+| [Comment review changes](reports/tables/coding_review_before_after.csv) | Topic counts before and after the documented assistant re-review |
+| [Interactive topic network](reports/network/topic_network.html) | VOSviewer-inspired exploration of same-answer topic connections and prompt dependence |
+
+## Roadmap and measures
+
+| File | Purpose |
+| --- | --- |
+| [0–90-day implementation roadmap](reports/tables/implementation_roadmap_0_90_days.csv) | Proposed actions, accountable roles, timing, dependencies and operating standards |
+| [KPI dictionary](reports/tables/roadmap_kpi_dictionary.csv) | Definitions, denominators, survey references, operational baseline needs and review schedules |
+| [Decision gates](reports/tables/roadmap_decision_gates.csv) | Day-0/14/30/60/90 decisions, including whether to scale, adapt or stop |
+
+**Day 0 means organisational approval/start.** Proposed owners and process standards are not approved commitments. Numerical experience-outcome targets must be set after the pilot baseline.
+
+## Open the dashboard and presentation
+
+**No Python installation is needed to view the outputs.** Open the PPTX in PowerPoint, the PDF in a PDF reader, or `dashboard/dist/index.html` in a desktop browser. When moving the dashboard, copy the entire `dashboard/dist/` folder so its data and assets remain together.
+
+The dashboard has department/tenure filters, selectable dimension diagnostics and a separate study-wide findings page. Its layout passed both-page checks at five browser viewports, including references for 13-, 14- and 15-inch laptops. During editing, `dashboard/src/index.html` also works and reads its data from `../dist/data.js`. See the [dashboard guide](dashboard/README.md) for sizing assumptions and controls.
+
+The presentation uses a white 16:9 layout with restrained colours. All 17 slides have speaker notes and source references. The PPTX was exported through PowerPoint; expected text and slide bounds were checked. See the [presentation guide](presentation/README.md) for the storyline, previews and verification details.
+
+## Run or refresh the project
+
+Run commands from the repository root.
+
+### Analysis environment
+
+```sh
+uv sync
 ```
 
-## Setup
-```bash
-uv sync                      # creates .venv from uv.lock
-```
-In VS Code, select the `.venv (Python 3.14)` kernel and run notebooks top to bottom.
+In VS Code, select the **`.venv` / Python 3.14** notebook kernel and run [the main notebook](notebooks/00_data_understanding_eda.ipynb) from top to bottom. It produces the processed data and analytical exports. Keep analytical changes in this notebook.
 
-## Data notes
-- Use the `SWL - MASTERDATA` sheet only. The language sheets have tenure bands auto-converted to dates by Excel,
-  and `Masterdata - do not refer` is an older copy.
-- Likert scale: Almost never 1 · Rarely 2 · Sometimes 3 · Usually/Often 4 · Almost always/Always 5
-- `full_name` is personal data: it's dropped in processing and must never be exported.
-- Free-text comments may still contain identifiers; the processed survey remains confidential. Presentation exports contain aggregates rather than raw comments or case IDs.
-- `CULTURE_MEAN` is our descriptive 25-item summary (formerly `TRUST_INDEX`), not an official or validated Trust Index.
-- Step 1 follows the EDA summary. The final Markdown cell contains the methodology reference, distinguishing used, planned, and conditional methods. Prepare the executive PowerPoint after the findings and action roadmap are complete.
-- Steps 2–4 add thematic content coding, supporting bigrams/trigrams, paired and tenure profiles, and an evidence/action-options register. Qualitative counts are exploratory single-assistant coding; independent review is outstanding. The source-order hash protects the embedded coding ledger from silent reuse on changed comments.
-- Step 5 deepens cross-team execution and fairness, adds three supporting themes, and generates the final analysis synthesis and a VOSviewer-inspired interactive network. Its layout/grouping is custom; question dependence is visible in the sensitivity controls. Presentation structure/storyline and the PowerPoint follow this analysis package.
-- Step 6 documents the assistant re-review (568 comments, including all 104 initial flags; 53 edits), regenerates the findings and drafts the 0–90-day roadmap, KPI dictionary and decision gates. The full walkthrough is [From Data to Action](reports/ANALYSIS_FROM_DATA_TO_ACTION.md). Independent human validation remains separate; 75 cases still need clarification/context confirmation.
+### Dashboard snapshot
+
+After refreshing the analytical exports:
+
+```sh
+.venv/bin/python dashboard/build_data.py
+```
+
+### Presentation outputs
+
+Presentation dependencies are maintained separately from the analysis environment:
+
+```sh
+uv pip install --python .venv/bin/python -r presentation/requirements.txt
+.venv/bin/python presentation/build_presentation.py
+```
+
+The current presentation build uses macOS Arial font files. This Python command refreshes the PPTX, companion PDF, notes and companion previews. **The native PowerPoint PDF/previews require a separate PowerPoint export and verification**; instructions and the export script are in [presentation/](presentation/README.md).
+
+Save any manual PowerPoint revisions under a separate filename before rebuilding, since the build replaces its generated outputs. If analysis changes, refresh the notebook exports, then the dashboard and presentation so all deliverables describe the same evidence.
+
+## Data and interpretation notes
+
+- **Source:** use the `SWL - MASTERDATA` sheet in the supplied workbook. Language-sheet tenure bands were auto-converted to dates by Excel; `Masterdata - do not refer` is an older copy. Keep the raw workbook unchanged.
+- **Response base:** 327 supplied master records, 30 complete rating items and 1,892 nonblank comments from 321 records. Eligible workforce size and representativeness are unknown.
+- **Scale:** 1 Almost never · 2 Rarely · 3 Sometimes · 4 Usually/Often · 5 Almost always/Always. Favourable means 4–5. A count at 1–3 includes Sometimes and must not be presented as incident or unfair-treatment prevalence.
+- **Working summary:** `CULTURE_MEAN` is an equal-weight, descriptive 25-item summary, excluding overall experience. It is not an official Trust Index or validated engagement index.
+- **Qualitative review:** the same assistant reread 568 unique comments, including all 104 original flags, and revised 53 decisions. There are 75 remaining context-confirmation cases. Independent human validation remains outstanding; request topics overlap and are not dissatisfaction diagnoses.
+- **Network:** the map is VOSviewer-inspired with custom layout/grouping and prompt-sensitivity controls. It is not a native VOSviewer run, an employee network, a causal map or independent validation.
+- **Confidentiality:** names are dropped from processed columns, but free text may still identify employees. Raw/processed survey data remain confidential. Presentation and dashboard packages use aggregates and exclude employee names, raw comment text and source-row IDs. Follow the assignment's NDA and individual confidentiality requirements for access.
