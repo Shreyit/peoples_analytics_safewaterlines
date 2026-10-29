@@ -1,7 +1,7 @@
-question,nonblank_n,blank_n,current_strength,item_nonresponse,mixed,no_change_proposed,no_concern_reported,no_valued_aspect,suggestion_or_concern,unclear,unresolved_reference,topic_coded_n,priority_review_n
-oe_leaders_trust,318,9,24,11,1,8,0,0,259,15,0,279,16
-oe_feel_valued,316,11,15,15,3,21,0,0,245,17,0,268,21
-oe_fairness_concern,308,19,2,28,5,0,73,0,180,20,0,206,22
-oe_value_most,318,9,285,16,0,0,0,3,4,10,0,289,11
-oe_teamwork,317,10,10,13,3,11,0,0,272,7,1,290,12
-oe_one_change,315,12,3,16,1,19,0,0,257,19,0,261,22
+question,nonblank_n,blank_n,current_strength,item_nonresponse,mixed,no_change_proposed,no_concern_reported,no_valued_aspect,suggestion_or_concern,unclear,unresolved_reference,topic_coded_n,context_confirmation_n
+oe_leaders_trust,318,9,24,18,1,8,0,0,259,8,0,279,9
+oe_feel_valued,316,11,15,18,3,21,0,0,246,13,0,269,17
+oe_fairness_concern,308,19,2,37,5,0,73,0,180,11,0,206,13
+oe_value_most,318,9,282,19,0,0,0,4,4,9,0,286,9
+oe_teamwork,317,10,10,16,4,11,0,0,271,4,1,290,9
+oe_one_change,315,12,3,21,1,19,0,0,256,15,0,260,18

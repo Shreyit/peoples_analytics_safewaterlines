@@ -1,0 +1,16 @@
+topic_code,topic,request_before_n,request_after_n,preserve_before_n,preserve_after_n,request_change_n,preserve_change_n
+c,Communication and decision explanations,194,194,12,12,0,0
+v,Employee voice and follow-through,134,134,10,10,0,0
+r,Recognition and performance feedback,179,179,4,4,0,0
+d,Career growth and learning,143,136,21,18,-7,-3
+f,Fair treatment and decision consistency,113,114,3,3,1,0
+w,"Workload, boundaries and flexibility",78,78,6,6,0,0
+t,Teamwork and cross-team coordination,176,176,119,119,0,0
+m,Support and respectful treatment,138,139,77,77,1,0
+b,"Pay, incentives and benefits",51,51,10,9,0,-1
+s,"Facilities, tools and staffing",39,39,0,0,0,0
+p,Role clarity and work processes,91,91,7,7,0,0
+i,"Trust, integrity and autonomy",49,49,61,61,0,0
+e,Activities and social connection,38,38,4,4,0,0
+k,Work culture and belonging,8,8,75,75,0,0
+o,Business identity and customer service,10,10,22,22,0,0

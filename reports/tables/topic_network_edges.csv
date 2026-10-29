@@ -1,0 +1,74 @@
+a,b,comments,people,association,lift,dominant_prompt,dominant_prompt_n,dominant_prompt_pct,without_dominant_prompt_n,at_most_four_topics_n,topic_a,topic_b
+c,t,98,93,0.0011408747482508528,1.403275940348549,Teamwork improvements,85,86.73469387755102,13,95,Communication and decision explanations,Teamwork and cross-team coordination
+d,r,81,66,0.0013774104683195593,1.694214876033058,Fairness concerns,44,54.32098765432099,37,66,Career growth and learning,Recognition and performance feedback
+c,v,79,66,0.0009376298142543469,1.1532846715328466,Leadership trust,41,51.89873417721519,38,76,Communication and decision explanations,Employee voice and follow-through
+c,r,61,49,0.0004997255605528111,0.6146624394799577,Fairness concerns,29,47.540983606557376,32,43,Communication and decision explanations,Recognition and performance feedback
+f,r,57,53,0.0014008700140087,1.723070117230701,Fairness concerns,45,78.94736842105263,12,42,Fair treatment and decision consistency,Recognition and performance feedback
+c,d,52,42,0.0006389933397232667,0.785961807859618,Fairness concerns,28,53.84615384615385,24,36,Communication and decision explanations,Career growth and learning
+m,r,48,44,0.0008461579142207415,1.040774234491512,Feeling valued,32,66.66666666666666,16,47,Support and respectful treatment,Recognition and performance feedback
+d,f,46,43,0.0016957900169579001,2.0858217208582173,Fairness concerns,41,89.13043478260869,5,31,Career growth and learning,Fair treatment and decision consistency
+c,f,44,43,0.0007814303727778074,0.9611593585167031,Fairness concerns,42,95.45454545454545,2,28,Communication and decision explanations,Fair treatment and decision consistency
+c,p,39,34,0.0007777910733516812,0.9566830202225679,Teamwork improvements,26,66.66666666666666,13,35,Communication and decision explanations,Role clarity and work processes
+p,t,37,36,0.0014510942034669386,1.7848458702643344,Teamwork improvements,28,75.67567567567568,9,33,Role clarity and work processes,Teamwork and cross-team coordination
+r,v,35,33,0.0005748542333908188,0.7070707070707071,Feeling valued,20,57.14285714285714,15,34,Recognition and performance feedback,Employee voice and follow-through
+m,v,35,30,0.0008938832843825821,1.099476439790576,Leadership trust,16,45.714285714285715,19,34,Support and respectful treatment,Employee voice and follow-through
+r,w,29,28,0.0010066298726092542,1.2381547433093827,Fairness concerns,24,82.75862068965517,5,14,Recognition and performance feedback,"Workload, boundaries and flexibility"
+d,w,28,27,0.0014578777465375403,1.7931896282411746,Fairness concerns,21,75.0,7,12,Career growth and learning,"Workload, boundaries and flexibility"
+c,m,24,24,0.0003057285894447205,0.37604616501700616,Leadership trust,12,50.0,12,22,Communication and decision explanations,Support and respectful treatment
+c,i,23,22,0.0009817731677124685,1.2075809962863362,Leadership trust,20,86.95652173913044,3,20,Communication and decision explanations,"Trust, integrity and autonomy"
+b,r,21,18,0.0010878010878010878,1.337995337995338,Feeling valued,8,38.095238095238095,13,17,"Pay, incentives and benefits",Recognition and performance feedback
+c,w,21,21,0.0005267514485664835,0.6479042817367747,Fairness concerns,17,80.95238095238095,4,5,Communication and decision explanations,"Workload, boundaries and flexibility"
+f,w,21,21,0.0015802543456994507,1.9437128452103245,Fairness concerns,20,95.23809523809523,1,7,Fair treatment and decision consistency,"Workload, boundaries and flexibility"
+t,v,20,18,0.00046679892636246936,0.5741626794258373,Teamwork improvements,14,70.0,6,19,Teamwork and cross-team coordination,Employee voice and follow-through
+e,t,19,18,0.0019342359767891683,2.379110251450677,Teamwork improvements,15,78.94736842105263,4,19,Activities and social connection,Teamwork and cross-team coordination
+d,p,19,14,0.0007865540652425898,0.9674615002483855,One change,7,36.84210526315789,12,17,Career growth and learning,Role clarity and work processes
+b,f,18,16,0.002021336327905671,2.486243683323975,Fairness concerns,13,72.22222222222221,5,15,"Pay, incentives and benefits",Fair treatment and decision consistency
+d,t,18,18,0.00043497172683775554,0.5350152240104393,Teamwork improvements,16,88.88888888888889,2,17,Career growth and learning,Teamwork and cross-team coordination
+b,d,17,16,0.001320901320901321,1.6247086247086246,Fairness concerns,8,47.05882352941176,9,13,"Pay, incentives and benefits",Career growth and learning
+m,t,15,15,0.0003757609158546056,0.46218592650116486,Teamwork improvements,12,80.0,3,13,Support and respectful treatment,Teamwork and cross-team coordination
+f,v,14,11,0.0004984867366921845,0.6131386861313869,Fairness concerns,6,42.857142857142854,8,13,Fair treatment and decision consistency,Employee voice and follow-through
+i,v,14,14,0.0011981172443303381,1.473684210526316,Leadership trust,10,71.42857142857143,4,11,"Trust, integrity and autonomy",Employee voice and follow-through
+f,m,13,12,0.0004968089578476707,0.611075018152635,Fairness concerns,5,38.46153846153847,8,12,Fair treatment and decision consistency,Support and respectful treatment
+d,m,13,11,0.0003437516526521762,0.42281453276217673,Feeling valued,5,38.46153846153847,8,12,Career growth and learning,Support and respectful treatment
+p,v,13,12,0.0005197920831667333,0.639344262295082,Teamwork improvements,5,38.46153846153847,8,12,Role clarity and work processes,Employee voice and follow-through
+p,r,12,11,0.0003311806590495115,0.40735221063089916,Fairness concerns,5,41.66666666666667,7,8,Role clarity and work processes,Recognition and performance feedback
+f,p,11,9,0.0006581309082206533,0.8095010171114037,Fairness concerns,8,72.72727272727273,3,10,Fair treatment and decision consistency,Role clarity and work processes
+b,c,9,8,0.0003368893879842785,0.41437394722066256,Fairness concerns,6,66.66666666666666,3,4,"Pay, incentives and benefits",Communication and decision explanations
+p,w,9,8,0.0007605205340544195,0.935440256886936,One change,5,55.55555555555556,4,6,Role clarity and work processes,"Workload, boundaries and flexibility"
+p,s,8,8,0.0014903129657228018,1.8330849478390463,One change,4,50.0,4,7,Role clarity and work processes,"Facilities, tools and staffing"
+m,w,8,6,0.0004318022345765639,0.5311167485291736,One change,5,62.5,3,7,Support and respectful treatment,"Workload, boundaries and flexibility"
+r,t,8,8,0.00012888051165563127,0.15852302933642648,Teamwork improvements,5,62.5,3,5,Recognition and performance feedback,Teamwork and cross-team coordination
+s,w,8,8,0.0018744142455482662,2.3055295220243672,One change,6,75.0,2,7,"Facilities, tools and staffing","Workload, boundaries and flexibility"
+m,p,8,6,0.0003433181701141533,0.42228134924040855,One change,3,37.5,5,6,Support and respectful treatment,Role clarity and work processes
+m,s,7,6,0.0008329366968110424,1.0245121370775823,One change,4,57.14285714285714,3,6,Support and respectful treatment,"Facilities, tools and staffing"
+t,w,7,7,0.00034528683470625956,0.42470280668869925,Teamwork improvements,3,42.857142857142854,4,5,Teamwork and cross-team coordination,"Workload, boundaries and flexibility"
+d,v,6,5,0.00014781966001478197,0.18181818181818182,Feeling valued,4,66.66666666666666,2,5,Career growth and learning,Employee voice and follow-through
+b,w,6,6,0.0009516256938937351,1.1704996034892943,One change,3,50.0,3,3,"Pay, incentives and benefits","Workload, boundaries and flexibility"
+e,r,5,4,0.0003581918475535497,0.4405759724908661,Teamwork improvements,3,60.0,2,5,Activities and social connection,Recognition and performance feedback
+d,s,5,5,0.000573921028466483,0.7059228650137741,One change,4,80.0,1,4,Career growth and learning,"Facilities, tools and staffing"
+i,w,5,5,0.0009043226623259179,1.112316874660879,One change,3,60.0,2,4,"Trust, integrity and autonomy","Workload, boundaries and flexibility"
+i,r,4,4,0.000236280938035324,0.2906255537834485,Feeling valued,2,50.0,2,3,"Trust, integrity and autonomy",Recognition and performance feedback
+s,v,3,2,0.0003325942350332594,0.4090909090909091,One change,2,66.66666666666666,1,3,"Facilities, tools and staffing",Employee voice and follow-through
+v,w,3,3,0.00015086748805632387,0.18556701030927836,Feeling valued,1,33.33333333333333,2,2,Employee voice and follow-through,"Workload, boundaries and flexibility"
+i,t,3,3,0.0002518257365902795,0.3097456560060438,Leadership trust,1,33.33333333333333,2,2,"Trust, integrity and autonomy",Teamwork and cross-team coordination
+c,e,3,3,0.00015530361857431278,0.19102345084640474,Teamwork improvements,2,66.66666666666666,1,3,Communication and decision explanations,Activities and social connection
+i,p,3,3,0.0004314063848144953,0.5306298533218292,Leadership trust,2,66.66666666666666,1,2,"Trust, integrity and autonomy",Role clarity and work processes
+b,i,3,3,0.0008097165991902834,0.9959514170040485,Leadership trust,2,66.66666666666666,1,1,"Pay, incentives and benefits","Trust, integrity and autonomy"
+e,m,3,3,0.0003341873677175003,0.41105046229252534,Fairness concerns,1,33.33333333333333,2,3,Activities and social connection,Support and respectful treatment
+d,e,3,3,0.0003223726627981947,0.3965183752417795,Teamwork improvements,3,100.0,0,3,Career growth and learning,Activities and social connection
+b,e,2,1,0.0006546644844517185,0.8052373158756138,Teamwork improvements,1,50.0,1,2,"Pay, incentives and benefits",Activities and social connection
+b,m,2,2,0.00016109544905356423,0.19814740233588402,Leadership trust,1,50.0,1,2,"Pay, incentives and benefits",Support and respectful treatment
+b,p,2,2,0.00025220680958385876,0.31021437578814626,Leadership trust,1,50.0,1,1,"Pay, incentives and benefits",Role clarity and work processes
+s,t,2,2,0.00021748586341887777,0.26750761200521966,Teamwork improvements,1,50.0,1,1,"Facilities, tools and staffing",Teamwork and cross-team coordination
+b,t,2,2,0.0001472211998527788,0.18108207581891794,Leadership trust,1,50.0,1,1,"Pay, incentives and benefits",Teamwork and cross-team coordination
+b,v,2,2,0.000150093808630394,0.18461538461538463,Leadership trust,1,50.0,1,0,"Pay, incentives and benefits",Employee voice and follow-through
+c,s,2,2,0.00011059500110595002,0.1360318513603185,Teamwork improvements,2,100.0,0,2,Communication and decision explanations,"Facilities, tools and staffing"
+r,s,2,2,0.00015304560759106213,0.18824609733700642,Fairness concerns,1,50.0,1,2,Recognition and performance feedback,"Facilities, tools and staffing"
+i,s,2,2,0.0007974481658692185,0.9808612440191388,Feeling valued,1,50.0,1,2,"Trust, integrity and autonomy","Facilities, tools and staffing"
+f,s,2,2,0.00033178500331785003,0.40809555408095555,Fairness concerns,1,50.0,1,2,Fair treatment and decision consistency,"Facilities, tools and staffing"
+f,t,2,2,6.984947438270527e-05,0.08591485349072747,Fairness concerns,1,50.0,1,2,Fair treatment and decision consistency,Teamwork and cross-team coordination
+i,m,2,2,0.0001837053366400294,0.22595756406723616,Leadership trust,1,50.0,1,1,"Trust, integrity and autonomy",Support and respectful treatment
+d,i,1,1,8.86053517632465e-05,0.1089845826687932,Feeling valued,1,100.0,0,0,Career growth and learning,"Trust, integrity and autonomy"
+e,p,1,1,0.00017439832577607255,0.21450994070456925,Fairness concerns,1,100.0,0,1,Activities and social connection,Role clarity and work processes
+f,i,1,1,0.00012805736970162632,0.15751056473300037,Leadership trust,1,100.0,0,0,Fair treatment and decision consistency,"Trust, integrity and autonomy"
+e,w,1,1,0.00021934634788330776,0.2697960078964685,Leadership trust,1,100.0,0,1,Activities and social connection,"Workload, boundaries and flexibility"

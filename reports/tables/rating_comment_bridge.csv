@@ -1,8 +1,8 @@
 topic_code,topic,related_item,request_record_n,requesters_favourable_n,requesters_favourable_pct,all_records_favourable_pct
 r,Recognition and performance feedback,RES4,179,126,70.39106145251397,72.47706422018348
 v,Employee voice and follow-through,CRE5,134,100,74.6268656716418,79.81651376146789
-d,Career growth and learning,OVR2,143,129,90.20979020979021,90.51987767584097
-f,Fair treatment and decision consistency,FAI3,113,75,66.3716814159292,74.61773700305811
+d,Career growth and learning,OVR2,136,122,89.70588235294117,90.51987767584097
+f,Fair treatment and decision consistency,FAI3,114,76,66.66666666666666,74.61773700305811
 t,Teamwork and cross-team coordination,CAM2,176,148,84.0909090909091,82.26299694189603
-m,Support and respectful treatment,RES5,138,115,83.33333333333334,87.1559633027523
+m,Support and respectful treatment,RES5,139,116,83.45323741007195,87.1559633027523
 w,"Workload, boundaries and flexibility",FAI4,78,59,75.64102564102564,83.18042813455658

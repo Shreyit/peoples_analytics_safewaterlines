@@ -1,0 +1,6 @@
+gate,required_decision,interpretation_rule
+Day 0,"Approve scope, name accountable people, confirm capacity and communication",Pilot cannot start merely because this report exists
+Day 14,"Approve baseline, denominators, exact outcome questions, workflow expectations and numerical outcome targets","Targets are chosen with context, not fabricated from correlations or qualitative counts"
+Day 30,Check process readiness and owner coverage; adapt the pilot if burden or gaps are excessive,Record reasons for continue/adapt decisions
+Day 60,Review operational progress and employee evidence; resolve observed implementation gaps,Retain contrary and no-concern accounts; report nonresponse and composition
+Day 90,"Decide scale, adapt or stop using process, experience, resource and guardrail evidence",Do not attribute all change to the pilot without a defensible comparison

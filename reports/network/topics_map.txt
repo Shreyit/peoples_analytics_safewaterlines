@@ -1,0 +1,14 @@
+id	label	x	y	cluster	weight<Contributors>	weight<Answers>
+1	"Communication and decision explanations"	-0.16773591448947173	-0.0815630087045928	1	194	411
+2	"Employee voice and follow-through"	-0.26133625660173454	-0.46451460721057036	1	134	205
+3	"Recognition and performance feedback"	0.4965446784739662	-0.13567926155135474	2	179	297
+4	"Career growth and learning"	0.37267909235140106	0.2515173460898438	2	136	198
+5	"Fair treatment and decision consistency"	0.5687489726891582	0.09731613044036502	2	114	137
+6	"Workload, boundaries and flexibility"	0.6541834867208477	0.4608255208264587	2	78	97
+7	"Teamwork and cross-team coordination"	-0.6938051558860989	0.2858929339480144	3	176	209
+8	"Support and respectful treatment"	0.21767433282377793	-0.5596916780565505	1	139	191
+9	"Pay, incentives and benefits"	0.9557342166500321	0.0621133237085525	2	51	65
+10	"Facilities, tools and staffing"	2.455734216650032	0.0	4	39	44
+11	"Role clarity and work processes"	-0.2186883310617501	0.32518492658490306	3	91	122
+12	"Trust, integrity and autonomy"	-0.6593686925844142	-0.8122137557830166	1	49	57
+13	"Activities and social connection"	-1.2646304290857135	0.5708121297079478	3	38	47
