@@ -1,0 +1,8 @@
+{
+  "renderer": "Microsoft PowerPoint for macOS PDF export",
+  "pages": 17,
+  "all_expected_text_present": true,
+  "text_outside_canvas": [],
+  "missing_text": [],
+  "native_previews": "preview/native/"
+}

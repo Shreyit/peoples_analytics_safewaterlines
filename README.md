@@ -4,6 +4,8 @@
 
 - [Assignment brief](docs/PROJECT_BRIEF.md): organisation objectives, deliverables, deadline, and confidentiality requirements.
 - [Working project brain](docs/PROJECT_BRAIN.md): our approach, research agenda, decisions, and next steps. Read this before extending the analysis.
+- [Executive presentation](presentation/README.md): editable PowerPoint, PDF, speaker guide and slide previews.
+- [People experience dashboard](dashboard/README.md): two-page offline dashboard and opening instructions.
 
 ```
 data/
