@@ -298,9 +298,9 @@ s.rule_note(f"Fairness is also the block most linked to recommending, satisfacti
 
 # 06 — Priority matrix
 s = Slide("What to fix first", "Six questions matter most and\nscore below the median: fix these first",
-          f"Link to recommend / satisfied / stay 3–5 years (relative weights, R² = {R2:.2f}) against today's favourable share; 19 actionable questions.",
+          f"Link to recommend / satisfied / stay 3–5 years (relative weights, R² = {R2:.2f}) against the survey's favourable share; 19 actionable questions.",
           "priority_matrix.csv; driver_model_summary.csv; notebook Step 7.1. Pride and belonging excluded as near-outcomes.",
-          f"The vertical axis shows how much of the variation in recommending, satisfaction and intention to stay each question accounts for, using relative-weights analysis, which handles correlated questions fairly. Together the 19 questions explain {R2:.0%} of that variation. The horizontal axis is today's favourable share. The shaded corner holds questions that matter more than average and score below the median: leaders acting on feedback, equal growth opportunities, teams working together, fair rewards, consistent decisions and understanding decisions. Confidence intervals overlap, so read this as tiers, not exact ranks. The order is unchanged without straight-liners. Among anonymous respondents recognition rises into the top tier and cross-team work drops out. These are associations, not causes.")
+          f"The vertical axis shows how much of the variation in recommending, satisfaction and intention to stay each question accounts for, using relative-weights analysis, which handles correlated questions fairly. Together the 19 questions explain {R2:.0%} of that variation. The horizontal axis is the favourable share in this survey. The shaded corner holds questions that matter more than average and score below the median: leaders acting on feedback, equal growth opportunities, teams working together, fair rewards, consistent decisions and understanding decisions. Confidence intervals overlap, so read this as tiers, not exact ranks. The order is unchanged without straight-liners. Among anonymous respondents recognition rises into the top tier and cross-team work drops out. These are associations, not causes.")
 px0, px1, py0, py1, fx0, fx1, iy1 = 100, 600, 178, 440, 70, 93, 10
 X = lambda f: px0 + (f - fx0) / (fx1 - fx0) * (px1 - px0)
 Y = lambda i: py1 - i / iy1 * (py1 - py0)
@@ -342,7 +342,7 @@ for code, r in pm.iterrows():
     lx = x + dx if align == "left" else x + dx - w if align == "right" else x - w / 2
     s.text(NAMES[code], lx, y + dy, w, 11, 8.5, INK if first else MUTED, first, align)
 s.line(640, 171, 640, 445)
-s.label("Fix first  /  favourable today", 664, 171, 248)
+s.label("Fix first  /  survey favourable %", 664, 171, 248)
 for i, code in enumerate(pm.loc[FIX_FIRST].sort_values("fav_pct").index):
     body(s, NAMES[code], 664, 200 + i * 30, 180, 12, 16, bold=True)
     s.text(f"{pm.loc[code, 'fav_pct']:.1f}%", 852, 200 + i * 30, 60, 16, 12, BLUE, True, "right")
@@ -540,7 +540,7 @@ for i, (time, title, detail, owner, gate) in enumerate(phases):
 s = Slide("Measures of success", "Measure the process and\nwhether employees notice", "Process checks show the pilot ran; repeated anonymous questions show whether it helped.",
           "roadmap_kpi_dictionary.csv; item_evidence_profile.csv; group_hotspots.csv; named_vs_anonymous.csv. Targets are indicative.",
           "Each workstream has a process check and an experience check. The process checks are design standards, not survey predictions. The experience checks repeat the exact survey questions in an anonymous pulse, so results are comparable and less affected by the name field. The +5-point figures are indicative and should be confirmed at Day 14 once the pilot baseline is known; a before-and-after change alone does not prove the pilot caused it. Guardrails make sure the pilot does not erode pride, own-team support or intention to stay.")
-table(s, ["WORKSTREAM", "PROCESS CHECK", "EXPERIENCE CHECK  /  TODAY"], [
+table(s, ["WORKSTREAM", "PROCESS CHECK", "EXPERIENCE CHECK  /  SURVEY"], [
     ["Fair decisions & recognition", "Criteria published for 100% of pilot roles by Day 30; a reason recorded for every decision; monthly recognition.", f"FAI1 / FAI3 / FAI5 / RES4: {fav('FAI1'):.0f} / {fav('FAI3'):.0f} / {fav('FAI5'):.0f} / {fav('RES4'):.0f}%. Indicative: +5 points by Day 90."],
     ["Listen and act", "Concerns acknowledged within 2 business days; owner and update date within 5; monthly 'you said, we did'.", f"CRE5: {fav('CRE5'):.1f}%. Indicative: +5 points; ask 'did you see a useful change?'"],
     ["Cross-team handover", "≥95% of in-scope handovers complete by Day 60; timeliness target set after the baseline.", f"CAM2 / CAM4: {fav('CAM2'):.1f} / {fav('CAM4'):.1f}% (Customer Service CAM2 {hot.loc['Customer Service', 'Cross-team']:.0f}%)."],

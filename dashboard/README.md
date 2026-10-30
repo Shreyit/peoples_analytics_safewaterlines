@@ -10,6 +10,41 @@ During editing, **[src/index.html](src/index.html)** also opens directly or thro
 
 Use **Overview** and **Focus findings** to change pages. Both pages fit the browser window without scrolling at the tested sizes below. Use normal browser zoom (100%) and the full-screen button if browser controls leave too little vertical space.
 
+## Survey assistant (optional, Gemini on Vertex AI)
+
+**Ask the survey** opens a side panel that answers questions in plain English, using only the project's aggregate reports as context: the project brief, the analysis report and synthesis, the methodology sheet, the pitch speaker guide and this README. Every answer ends with its source. It needs the small local server below; opening `dist/index.html` directly still works, but without the assistant.
+
+It authenticates with your Google Cloud login (Application Default Credentials). **No API key is used or stored.**
+
+One-time setup:
+
+```sh
+brew install --cask google-cloud-sdk
+gcloud auth login
+gcloud auth application-default login
+gcloud services enable aiplatform.googleapis.com --project <your-project-id>
+```
+
+Run (from the repository root), then open http://127.0.0.1:8765:
+
+```sh
+GOOGLE_CLOUD_PROJECT=<your-project-id> uv run python dashboard/assistant/server.py
+```
+
+Optional settings: `GOOGLE_CLOUD_LOCATION` (default `global`), `ASSISTANT_MODEL` (default `gemini-2.5-flash`), `ASSISTANT_PORT` (default 8765). `ASSISTANT_OFFLINE=1` tests the panel and guardrails without contacting Google.
+
+**Guardrails**
+
+| Layer | What it does |
+| --- | --- |
+| Context | Aggregate Markdown reports only: no raw survey file, comment exports or notebook. The server refuses to start if any respondent's typed name appears in the context (names are read in memory only). |
+| Before the model | Refuses, on this machine and without calling Vertex AI, questions over 800 characters, attempts to identify individuals (“who wrote…”, names, contact details, de-anonymising), questions containing a respondent's name, and prompt-injection attempts. Limit of 30 questions per 10 minutes. |
+| Model instructions | Answer only from the reports and cite the source; say when something isn't covered; no individuals or groups under 10; associations, not causes; proposals described as proposals; decline off-topic requests. Temperature 0.2, about 200-word answers. |
+| After the model | Any answer containing a respondent's name is withheld. |
+| Network and logs | Listens on 127.0.0.1 only and rejects other origins. Questions and answers are not logged or stored. |
+
+**Data agreement:** each question sends the report context to Vertex AI in your Google Cloud project. Use a project your team controls and that the NDA permits. Answers can be wrong; check the stated source before relying on one.
+
 ## What is included
 
 | Page | Content | Interaction |
@@ -56,6 +91,7 @@ dashboard/
   dist/                 Ready-to-open offline dashboard and aggregate snapshot
   src/                  Editable HTML, CSS and browser JavaScript
   build_data.py         Validates survey results and creates dist/
+  assistant/server.py   Local server: dashboard + Vertex AI survey assistant with guardrails
   qa/verify.mjs         Browser layout and interaction checks
   qa/results.json       Latest recorded checks
   qa/screenshots/       Both pages at each tested viewport

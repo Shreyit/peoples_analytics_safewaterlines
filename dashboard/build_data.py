@@ -158,6 +158,6 @@ encoded = json.dumps(payload, ensure_ascii=False, allow_nan=False, separators=("
 (DIST / "data.js").write_text("window.DASHBOARD_DATA = " + encoded + ";\n")
 index = (HERE / "src/index.html").read_text()
 (DIST / "index.html").write_text(index.replace('src="../dist/data.js"', 'src="data.js"'))
-for name in ["styles.css", "app.js"]:
+for name in ["styles.css", "app.js", "assistant.css", "assistant.js"]:
     shutil.copyfile(HERE / "src" / name, DIST / name)
 print(f"Built {len(cohorts)} aggregate filter combinations in {DIST}; no raw survey records or comments packaged.")

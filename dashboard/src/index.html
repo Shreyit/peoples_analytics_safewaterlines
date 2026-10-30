@@ -6,8 +6,10 @@
   <meta name="color-scheme" content="light">
   <title>Safewater Lines · People Experience</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="assistant.css">
   <script defer src="../dist/data.js"></script>
   <script defer src="app.js"></script>
+  <script defer src="assistant.js"></script>
 </head>
 <body>
 <main class="dashboard" id="dashboard">
@@ -22,6 +24,7 @@
         <button id="tab-overview" role="tab" aria-controls="overview" aria-selected="true" data-page="overview"><span>01</span> Overview</button>
         <button id="tab-focus" role="tab" aria-controls="focus" aria-selected="false" data-page="focus" tabindex="-1"><span>02</span> Focus findings</button>
       </nav>
+      <button class="assistant-button" id="assistant-open" aria-controls="assistant" aria-expanded="false"><svg width="15" height="15" viewBox="0 0 20 20" aria-hidden="true"><path d="M3 4h14v9H8l-4 3v-3H3z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>Ask the survey</button>
       <button class="icon-button" id="fullscreen" title="Enter full screen" aria-label="Enter full screen"><svg width="17" height="17" viewBox="0 0 20 20" aria-hidden="true"><path d="M7 3H3v4m10-4h4v4M3 13v4h4m10-4v4h-4" fill="none" stroke="currentColor" stroke-width="1.4"/></svg></button>
     </div>
   </header>
@@ -109,6 +112,19 @@
     <div><dt>Interpretation</dt><dd>Comments received a documented assistant re-review; independent human validation remains outstanding. Associations are not causal effects.</dd></div>
   </dl>
   <p class="dialog-note">Aggregate local snapshot · no raw comments, employee names or individual records are included.</p>
+</dialog>
+<dialog id="assistant" class="assistant-panel" aria-labelledby="assistant-title">
+  <div class="assistant-head"><div><h2 id="assistant-title">Survey assistant</h2><p>Answers only from our analysis reports, with the source.</p></div><button id="assistant-close" aria-label="Close assistant">×</button></div>
+  <div id="assistant-status" class="assistant-status warn" role="status">Checking the assistant…</div>
+  <div id="assistant-log" class="assistant-log" aria-live="polite"></div>
+  <div id="assistant-suggestions" class="assistant-suggestions">
+    <button type="button">What are the two priorities, and why?</button>
+    <button type="button">How was “link to staying” calculated?</button>
+    <button type="button">Why start the pilot in Customer Service?</button>
+    <button type="button">What are the main limits of this analysis?</button>
+  </div>
+  <form id="assistant-form" class="assistant-form"><textarea id="assistant-input" aria-label="Your question" placeholder="Ask about the results, methods or plan…" maxlength="800" disabled></textarea><button id="assistant-send" disabled>Ask</button></form>
+  <p class="assistant-note">Don’t type names or personal details. Answers can be wrong: check the source given.</p>
 </dialog>
 <div id="small-viewport" class="small-viewport" hidden>For a readable, non-scrolling layout, use a browser viewport of at least 1120 × 640 or enter full screen.</div>
 </body>

@@ -2,9 +2,11 @@
 
 | Output | Use it for | Files |
 | --- | --- | --- |
-| **20-minute pitch (plain English) — present this** | Presenting on the day: 19 slides, one idea each, large text, no internal file references on slides or in notes; notes give a time window per slide | [PPTX](output/Safewater_Lines_Pitch_20min.pptx) · [PowerPoint PDF](output/Safewater_Lines_Pitch_20min_PowerPoint.pdf) · [script](PITCH_SPEAKER_GUIDE.md) |
+| **20-minute pitch (plain English) — present this** | Presenting on the day: 18 slides, one idea each (context, scale and limits on one slide; driver matrix and topic map from the notebook; plan only after the evidence), large text, no internal file references on slides or in notes; notes give a time window per slide | [PPTX](output/Safewater_Lines_Pitch_20min.pptx) · [PowerPoint PDF](output/Safewater_Lines_Pitch_20min_PowerPoint.pdf) · [script](PITCH_SPEAKER_GUIDE.md) |
 | **20-minute pitch — team copy** | Same slides with the evidence file shown under each slide and in the notes, for preparing answers | [PPTX](output/Safewater_Lines_Pitch_20min_TEAM_with_sources.pptx) · [PDF](output/Safewater_Lines_Pitch_20min_TEAM_with_sources.pdf) |
 | **Executive deck** | Detailed review and Q&A: 16 main + 4 reference slides | [PPTX](output/Safewater_Lines_People_Experience.pptx) · [PowerPoint PDF](output/Safewater_Lines_People_Experience_PowerPoint.pdf) · [guide](SPEAKER_GUIDE.md) |
+| **Speaker script (team)** | Rehearsing and presenting: 6 A4 pages, slide by slide, with the time window, a fuller spoken script, numbers to remember and the hand-over line | [PDF](output/Safewater_Lines_Pitch_Speaker_Script.pdf) · built by `build_script.py` |
+| **Methodology sheet (team, for Q&A)** | Answering “how did you measure that?”: 4 A4 pages covering each pitch slide’s method, pass marks, robustness checks, limits and short answers to likely questions | [PDF](output/Safewater_Lines_Methodology_Sheet.pdf) · built by `build_methodology.py` |
 | **Full reference report (team only, not for presenting)** | Reading the whole evidence: A4, 38 pages with contents, summary, full analysis, figures, evidence tables, roadmap/KPIs, questionnaire, glossary and methodology | [PDF](output/Safewater_Lines_Full_Reference.pdf) |
 
 The sections below describe the executive deck; the pitch reuses its layout engine, data checks and fit validation (`build_pitch.py`), and the reference report is assembled from the notebook's generated outputs (`build_reference.py`).
@@ -73,6 +75,8 @@ From the repository root, install the separate presentation dependencies into th
 uv pip install --python .venv/bin/python -r presentation/requirements.txt
 .venv/bin/python presentation/build_presentation.py   # executive deck
 .venv/bin/python presentation/build_pitch.py          # 20-minute pitch
+.venv/bin/python presentation/build_methodology.py    # methodology sheet for Q&A
+.venv/bin/python presentation/build_script.py         # slide-by-slide speaker script (after the native export)
 .venv/bin/python presentation/build_reference.py      # full reference PDF (needs the WeasyPrint CLI: brew install weasyprint)
 ```
 
