@@ -4,7 +4,12 @@ A local, two-page dashboard for reviewing the survey before the executive presen
 
 ## Open the dashboard
 
-Open **[dist/index.html](dist/index.html)** in a desktop browser. It works offline; no installation, account or server is needed. Keep the other files in `dist/` beside it when copying the dashboard to another laptop.
+- **Live Cloud Deployment (with Vertex AI Gemini Assistant):**  
+  👉 **[https://safewater-dashboard-66109299840.asia-south1.run.app](https://safewater-dashboard-66109299840.asia-south1.run.app)**  
+  Hosted on Google Cloud Run (`asia-south1`). Fully interactive with the "Ask the survey" Gemini Q&A assistant active.
+
+- **Offline / Local File:**  
+  Open **[dist/index.html](dist/index.html)** in a desktop browser. It works offline; no installation, account or server is needed. Keep the other files in `dist/` beside it when copying the dashboard to another laptop.
 
 During editing, **[src/index.html](src/index.html)** also opens directly or through an IDE preview server. It loads the shared aggregate snapshot from `../dist/data.js`; rebuild if the snapshot needs refreshing.
 
@@ -114,3 +119,17 @@ node dashboard/qa/verify.mjs
 ```
 
 No Playwright installation is required to open or use the dashboard.
+
+## Cloud deployment (Google Cloud Run)
+
+To deploy or update the live dashboard on Cloud Run:
+
+```sh
+gcloud run deploy safewater-dashboard \
+  --source . \
+  --region asia-south1 \
+  --project veris-507205 \
+  --allow-unauthenticated
+```
+
+Live service: **[https://safewater-dashboard-66109299840.asia-south1.run.app](https://safewater-dashboard-66109299840.asia-south1.run.app)**

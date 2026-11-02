@@ -33,8 +33,17 @@ import pandas as pd
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parents[1]
 DIST = ROOT / "dashboard/dist"
-HOST, PORT = "127.0.0.1", int(os.environ.get("ASSISTANT_PORT", "8765"))
+HOST = os.environ.get("HOST", "0.0.0.0" if os.environ.get("PORT") else "127.0.0.1")
+PORT = int(os.environ.get("PORT", os.environ.get("ASSISTANT_PORT", "8765")))
 PROJECT = os.environ.get("GOOGLE_CLOUD_PROJECT", "")
+if not PROJECT:
+    try:
+        import google.auth
+        _, default_proj = google.auth.default()
+        if default_proj:
+            PROJECT = default_proj
+    except Exception:
+        pass
 LOCATION = os.environ.get("GOOGLE_CLOUD_LOCATION", "global")
 MODEL = os.environ.get("ASSISTANT_MODEL", "gemini-2.5-flash")
 OFFLINE = os.environ.get("ASSISTANT_OFFLINE") == "1"      # test the UI and guardrails without calling Vertex
@@ -198,10 +207,21 @@ class Handler(SimpleHTTPRequestHandler):
             return self.send_json(self.assistant.status())
         return super().do_GET()
 
+    def _is_origin_allowed(self) -> bool:
+        origin = self.headers.get("Origin")
+        if not origin:
+            return True
+        if origin in (f"http://{HOST}:{PORT}", f"http://localhost:{PORT}", f"http://127.0.0.1:{PORT}"):
+            return True
+        host = self.headers.get("Host")
+        if host and origin in (f"http://{host}", f"https://{host}"):
+            return True
+        return False
+
     def do_POST(self):
         if self.path != "/api/ask":
             return self.send_json({"error": "not found"}, HTTPStatus.NOT_FOUND)
-        if self.headers.get("Origin") not in (None, f"http://{HOST}:{PORT}", f"http://localhost:{PORT}"):
+        if not self._is_origin_allowed():
             return self.send_json({"error": "forbidden origin"}, HTTPStatus.FORBIDDEN)
         try:
             length = int(self.headers.get("Content-Length", 0))
